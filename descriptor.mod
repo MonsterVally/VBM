@@ -1,0 +1,16 @@
+version="1"
+tags={
+	"Fixes"
+	"Balance"
+	"Utilities"
+	"Technologies"
+	"National Focuses"
+	"Gameplay"
+	"Events"
+	"Alternative History"
+	"Historical"
+}
+name="VBM"
+picture="thumbnail.png"
+supported_version="1.16.9"
+remote_file_id="3551704227"
