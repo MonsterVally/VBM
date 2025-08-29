@@ -729,7 +729,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.5
-		research_cost = 0.5
+		research_cost = 0.75
 		start_year = 1922
 		folder = {
 			name = mtgnavalfolder
@@ -1657,7 +1657,7 @@ technologies = {
 		}
 		force_use_small_tech_layout = yes
 		is_special_project_tech = yes
-		research_cost = 2
+		research_cost = 0.75
 		start_year = 1938
 		folder = {
 			name = mtgnavalfolder
@@ -1687,7 +1687,7 @@ technologies = {
 		}
 		force_use_small_tech_layout = yes
 		is_special_project_tech = yes
-		research_cost = 2
+		research_cost = 0.75
 		start_year = 1940
 		folder = {
 			name = mtgnavalfolder
@@ -1724,7 +1724,7 @@ technologies = {
 		}
 		force_use_small_tech_layout = yes
 		is_special_project_tech = yes
-		research_cost = 1
+		research_cost = 0.75
 		start_year = 1939
 		folder = {
 			name = mtgnavalfolder
@@ -1754,7 +1754,7 @@ technologies = {
 		}
 		force_use_small_tech_layout = yes
 		is_special_project_tech = yes
-		research_cost = 1
+		research_cost = 0.75
 		start_year = 1941
 		folder = {
 			name = mtgnavalfolder
