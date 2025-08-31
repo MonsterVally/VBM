@@ -1,0 +1,6 @@
+ccshtool_gr_generic = {
+	name = ccshtool_gr_generic
+	group = ccshtool_gamerules_group
+	default = { name = ccshtool_gr_genericnohost   text = ccshtool_gr_genericnohost   desc = ccshtool_gr_genericnohost_desc }
+	option = { name = ccshtool_gr_randomhost   text = ccshtool_gr_randomhost   desc = ccshtool_gr_randomhost_desc }
+}
