@@ -1569,6 +1569,7 @@ guiTypes = {
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1938"
+					text_color_code = "R"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1582,6 +1583,7 @@ guiTypes = {
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1940"
+					text_color_code = "R"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1860,6 +1862,7 @@ guiTypes = {
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1938"
+					text_color_code = "R"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1873,6 +1876,7 @@ guiTypes = {
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1940"
+					text_color_code = "R"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -2082,6 +2086,7 @@ guiTypes = {
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1938"
+					text_color_code = "R"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -2095,6 +2100,7 @@ guiTypes = {
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1940"
+					text_color_code = "R"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
