@@ -1110,7 +1110,7 @@ technologies = {
 			name = bba_air_techs_folder
 			position = {
 				x = 0
-				y = 4.5
+				y = 5
 			}
 		}
 		path = {
@@ -1146,12 +1146,12 @@ technologies = {
 			torpedo_mounting_3
 		}
 		research_cost = 1
-		start_year = 1940
+		start_year = 1941
 		folder = {
 			name = bba_air_techs_folder
 			position = {
 				x = 0
-				y = 6
+				y = 7
 			}
 		}
 		categories = {
