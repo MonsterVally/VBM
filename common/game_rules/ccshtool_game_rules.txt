@@ -6,32 +6,28 @@ ccshtool_gr_rt56_s = {
 		text = ccshtool_gr_rt56_s_GER
 	}
 	option = {
-		name = ccshtool_gr_rt56_s_ENG
-		text = ccshtool_gr_rt56_s_ENG
-	}
-	option = {
-		name = ccshtool_gr_rt56_s_CHI
-		text = ccshtool_gr_rt56_s_CHI
-	}
-	option = {
-		name = ccshtool_gr_rt56_s_FRA
-		text = ccshtool_gr_rt56_s_FRA
-	}
-	option = {
-		name = ccshtool_gr_rt56_s_ITA
-		text = ccshtool_gr_rt56_s_ITA
-	}
-	option = {
-		name = ccshtool_gr_rt56_s_JAP
-		text = ccshtool_gr_rt56_s_JAP
-	}
-	option = {
 		name = ccshtool_gr_rt56_s_SOV
 		text = ccshtool_gr_rt56_s_SOV
 	}
 	option = {
 		name = ccshtool_gr_rt56_s_USA
 		text = ccshtool_gr_rt56_s_USA
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_JAP
+		text = ccshtool_gr_rt56_s_JAP
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_ENG
+		text = ccshtool_gr_rt56_s_ENG
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_ITA
+		text = ccshtool_gr_rt56_s_ITA
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_FRA
+		text = ccshtool_gr_rt56_s_FRA
 	}
 	option = {
 		name = ccshtool_gr_rt56_s_AFG
@@ -80,6 +76,10 @@ ccshtool_gr_rt56_s = {
 	option = {
 		name = ccshtool_gr_rt56_s_CAN
 		text = ccshtool_gr_rt56_s_CAN
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_CHI
+		text = ccshtool_gr_rt56_s_CHI
 	}
 	option = {
 		name = ccshtool_gr_rt56_s_CHL
