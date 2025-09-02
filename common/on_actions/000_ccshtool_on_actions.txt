@@ -4,8 +4,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_ENG
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_ENG
 					}
 				}
 				ENG = {
@@ -15,8 +15,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_CHI
+						rule = ccshtool_gr
+						option =  ccshtool_gr_CHI
 					}
 				}
 				CHI = {
@@ -26,8 +26,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_FRA
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_FRA
 					}
 				}
 				FRA = {
@@ -37,8 +37,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_GER
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_GER
 					}
 				}
 				GER = {
@@ -48,8 +48,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_ITA
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_ITA
 					}
 				}
 				ITA = {
@@ -59,8 +59,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_JAP
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_JAP
 					}
 				}
 				JAP = {
@@ -70,8 +70,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_SOV
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_SOV
 					}
 				}
 				SOV = {
@@ -81,8 +81,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_USA
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_USA
 					}
 				}
 				USA = {
@@ -92,8 +92,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_AFG
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_AFG
 					}
 				}
 				AFG = {
@@ -103,8 +103,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_ALB
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_ALB
 					}
 				}
 				ALB = {
@@ -114,8 +114,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_ARG
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_ARG
 					}
 				}
 				ARG = {
@@ -125,8 +125,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_AST
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_AST
 					}
 				}
 				AST = {
@@ -136,8 +136,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_AUS
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_AUS
 					}
 				}
 				AUS = {
@@ -147,8 +147,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_BEL
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_BEL
 					}
 				}
 				BEL = {
@@ -158,8 +158,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_BHU
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_BHU
 					}
 				}
 				BHU = {
@@ -169,8 +169,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_BOL
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_BOL
 					}
 				}
 				BOL = {
@@ -180,8 +180,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_BRA
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_BRA
 					}
 				}
 				BRA = {
@@ -191,8 +191,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_RAJ
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_RAJ
 					}
 				}
 				RAJ = {
@@ -202,8 +202,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_BUL
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_BUL
 					}
 				}
 				BUL = {
@@ -213,8 +213,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_CAN
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_CAN
 					}
 				}
 				CAN = {
@@ -224,8 +224,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_CHL
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_CHL
 					}
 				}
 				CHL = {
@@ -235,8 +235,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_COL
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_COL
 					}
 				}
 				COL = {
@@ -246,8 +246,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_PRC
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_PRC
 					}
 				}
 				PRC = {
@@ -257,8 +257,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_COG
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_COG
 					}
 				}
 				COG = {
@@ -268,8 +268,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_COS
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_COS
 					}
 				}
 				COS = {
@@ -279,8 +279,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_CUB
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_CUB
 					}
 				}
 				CUB = {
@@ -290,8 +290,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_CZE
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_CZE
 					}
 				}
 				CZE = {
@@ -301,8 +301,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_DEN
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_DEN
 					}
 				}
 				DEN = {
@@ -312,8 +312,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_DOM
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_DOM
 					}
 				}
 				DOM = {
@@ -323,8 +323,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_ECU
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_ECU
 					}
 				}
 				ECU = {
@@ -334,8 +334,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_EGY
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_EGY
 					}
 				}
 				EGY = {
@@ -345,8 +345,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_ELS
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_ELS
 					}
 				}
 				ELS = {
@@ -356,8 +356,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_EST
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_EST
 					}
 				}
 				EST = {
@@ -367,8 +367,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_ETH
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_ETH
 					}
 				}
 				ETH = {
@@ -378,8 +378,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_FIN
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_FIN
 					}
 				}
 				FIN = {
@@ -389,8 +389,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_GRE
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_GRE
 					}
 				}
 				GRE = {
@@ -400,8 +400,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_GXC
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_GXC
 					}
 				}
 				GXC = {
@@ -411,8 +411,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_GUA
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_GUA
 					}
 				}
 				GUA = {
@@ -422,8 +422,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_HAI
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_HAI
 					}
 				}
 				HAI = {
@@ -433,8 +433,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_HOL
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_HOL
 					}
 				}
 				HOL = {
@@ -444,8 +444,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_HON
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_HON
 					}
 				}
 				HON = {
@@ -455,8 +455,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_HUN
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_HUN
 					}
 				}
 				HUN = {
@@ -466,8 +466,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_ICE
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_ICE
 					}
 				}
 				ICE = {
@@ -477,8 +477,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_INS
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_INS
 					}
 				}
 				INS = {
@@ -488,8 +488,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_IRQ
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_IRQ
 					}
 				}
 				IRQ = {
@@ -499,8 +499,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_IRE
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_IRE
 					}
 				}
 				IRE = {
@@ -510,8 +510,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_LAT
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_LAT
 					}
 				}
 				LAT = {
@@ -521,8 +521,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_LIB
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_LIB
 					}
 				}
 				LIB = {
@@ -532,8 +532,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_LIT
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_LIT
 					}
 				}
 				LIT = {
@@ -543,8 +543,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_LUX
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_LUX
 					}
 				}
 				LUX = {
@@ -554,8 +554,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_MAL
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_MAL
 					}
 				}
 				MAL = {
@@ -565,8 +565,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_MAN
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_MAN
 					}
 				}
 				MAN = {
@@ -576,8 +576,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_MEN
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_MEN
 					}
 				}
 				MEN = {
@@ -587,8 +587,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_MEX
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_MEX
 					}
 				}
 				MEX = {
@@ -598,8 +598,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_MON
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_MON
 					}
 				}
 				MON = {
@@ -609,8 +609,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_NEP
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_NEP
 					}
 				}
 				NEP = {
@@ -620,8 +620,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_NZL
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_NZL
 					}
 				}
 				NZL = {
@@ -631,8 +631,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_NIC
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_NIC
 					}
 				}
 				NIC = {
@@ -642,8 +642,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_NOR
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_NOR
 					}
 				}
 				NOR = {
@@ -653,8 +653,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_OMA
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_OMA
 					}
 				}
 				OMA = {
@@ -664,8 +664,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_PAN
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_PAN
 					}
 				}
 				PAN = {
@@ -675,8 +675,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_PAR
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_PAR
 					}
 				}
 				PAR = {
@@ -686,8 +686,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_PER
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_PER
 					}
 				}
 				PER = {
@@ -697,8 +697,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_PRU
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_PRU
 					}
 				}
 				PRU = {
@@ -708,8 +708,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_PHI
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_PHI
 					}
 				}
 				PHI = {
@@ -719,8 +719,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_POL
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_POL
 					}
 				}
 				POL = {
@@ -730,8 +730,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_POR
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_POR
 					}
 				}
 				POR = {
@@ -741,8 +741,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_ROM
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_ROM
 					}
 				}
 				ROM = {
@@ -752,8 +752,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_SAU
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_SAU
 					}
 				}
 				SAU = {
@@ -763,8 +763,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_SHX
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_SHX
 					}
 				}
 				SHX = {
@@ -774,8 +774,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_SIA
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_SIA
 					}
 				}
 				SIA = {
@@ -785,8 +785,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_SIK
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_SIK
 					}
 				}
 				SIK = {
@@ -796,8 +796,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_SAF
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_SAF
 					}
 				}
 				SAF = {
@@ -807,8 +807,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_SPR
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_SPR
 					}
 				}
 				SPR = {
@@ -818,8 +818,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_SWE
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_SWE
 					}
 				}
 				SWE = {
@@ -829,8 +829,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_SWI
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_SWI
 					}
 				}
 				SWI = {
@@ -840,8 +840,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_TAN
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_TAN
 					}
 				}
 				TAN = {
@@ -851,8 +851,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_TIB
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_TIB
 					}
 				}
 				TIB = {
@@ -862,8 +862,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_TUR
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_TUR
 					}
 				}
 				TUR = {
@@ -873,8 +873,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_URG
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_URG
 					}
 				}
 				URG = {
@@ -884,8 +884,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_VEN
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_VEN
 					}
 				}
 				VEN = {
@@ -895,8 +895,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_XSM
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_XSM
 					}
 				}
 				XSM = {
@@ -906,8 +906,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_YEM
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_YEM
 					}
 				}
 				YEM = {
@@ -917,8 +917,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_YUG
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_YUG
 					}
 				}
 				YUG = {
@@ -928,8 +928,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = ccshtool_gr_rt56_s
-						option = ccshtool_gr_rt56_s_YUN
+						rule =  ccshtool_gr
+						option =  ccshtool_gr_YUN
 					}
 				}
 				YUN = {
