@@ -1,0 +1,941 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_ENG
+					}
+				}
+				ENG = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_CHI
+					}
+				}
+				CHI = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_FRA
+					}
+				}
+				FRA = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_GER
+					}
+				}
+				GER = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_ITA
+					}
+				}
+				ITA = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_JAP
+					}
+				}
+				JAP = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_SOV
+					}
+				}
+				SOV = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_USA
+					}
+				}
+				USA = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_AFG
+					}
+				}
+				AFG = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_ALB
+					}
+				}
+				ALB = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_ARG
+					}
+				}
+				ARG = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_AST
+					}
+				}
+				AST = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_AUS
+					}
+				}
+				AUS = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_BEL
+					}
+				}
+				BEL = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_BHU
+					}
+				}
+				BHU = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_BOL
+					}
+				}
+				BOL = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_BRA
+					}
+				}
+				BRA = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_RAJ
+					}
+				}
+				RAJ = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_BUL
+					}
+				}
+				BUL = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_CAN
+					}
+				}
+				CAN = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_CHL
+					}
+				}
+				CHL = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_COL
+					}
+				}
+				COL = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_PRC
+					}
+				}
+				PRC = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_COG
+					}
+				}
+				COG = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_COS
+					}
+				}
+				COS = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_CUB
+					}
+				}
+				CUB = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_CZE
+					}
+				}
+				CZE = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_DEN
+					}
+				}
+				DEN = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_DOM
+					}
+				}
+				DOM = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_ECU
+					}
+				}
+				ECU = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_EGY
+					}
+				}
+				EGY = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_ELS
+					}
+				}
+				ELS = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_EST
+					}
+				}
+				EST = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_ETH
+					}
+				}
+				ETH = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_FIN
+					}
+				}
+				FIN = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_GRE
+					}
+				}
+				GRE = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_GXC
+					}
+				}
+				GXC = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_GUA
+					}
+				}
+				GUA = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_HAI
+					}
+				}
+				HAI = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_HOL
+					}
+				}
+				HOL = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_HON
+					}
+				}
+				HON = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_HUN
+					}
+				}
+				HUN = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_ICE
+					}
+				}
+				ICE = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_INS
+					}
+				}
+				INS = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_IRQ
+					}
+				}
+				IRQ = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_IRE
+					}
+				}
+				IRE = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_LAT
+					}
+				}
+				LAT = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_LIB
+					}
+				}
+				LIB = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_LIT
+					}
+				}
+				LIT = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_LUX
+					}
+				}
+				LUX = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_MAL
+					}
+				}
+				MAL = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_MAN
+					}
+				}
+				MAN = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_MEN
+					}
+				}
+				MEN = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_MEX
+					}
+				}
+				MEX = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_MON
+					}
+				}
+				MON = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_NEP
+					}
+				}
+				NEP = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_NZL
+					}
+				}
+				NZL = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_NIC
+					}
+				}
+				NIC = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_NOR
+					}
+				}
+				NOR = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_OMA
+					}
+				}
+				OMA = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_PAN
+					}
+				}
+				PAN = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_PAR
+					}
+				}
+				PAR = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_PER
+					}
+				}
+				PER = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_PRU
+					}
+				}
+				PRU = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_PHI
+					}
+				}
+				PHI = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_POL
+					}
+				}
+				POL = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_POR
+					}
+				}
+				POR = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_ROM
+					}
+				}
+				ROM = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_SAU
+					}
+				}
+				SAU = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_SHX
+					}
+				}
+				SHX = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_SIA
+					}
+				}
+				SIA = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_SIK
+					}
+				}
+				SIK = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_SAF
+					}
+				}
+				SAF = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_SPR
+					}
+				}
+				SPR = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_SWE
+					}
+				}
+				SWE = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_SWI
+					}
+				}
+				SWI = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_TAN
+					}
+				}
+				TAN = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_TIB
+					}
+				}
+				TIB = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_TUR
+					}
+				}
+				TUR = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_URG
+					}
+				}
+				URG = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_VEN
+					}
+				}
+				VEN = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_XSM
+					}
+				}
+				XSM = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_YEM
+					}
+				}
+				YEM = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_YUG
+					}
+				}
+				YUG = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = ccshtool_gr_rt56_s
+						option = ccshtool_gr_rt56_s_YUN
+					}
+				}
+				YUN = {
+					set_country_flag = ccshtool_enabled_cflag
+				}
+			}
+		}
+	}
+}

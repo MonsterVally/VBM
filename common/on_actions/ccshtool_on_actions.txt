@@ -1,7 +1,0 @@
-on_actions = {
-	on_startup = {
-		effect = {
-			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic   option = ccshtool_gr_randomhost } }  random_country = { limit = { is_ai = no } set_country_flag = ccshtool_enabled_cflag } }
-		}
-	}
-}

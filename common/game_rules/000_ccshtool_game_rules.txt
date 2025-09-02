@@ -1,6 +1,344 @@
-ccshtool_gr_generic = {
-	name = ccshtool_gr_generic
+ccshtool_gr_rt56_s = {
+	name = ccshtool_gr_rt56_s
 	group = ccshtool_gamerules_group
-	default = { name = ccshtool_gr_genericnohost   text = ccshtool_gr_genericnohost   desc = ccshtool_gr_genericnohost_desc }
-	option = { name = ccshtool_gr_randomhost   text = ccshtool_gr_randomhost   desc = ccshtool_gr_randomhost_desc }
+	default = {
+		name = ccshtool_gr_rt56_s_GER
+		text = ccshtool_gr_rt56_s_GER
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_ENG
+		text = ccshtool_gr_rt56_s_ENG
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_CHI
+		text = ccshtool_gr_rt56_s_CHI
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_FRA
+		text = ccshtool_gr_rt56_s_FRA
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_ITA
+		text = ccshtool_gr_rt56_s_ITA
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_JAP
+		text = ccshtool_gr_rt56_s_JAP
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_SOV
+		text = ccshtool_gr_rt56_s_SOV
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_USA
+		text = ccshtool_gr_rt56_s_USA
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_AFG
+		text = ccshtool_gr_rt56_s_AFG
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_ALB
+		text = ccshtool_gr_rt56_s_ALB
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_ARG
+		text = ccshtool_gr_rt56_s_ARG
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_AST
+		text = ccshtool_gr_rt56_s_AST
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_AUS
+		text = ccshtool_gr_rt56_s_AUS
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_BEL
+		text = ccshtool_gr_rt56_s_BEL
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_BHU
+		text = ccshtool_gr_rt56_s_BHU
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_BOL
+		text = ccshtool_gr_rt56_s_BOL
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_BRA
+		text = ccshtool_gr_rt56_s_BRA
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_RAJ
+		text = ccshtool_gr_rt56_s_RAJ
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_BUL
+		text = ccshtool_gr_rt56_s_BUL
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_CAN
+		text = ccshtool_gr_rt56_s_CAN
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_CHL
+		text = ccshtool_gr_rt56_s_CHL
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_COL
+		text = ccshtool_gr_rt56_s_COL
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_PRC
+		text = ccshtool_gr_rt56_s_PRC
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_COG
+		text = ccshtool_gr_rt56_s_COG
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_COS
+		text = ccshtool_gr_rt56_s_COS
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_CUB
+		text = ccshtool_gr_rt56_s_CUB
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_CZE
+		text = ccshtool_gr_rt56_s_CZE
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_DEN
+		text = ccshtool_gr_rt56_s_DEN
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_DOM
+		text = ccshtool_gr_rt56_s_DOM
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_ECU
+		text = ccshtool_gr_rt56_s_ECU
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_EGY
+		text = ccshtool_gr_rt56_s_EGY
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_ELS
+		text = ccshtool_gr_rt56_s_ELS
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_EST
+		text = ccshtool_gr_rt56_s_EST
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_ETH
+		text = ccshtool_gr_rt56_s_ETH
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_FIN
+		text = ccshtool_gr_rt56_s_FIN
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_GRE
+		text = ccshtool_gr_rt56_s_GRE
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_GXC
+		text = ccshtool_gr_rt56_s_GXC
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_GUA
+		text = ccshtool_gr_rt56_s_GUA
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_HAI
+		text = ccshtool_gr_rt56_s_HAI
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_HOL
+		text = ccshtool_gr_rt56_s_HOL
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_HON
+		text = ccshtool_gr_rt56_s_HON
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_HUN
+		text = ccshtool_gr_rt56_s_HUN
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_ICE
+		text = ccshtool_gr_rt56_s_ICE
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_INS
+		text = ccshtool_gr_rt56_s_INS
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_IRQ
+		text = ccshtool_gr_rt56_s_IRQ
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_IRE
+		text = ccshtool_gr_rt56_s_IRE
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_LAT
+		text = ccshtool_gr_rt56_s_LAT
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_LIB
+		text = ccshtool_gr_rt56_s_LIB
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_LIT
+		text = ccshtool_gr_rt56_s_LIT
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_LUX
+		text = ccshtool_gr_rt56_s_LUX
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_MAL
+		text = ccshtool_gr_rt56_s_MAL
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_MAN
+		text = ccshtool_gr_rt56_s_MAN
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_MEN
+		text = ccshtool_gr_rt56_s_MEN
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_MEX
+		text = ccshtool_gr_rt56_s_MEX
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_MON
+		text = ccshtool_gr_rt56_s_MON
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_NEP
+		text = ccshtool_gr_rt56_s_NEP
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_NZL
+		text = ccshtool_gr_rt56_s_NZL
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_NIC
+		text = ccshtool_gr_rt56_s_NIC
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_NOR
+		text = ccshtool_gr_rt56_s_NOR
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_OMA
+		text = ccshtool_gr_rt56_s_OMA
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_PAN
+		text = ccshtool_gr_rt56_s_PAN
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_PAR
+		text = ccshtool_gr_rt56_s_PAR
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_PER
+		text = ccshtool_gr_rt56_s_PER
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_PRU
+		text = ccshtool_gr_rt56_s_PRU
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_PHI
+		text = ccshtool_gr_rt56_s_PHI
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_POL
+		text = ccshtool_gr_rt56_s_POL
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_POR
+		text = ccshtool_gr_rt56_s_POR
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_ROM
+		text = ccshtool_gr_rt56_s_ROM
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_SAU
+		text = ccshtool_gr_rt56_s_SAU
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_SHX
+		text = ccshtool_gr_rt56_s_SHX
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_SIA
+		text = ccshtool_gr_rt56_s_SIA
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_SIK
+		text = ccshtool_gr_rt56_s_SIK
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_SAF
+		text = ccshtool_gr_rt56_s_SAF
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_SPR
+		text = ccshtool_gr_rt56_s_SPR
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_SWE
+		text = ccshtool_gr_rt56_s_SWE
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_SWI
+		text = ccshtool_gr_rt56_s_SWI
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_TAN
+		text = ccshtool_gr_rt56_s_TAN
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_TIB
+		text = ccshtool_gr_rt56_s_TIB
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_TUR
+		text = ccshtool_gr_rt56_s_TUR
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_URG
+		text = ccshtool_gr_rt56_s_URG
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_VEN
+		text = ccshtool_gr_rt56_s_VEN
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_XSM
+		text = ccshtool_gr_rt56_s_XSM
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_YEM
+		text = ccshtool_gr_rt56_s_YEM
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_YUG
+		text = ccshtool_gr_rt56_s_YUG
+	}
+	option = {
+		name = ccshtool_gr_rt56_s_YUN
+		text = ccshtool_gr_rt56_s_YUN
+	}
 }
