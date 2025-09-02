@@ -1,0 +1,27 @@
+# CIVS GO BRR
+factories_go_brr_civilian_only = {
+	enable = {
+		date < 1937.10.1
+	}
+	abort = {
+		date > 1937.09.30
+	}
+	ai_strategy = {
+		type = building_target		# build until you have 
+		id = industrial_complex		# civs
+		value = 9999		# desired amount of factories
+	}
+}
+
+# MILLS GO BRRR
+factories_go_brr_military_only = {
+	enable = {
+		date > 1937.09.30
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target		# build until you have 
+		id = arms_factory		# mills
+		value = 999		# desired amount of factories
+	}
+}
