@@ -20,18 +20,19 @@
 #		...
 #	}
 # }
-allow_south_america_unification = {
-	name = "RULE_ALLOW_SOUTH_AMERICA_UNIFICATION"
-	group = vbm_gamerules_group
-	#icon = "GFX_release_nations"
-	option = {
-		name = "NO"
-		text = "Hell nah"
-		desc = "Brazil will NOT be able to form South America through decisions"
-	}
-	default = {
-		name = "YES"
-		text = "Yes (Vanilla)"
-		desc = "Brazil WILL be able to form South America through decisions"
-	}
-}
+#
+#allow_south_america_unification = {
+#	name = "RULE_ALLOW_SOUTH_AMERICA_UNIFICATION"
+#	group = vbm_gamerules_group
+#	#icon = "GFX_release_nations"
+#	option = {
+#		name = "NO"
+#		text = "Hell nah"
+#		desc = "Brazil will NOT be able to form South America through decisions"
+#	}
+#	default = {
+#		name = "YES"
+#		text = "Yes (Vanilla)"
+#		desc = "Brazil WILL be able to form South America through decisions"
+#	}
+#}
