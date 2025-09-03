@@ -1,0 +1,10 @@
+﻿l_english:
+ # Decision Category
+ vbm_annexations:0 "Territorial Annexations"
+ vbm_annexations_desc:0 "Decisions to annex your subjects if they are AI."
+ 
+ # Decision
+ vbm_usa_annex_phi:0 "Annex the Philippines"
+ vbm_usa_annex_phi_desc:0 "Annexes the Philippines with 70% compliance."
+ vbm_jap_annex_man:0 "Annex Manchukuo"
+ vbm_jap_annex_man_desc:0 "Annexes Manchukuo with 100% compliance."

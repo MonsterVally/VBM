@@ -1,36 +1,42 @@
 state = {
-	id = 312
-	name = "STATE_312"
-	manpower = 859761
+	id = 304
+	name = "STATE_304"
+	manpower = 467459
 	resources = {
-		chromium = 1		# was: 1
+		oil = 1		# was: 1
 	}
 	state_category = town
 	history = {
-		owner = ELS
-		add_core_of = ELS
+		owner = NIC
+		add_core_of = NIC
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 1
-			12865 = {
-				naval_base = 1
+			7630 = {
+				naval_base = 4
 			}
-			8017 = {
+			4611 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = HON
+		add_core_of = PAN
 		victory_points = {
-			12865
-			3
+			7630
+			5
+		}
+		victory_points = {
+			4611
+			1
 		}
 	}
 	provinces = {
-		2031
-		8017
-		12865
+		1633
+		4611
+		4624
+		7630
+		10482
 	}
 	local_supplies = 0
 }

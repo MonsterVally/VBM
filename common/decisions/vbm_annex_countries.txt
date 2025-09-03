@@ -1,0 +1,68 @@
+vbm_annexations = {
+	vbm_usa_annex_phi = {
+		icon = decision_generic_nationalism
+		available = {
+			tag = USA
+			PHI = {
+				exists = yes
+				is_ai = yes
+				is_subject_of = USA
+			}
+		}
+		visible = {
+			tag = USA
+			PHI = {
+				exists = yes
+			}
+		}
+		cost = 25
+		days_remove = 1
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			annex_country = {
+				target = PHI
+				transfer_troops = yes
+			}
+			PHI = {
+				every_core_state = {
+					set_compliance = 70
+				}
+			}
+		}
+	}
+	vbm_jap_annex_man = {
+		icon = decision_generic_nationalism
+		available = {
+			tag = JAP
+			MAN = {
+				exists = yes
+				is_ai = yes
+				is_subject_of = JAP
+			}
+		}
+		visible = {
+			tag = JAP
+			MAN = {
+				exists = yes
+			}
+		}
+		cost = 25
+		days_remove = 1
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			annex_country = {
+				target = MAN
+				transfer_troops = yes
+			}
+			MAN = {
+				every_core_state = {
+					set_compliance = 100
+				}
+			}
+		}
+	}
+}
