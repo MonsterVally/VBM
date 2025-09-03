@@ -11,6 +11,11 @@ factories_go_brr_civilian_only = {
 		id = industrial_complex		# civs
 		value = 9999		# desired amount of factories
 	}
+	ai_strategy = {
+		type = factory_build_score_factor
+		target = industrial_complex
+		value = 100		# Never convert civs to mills
+	}
 }
 
 # MILLS GO BRRR
@@ -23,5 +28,10 @@ factories_go_brr_military_only = {
 		type = building_target		# build until you have 
 		id = arms_factory		# mills
 		value = 999		# desired amount of factories
+	}
+	ai_strategy = {
+		type = factory_build_score_factor
+		target = arms_factory
+		value = 100		# Never convert mills to civs
 	}
 }
