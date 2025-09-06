@@ -2,10 +2,8 @@
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 60           -- Game will automatically slow down after 720 days of lag
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 30                  -- Game will auto-pause after 30 days of severe lag
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12               -- Only keeps 14 months of combat logs (reduces save file size)
-NDefines.NGame.GAME_SPEED_SECONDS = { 1000.0, 0.25, 0.19, 0.06, 0.0 } -- Speed settings for each game speed level
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.25, 0.23, 0.19, 0.06, 0.0 } -- Speed settings for each game speed level
 NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 10   -- Graphics optimization for map icons
-
-
 
 -- XP AND TRAINING
 NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 150000000  -- Massive manpower pool for training (150 million)
@@ -32,3 +30,14 @@ NDefines.NDeployment.BASE_DEPLOYMENT_TRAINING = 2          -- Units start with 2
 
 -- FOCUS TREE
 NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 30              -- Can save 30 days of focus progress when switching
+
+-- DECISIONS
+NDefines.NCountry.EVENT_PROCESS_OFFSET = 30
+NDefines.NGame.EVENT_TIMEOUT_DEFAULT = 21						-- Default days before an event times out if not scripted
+
+-- MORE FACTORIES ON SHIPS AND LAND EQUIPMENT
+NDefines.NProduction.DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 50 
+NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 15
+NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 450      
+NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 15
+NDefines.NProduction.CONVOY_MAX_NAV_FACTORIES_PER_LINE = 100

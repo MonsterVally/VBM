@@ -27,7 +27,7 @@ factories_go_brr_military_only = {
 	ai_strategy = {
 		type = building_target		# build until you have 
 		id = arms_factory		# mills
-		value = 999		# desired amount of factories
+		value = 9999		# desired amount of factories
 	}
 	ai_strategy = {
 		type = factory_build_score_factor
