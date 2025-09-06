@@ -8,3 +8,6 @@
  vbm_usa_annex_phi_desc:0 "Annexes the Philippines with 70% compliance."
  vbm_jap_annex_man:0 "Annex Manchukuo"
  vbm_jap_annex_man_desc:0 "Annexes Manchukuo with 100% compliance."
+
+ vbm_jap_annex_sia:0 "Annex Siam"
+ vbm_jap_annex_sia_desc:0 "Annexes Siam with 100% compliance."

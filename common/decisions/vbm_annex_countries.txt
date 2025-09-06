@@ -65,4 +65,42 @@ vbm_annexations = {
 			}
 		}
 	}
+	vbm_jap_annex_sia = {
+		icon = decision_generic_nationalism
+		available = {
+			tag = JAP
+			SIA = {
+				exists = yes
+				is_ai = yes
+			}
+			CHI = {
+				OR = {
+					exists = no
+					is_subject_of = JAP
+				}
+			}
+		}
+		visible = {
+			tag = JAP
+			SIA = {
+				exists = yes
+			}
+		}
+		cost = 25
+		days_remove = 1
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			annex_country = {
+				target = SIA
+				transfer_troops = yes
+			}
+			SIA = {
+				every_core_state = {
+					set_compliance = 100
+				}
+			}
+		}
+	}
 }
