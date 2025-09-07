@@ -1073,7 +1073,6 @@ technologies = {
 			}
 		}
 		path = {
-			leads_to_tech = air_torpedoe_2
 			research_cost_coeff = 1
 		}
 		categories = {
@@ -1090,43 +1089,6 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				OR = {
-					has_tech = iw_small_airframe
-					has_tech = iw_medium_airframe
-					has_tech = iw_large_airframe
-				}
-				factor = 5
-			}
-		}
-	}
-	air_torpedoe_2 = {
-		enable_equipment_modules = {
-			torpedo_mounting_2
-		}
-		research_cost = 1
-		start_year = 1939
-		folder = {
-			name = bba_air_techs_folder
-			position = {
-				x = 0
-				y = 5.5
-			}
-		}
-		categories = {
-			air_equipment
-			plane_modules_tech
-			cat_air_bombs
-			mio_cat_all_naval_bomber_and_modules
-			mio_cat_all_medium_aircraft_and_modules
-			mio_cat_all_heavy_aircraft_and_modules
-			mio_cat_all_light_aircraft_and_modules
-		}
-		special_project_specialization = {
-			specialization_air
-		}
-		ai_will_do = {
-			factor = 1
 			modifier = {
 				OR = {
 					has_tech = iw_small_airframe
