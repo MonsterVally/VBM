@@ -1,9 +1,9 @@
 ﻿l_english:
  # Decision Category
- vbm_annexations:0 "Territorial Annexations"
- vbm_annexations_desc:0 "Decisions to annex your subjects if they are AI."
- 
- # Decision
+ vbm_decisions:0 "Vally's Non-Hist Mod decisions"
+ vbm_decisions_desc:0 "Annex decisions, balance decisions and much more"
+
+ # Annex Decisions
  vbm_usa_annex_phi:0 "Annex the Philippines"
  vbm_usa_annex_phi_desc:0 "Annexes the Philippines with 70% compliance."
  vbm_jap_annex_man:0 "Annex Manchukuo"
@@ -11,3 +11,6 @@
 
  vbm_jap_annex_sia:0 "Annex Siam"
  vbm_jap_annex_sia_desc:0 "Annexes Siam with 100% compliance."
+
+ vbm_jap_fix_chi_collab:0 "Fix Chinese Collaboration"
+ vbm_jap_fix_chi_collab_desc:0 "Increases compliance in Chinese states to 100%."

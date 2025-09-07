@@ -1,4 +1,4 @@
-vbm_annexations = {
+vbm_decisions = {
 	vbm_usa_annex_phi = {
 		icon = decision_generic_nationalism
 		available = {

@@ -1,0 +1,32 @@
+vbm_decisions = {
+	vbm_jap_fix_chi_collab = {
+		icon = decision_generic_nationalism
+		available = {
+			tag = JAP
+			CHI = {
+				exists = no
+			}
+			613 = {
+				compliance > 90
+			}
+		}
+		visible = {
+			tag = JAP
+		}
+		cost = 25
+		days_remove = 1
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			CHI = {
+				every_core_state = {
+					limit = {
+						is_controlled_by = JAP
+					}
+					set_compliance = 100
+				}
+			}
+		}
+	}
+}

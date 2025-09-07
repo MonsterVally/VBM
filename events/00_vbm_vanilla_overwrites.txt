@@ -1,0 +1,474 @@
+add_namespace = wtt_xian_incident
+#Remove killing Chiang Kai Sheck for Soviet Union
+country_event = {
+	id = wtt_xian_incident.9
+	title = wtt_xian_incident.9.t
+	desc = wtt_xian_incident.9.desc
+	picture = GFX_report_event_stalin_meeting
+	is_triggered_only = yes
+	option = {
+		name = wtt_xian_incident.9.b		#disapprove
+		ai_chance = {
+			base = 50
+			modifier = {
+				has_war_with = JAP
+				factor = 3
+			}
+		}
+		FROM = {
+			set_country_flag = SOV_xian_refuse
+			country_event = wtt_xian_incident.7
+		}
+	}
+}
+
+# REMOVED DENYING RHINELAND (FRANCE)
+add_namespace = germany
+country_event = {
+	id = germany.60
+	title = germany.60.t
+	desc = germany.60.d
+	picture = GFX_report_event_german_troops
+	is_triggered_only = yes
+	option = {
+		# Diplomatic response
+		name = germany.60.b
+		ai_chance = {
+			base = 99
+			modifier = {
+				has_global_flag = GER_has_started_war
+				factor = 0
+			}
+			modifier = {
+				factor = 0.5
+				strength_ratio = {
+					tag = GER
+					ratio > 10
+				}
+			}
+		}
+		ENG = {
+			country_event = {
+				id = germany.62
+				hours = 2
+			}
+		}
+		add_opinion_modifier = {
+			target = GER
+			modifier = protest_action
+		}
+	}
+}
+
+# REMOVED DENYING RHINELAND (UK)
+country_event = {
+	id = germany.62
+	title = germany.60.t
+	desc = germany.62.d
+	picture = GFX_report_event_german_troops
+	is_triggered_only = yes
+	option = {
+		name = germany.62.a
+		trigger = {
+			NOT = {
+				has_completed_focus = ENG_a_change_in_course
+			}
+		}
+		hidden_effect = {
+			news_event = {
+				hours = 6
+				id = news.25
+			}
+		}
+		add_opinion_modifier = {
+			target = GER
+			modifier = protest_action
+		}
+		GER = {
+			add_war_support = 0.1
+		}
+	}
+	option = {
+		name = germany.62.b
+		trigger = {
+			has_completed_focus = ENG_a_change_in_course
+		}
+		hidden_effect = {
+			news_event = {
+				hours = 6
+				id = news.25
+			}
+		}
+		GER = {
+			add_war_support = 0.1
+		}
+	}
+}
+
+# Britain / HOL - Germany demands sudetenland (Munich Conference) - Event for ENG (historical) or HOL (if they form EU and CZE is part of it)
+# REMOVED DENYING SUDATENLAND (UK / HOL)
+country_event = {
+	id = germany.40
+	title = germany.40.t
+	desc = {
+		text = germany.40.d
+		trigger = {
+			NOT = {
+				has_war_with = GER
+			}
+		}
+	}
+	desc = {
+		text = germany.40.d_2
+		trigger = {
+			has_war_with = GER
+		}
+	}
+	desc = {
+		text = germany.40.d_3
+		trigger = {
+			NOT = {
+				has_war_with = GER
+			}
+			tag = HOL
+		}
+	}
+	picture = GFX_report_event_german_politician_speech
+	is_triggered_only = yes
+	option = {
+		# Abandon the Czechs
+		name = germany.40.a
+		trigger = {
+			NOT = {
+				has_war_with = GER
+			}
+			is_subject = no			# can't do anything if puppet
+		}
+		ai_chance = {
+			base = 90
+			modifier = {
+				factor = 0.3
+				has_government = communism
+				CZE = {
+					has_government = communism
+				}
+			}
+			modifier = {
+				#ROOT is less willing to accept the deal if Germany has raised world tension
+				factor = 0.9
+				FROM = {
+					has_added_tension_amount > 0.09
+				}
+			}
+			modifier = {
+				#ROOT is less willing to accept the deal if Germany has raised world tension
+				factor = 0.8
+				FROM = {
+					has_added_tension_amount > 0.14
+				}
+			}
+			modifier = {
+				#ROOT is less willing to accept the deal if Germany has raised world tension
+				factor = 0.7
+				FROM = {
+					has_added_tension_amount > 0.19
+				}
+			}
+			modifier = {
+				#ROOT is less willing to accept the deal if Germany has gone to war already
+				factor = 0.5
+				has_global_flag = GER_has_started_war
+			}
+			modifier = {
+				#ROOT is less willing to accept the deal if Germany is losing a war
+				factor = 0.5
+				FROM = {
+					has_war = yes
+					surrender_progress > 0.1
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = ENG_ai_behavior
+						option = DEMOCRATIC_HISTORICAL
+					}
+					has_game_rule = {
+						rule = ENG_ai_behavior
+						option = DEMOCRATIC_ALTERNATE
+					}
+					has_game_rule = {
+						rule = ENG_ai_behavior
+						option = FASCIST
+					}
+					AND = {
+						has_global_flag = GER_has_started_war
+						NOT = {
+							is_in_faction_with = GER
+						}
+					}
+					has_war_with = GER					# Should be impossible due to option trigger, but just in case
+					is_in_faction_with = CZE
+					CZE = {
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		#Send follow-up event to next country
+		if = {
+			limit = {
+				tag = ENG
+			}
+			FRA = {
+				country_event = {
+					id = germany.41
+					hours = 2
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = ENG_no_further_appeasement
+				}
+				add_political_power = -200
+			}
+		}
+		else_if = {
+			limit = {
+				tag = HOL
+			}
+			ENG = {
+				country_event = {
+					id = germany.40
+					hours = 2
+				}
+			}
+		}
+		#Edit diplomatic relations and opinions
+		if = {
+			limit = {
+				CZE = {
+					is_guaranteed_by = ROOT
+				}
+			}
+			diplomatic_relation = {
+				country = CZE
+				relation = guarantee
+				active = no
+			}
+			add_ai_strategy = {
+				type = protect
+				id = CZE
+				value = -100
+			}
+		}
+		if = {
+			limit = {
+				CZE = {
+					is_in_faction_with = ROOT
+				}
+				is_faction_leader = yes
+			}
+			remove_from_faction = CZE
+		}
+		CZE = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = western_betrayal
+			}
+		}
+	}
+}
+
+# REMOVED DENYING SUDATENLAND (FRANCE)
+country_event = {
+	id = germany.41
+	title = germany.40.t
+	desc = germany.41.d
+	picture = GFX_report_event_chamberlain_announce
+	is_triggered_only = yes
+	option = {
+		# Follow Britain's lead
+		name = germany.41.a
+		ai_chance = {
+			base = 90
+			modifier = {
+				factor = 0.3
+				has_government = communism
+				CZE = {
+					has_government = communism
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					is_in_faction_with = CZE
+					has_global_flag = GER_has_started_war
+				}
+			}
+			modifier = {
+				#ROOT is less willing to accept the deal if Germany has raised world tension
+				factor = 0.9
+				FROM = {
+					has_added_tension_amount > 0.09
+				}
+			}
+			modifier = {
+				#ROOT is less willing to accept the deal if Germany has raised world tension
+				factor = 0.8
+				FROM = {
+					has_added_tension_amount > 0.14
+				}
+			}
+			modifier = {
+				#ROOT is less willing to accept the deal if Germany has raised world tension
+				factor = 0.7
+				FROM = {
+					has_added_tension_amount > 0.19
+				}
+			}
+			modifier = {
+				#ROOT is less willing to accept the deal if Germany has gone to war already
+				factor = 0.5
+				has_global_flag = GER_has_started_war
+			}
+			modifier = {
+				#ROOT is less willing to accept the deal if Germany is losing a war
+				factor = 0.5
+				FROM = {
+					has_war = yes
+					surrender_progress > 0.1
+				}
+			}
+		}
+		# Notify CZE and they hate us (with good reason)
+		CZE = {
+			country_event = {
+				id = germany.46
+				hours = 2
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = western_betrayal
+			}
+		}
+		# Deal with factions
+		if = {
+			limit = {
+				is_in_faction_with = CZE
+			}
+			if = {
+				limit = {
+					is_faction_leader = no
+				}
+				random_other_country = {
+					limit = {
+						is_in_faction_with = ROOT
+						is_faction_leader = yes
+					}
+					remove_from_faction = ROOT
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						any_other_country = {
+							#check if CZE and FRA are the only countries in this faction
+							NOT = {
+								original_tag = CZE
+							}
+							is_in_faction_with = ROOT
+						}
+					}
+				}
+				dismantle_faction = yes
+			}
+		}
+		#Deal with relations
+		if = {
+			limit = {
+				CZE = {
+					is_guaranteed_by = ROOT
+				}
+			}
+			diplomatic_relation = {
+				country = CZE
+				relation = guarantee
+				active = no
+			}
+			add_ai_strategy = {
+				type = protect
+				id = CZE
+				value = -100
+			}
+		}
+		#Some fallout to YUG
+		if = {
+			limit = {
+				YUG = {
+					is_guaranteed_by = ROOT
+				}
+			}
+			diplomatic_relation = {
+				country = YUG
+				relation = guarantee
+				active = no
+			}
+			add_ai_strategy = {
+				type = protect
+				id = YUG
+				value = -100
+			}
+			YUG = {
+				add_opinion_modifier = {
+					target = FRA
+					modifier = western_betrayal
+				}
+			}
+		}
+	}
+}
+
+add_namespace = france
+
+# France cant refuse Indochina (sad moment for le baguettte)
+country_event = {
+	id = france.1
+	title = france.1.t
+	desc = france.1.d
+	picture = GFX_report_event_japan_army_mountainside
+	is_triggered_only = yes
+	option = {
+		# Accept demands
+		name = france.1.a
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 50
+				has_war = yes
+				any_enemy_country = {
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.4
+					}
+				}
+			}
+			modifier = {
+				factor = 75
+				16 = {
+					NOT = {
+						is_controlled_by = FRA
+					}
+				}
+				#Paris	
+			}
+		}
+		JAP = {
+			country_event = {
+				days = 5
+				id = japan.6
+			}
+		}
+	}
+}

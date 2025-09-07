@@ -2,7 +2,7 @@
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 60           -- Game will automatically slow down after 720 days of lag
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 30                  -- Game will auto-pause after 30 days of severe lag
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12               -- Only keeps 14 months of combat logs (reduces save file size)
-NDefines.NGame.GAME_SPEED_SECONDS = { 0.25, 0.23, 0.19, 0.06, 0.0 } -- Speed settings for each game speed level
+NDefines.NGame.GAME_SPEED_SECONDS = { 1000, 0.2, 0.1, 0.07, 0.0 } -- VANILLA: { 2.0, 0.5, 0.2, 0.1, 0.0 }
 NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 10   -- Graphics optimization for map icons
 
 -- XP AND TRAINING
