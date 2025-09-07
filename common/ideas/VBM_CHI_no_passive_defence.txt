@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		CHI_fuck_agency = {
+			allowed = {
+				original_tag = CHI
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			picture = generic_passive_defense_disabled
+			modifier = {
+				agency_upgrade_time = 9999
+			}
+			name = CHI_fuck_agency
+			desc = CHI_fuck_agency_desc
+		}
+	}
+}

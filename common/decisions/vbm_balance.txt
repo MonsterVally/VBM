@@ -29,4 +29,33 @@ vbm_decisions = {
 			}
 		}
 	}
+	vbm_remove_CHI_fuck_agency = {
+		icon = decision_generic_nationalism
+		available = {
+			tag = CHI
+			OR = {
+				CHI = {
+					is_in_faction_with = JAP
+				}
+				MAN = {
+					all_core_state = {
+						is_controlled_by = CHI
+					}
+				}
+			}
+		}
+		visible = {
+			tag = CHI
+		}
+		cost = 25
+		days_remove = 1
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			CHI = {
+				remove_ideas = CHI_fuck_agency
+			}
+		}
+	}
 }

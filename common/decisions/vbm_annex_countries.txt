@@ -96,6 +96,7 @@ vbm_decisions = {
 				target = SIA
 				transfer_troops = yes
 			}
+
 			SIA = {
 				every_core_state = {
 					set_compliance = 100

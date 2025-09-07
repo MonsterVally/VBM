@@ -14,3 +14,6 @@
 
  vbm_jap_fix_chi_collab:0 "Fix Chinese Collaboration"
  vbm_jap_fix_chi_collab_desc:0 "Increases compliance in Chinese states to 100%."
+
+ vbm_remove_CHI_fuck_agency:0 "Remove Chinese Agency Debuff"
+ vbm_remove_CHI_fuck_agency_desc:0 "Remove the spirit that prevents China from doing an Agency."
