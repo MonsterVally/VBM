@@ -7,7 +7,7 @@ vbm_decisions = {
 				exists = no
 			}
 			613 = {
-				compliance > 90
+				compliance > 75
 			}
 		}
 		visible = {
@@ -42,10 +42,14 @@ vbm_decisions = {
 						is_controlled_by = CHI
 					}
 				}
+				date > 1939.1.1
 			}
 		}
 		visible = {
 			tag = CHI
+			CHI = {
+				has_idea = CHI_fuck_agency
+			}
 		}
 		cost = 25
 		days_remove = 1
