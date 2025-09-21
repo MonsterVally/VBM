@@ -141,8 +141,8 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = floats
-			count < 2
+			module = floats			# no floats for planes
+			count < 1
 		}
 		module_count_limit = {
 			module = recon_camera
@@ -1471,8 +1471,8 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = flying_boat_medium
-			count < 2
+			module = flying_boat_medium			# no floats for planes
+			count < 1
 		}
 		module_count_limit = {
 			module = recon_camera
@@ -1484,7 +1484,7 @@ equipments = {
 		}
 		module_count_limit = {
 			module = torpedo_mounting
-			count < 3
+			count < 2
 		}
 		module_count_limit = {
 			module = tank_buster_1
@@ -2284,8 +2284,8 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = flying_boat_large
-			count < 2
+			module = flying_boat_large			# no floats for planes
+			count < 1
 		}
 		module_count_limit = {
 			module = recon_camera
@@ -2297,7 +2297,7 @@ equipments = {
 		}
 		module_count_limit = {
 			module = torpedo_mounting
-			count < 4
+			count < 2
 		}
 		module_count_limit = {
 			module = tank_buster_1
