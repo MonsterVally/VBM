@@ -10,7 +10,7 @@ tags={
 	"Alternative History"
 	"Historical"
 }
-name="Vally's Non-Hist Mod"
+name="DEV VERSION Vally's Non-Hist Mod"
 picture="thumbnail.png"
 supported_version="1.16.9"
 remote_file_id="3551704227"
