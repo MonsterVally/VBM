@@ -41,8 +41,8 @@ NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 15
 NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 450      
 NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 15
 NDefines.NProduction.CONVOY_MAX_NAV_FACTORIES_PER_LINE = 100
--- Naval Bombers rework: Maximum 200 navs per battle
-NDefines.NAir.COMBAT_MAX_WINGS_AT_ONCE_PORT_STRIKE = 200        -- we can really pounce a naval strike and escalate
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.0		-- Max planes that can join a combat comparing to the total strength of the ships
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.0 -- max extra plane % that can join every day
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 200			-- Min cap for planes that can join naval combat
+-- Naval Bombers rework
+
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.02		-- Max planes that can join a combat comparing to the total strength of the ships
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.1 -- max extra plane % that can join every day
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 10			-- Min cap for planes that can join naval combat
