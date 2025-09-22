@@ -1,0 +1,53 @@
+focus = {
+	id = BRA_cooperation_in_the_americas
+	icon = GFX_focus_BRA_good_neighbor_policy
+	mutually_exclusive = {
+		focus = BRA_domination_of_the_americas
+	}
+	prerequisite = {
+		focus = BRA_secure_our_borders
+		focus = BRA_the_international_crisis
+	}
+	x = -10
+	y = 1
+	relative_position_id = BRA_secure_our_borders
+	cost = 5
+	ai_will_do = {
+		factor = 30
+		modifier = {
+			factor = 5
+			has_completed_focus = BRA_reward_army_loyalty
+		}
+	}
+	available = {
+		has_game_rule = {
+			rule = VBM_ALLOW_SOUTH_AMERICA_UNIFICATION
+			option = VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__YES
+		}
+		OR = {
+			has_government = democratic
+			has_government = neutrality
+		}
+	}
+	search_filters = {
+		FOCUS_FILTER_HISTORICAL
+	}
+	completion_reward = {
+		add_political_power = 100
+		every_other_country = {
+			limit = {
+				capital_scope = {
+					is_on_continent = south_america
+				}
+				NOT = {
+					has_war_with = ROOT
+				}
+			}
+			country_event = {
+				id = JUNO_brazil_events.14
+				hours = 1
+			}
+			event_option_tooltip = JUNO_brazil_events.14.a
+		}
+	}
+}

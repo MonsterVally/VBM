@@ -1,2 +1,10 @@
 ﻿l_english:
  vbm_gamerules_group:0 "§LVally's Mod Rules§!"
+ VBM_ALLOW_SOUTH_AMERICA_UNIFICATION:0 "Brazil South American unification?"
+ VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__DENY:0 "Deny South American unification"
+ VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__DENY_TEXT:0 "No"
+ VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__DENY_DESC:0 "Brazil will NOT be able to form South America through decisions."
+ VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__YES:0 "Allow South American unification"
+ VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__YES_TEXT:0 "Yes (Vanilla)"
+ VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__YES_DESC:0 "Brazil WILL be able to form South America through decisions."
+
