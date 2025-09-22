@@ -65,6 +65,39 @@ vbm_decisions = {
 			}
 		}
 	}
+	vbm_eng_annex_mal = {
+		icon = decision_generic_nationalism
+		available = {
+			tag = ENG
+			MAL = {
+				exists = yes
+				is_ai = yes
+				is_subject_of = ENG
+			}
+		}
+		visible = {
+			tag = ENG
+			MAL = {
+				exists = yes
+			}
+		}
+		cost = 100
+		days_remove = 1
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			annex_country = {
+				target = MAL
+				transfer_troops = yes
+			}
+			MAL = {
+				every_core_state = {
+					set_compliance = 100
+				}
+			}
+		}
+	}
 	vbm_jap_annex_sia = {
 		icon = decision_generic_nationalism
 		available = {
@@ -96,7 +129,6 @@ vbm_decisions = {
 				target = SIA
 				transfer_troops = yes
 			}
-
 			SIA = {
 				every_core_state = {
 					set_compliance = 100
