@@ -2184,7 +2184,7 @@ focus_tree = {
 		}
 		allow_branch = {
 			has_game_rule = {
-				rule = VBM_ALLOW_SOUTH_AMERICA_UNIFICATION
+				rule = vbm_allow_south_america_unification
 				option = VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__YES
 			}
 		}
@@ -3181,11 +3181,6 @@ focus_tree = {
 			}
 		}
 		available = {
-			OR = {
-				has_government = fascism
-				has_government = neutrality
-				has_government = democratic
-			}
 			has_army_manpower = {
 				size > 199999
 			}
