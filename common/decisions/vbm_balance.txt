@@ -7,7 +7,7 @@ vbm_decisions = {
 				exists = no
 			}
 			613 = {
-				compliance > 50
+				compliance > 80
 			}
 		}
 		visible = {

@@ -93,7 +93,7 @@ vbm_decisions = {
 			}
 			MAL = {
 				every_core_state = {
-					set_compliance = 100
+					set_compliance = 75
 				}
 			}
 		}
@@ -131,7 +131,7 @@ vbm_decisions = {
 			}
 			SIA = {
 				every_core_state = {
-					set_compliance = 100
+					set_compliance = 75
 				}
 			}
 		}
