@@ -39,12 +39,12 @@ vbm_allow_south_america_unification = {
 vbm_true_non_hist = {
 	name = "VBM_TRUE_NON_HIST"
 	group = vbm_gamerules_group
-	option = {
+	default = {
 		name = "VBM_TRUE_NON_HIST__NO"
 		text = "VBM_TRUE_NON_HIST__NO_TEXT"
 		desc = "VBM_TRUE_NON_HIST__NO_DESC"
 	}
-	default = {
+	option = {
 		name = "VBM_TRUE_NON_HIST__YES"
 		text = "VBM_TRUE_NON_HIST__YES_TEXT"
 		desc = "VBM_TRUE_NON_HIST__YES_DESC"
