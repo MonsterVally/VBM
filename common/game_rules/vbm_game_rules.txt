@@ -25,13 +25,28 @@ vbm_allow_south_america_unification = {
 	name = "VBM_ALLOW_SOUTH_AMERICA_UNIFICATION"
 	group = vbm_gamerules_group
 	option = {
-		name = "VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__DENY"
-		text = "VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__DENY_TEXT"
-		desc = "VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__DENY_DESC"
+		name = "VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__NO"
+		text = "VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__NO_TEXT"
+		desc = "VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__NO_DESC"
 	}
 	default = {
 		name = "VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__YES"
 		text = "VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__YES_TEXT"
 		desc = "VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__YES_DESC"
+	}
+}
+
+vbm_true_non_hist = {
+	name = "VBM_TRUE_NON_HIST"
+	group = vbm_gamerules_group
+	option = {
+		name = "VBM_TRUE_NON_HIST__NO"
+		text = "VBM_TRUE_NON_HIST__NO_TEXT"
+		desc = "VBM_TRUE_NON_HIST__NO_DESC"
+	}
+	default = {
+		name = "VBM_TRUE_NON_HIST__YES"
+		text = "VBM_TRUE_NON_HIST__YES_TEXT"
+		desc = "VBM_TRUE_NON_HIST__YES_DESC"
 	}
 }
