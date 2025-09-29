@@ -33,6 +33,11 @@ on_actions = {
 						id = vbm_true_non_hist.5
 					}
 				}
+				USA = {
+					country_event = {
+						id = vbm_true_non_hist.6
+					}
+				}
 			}
 		}
 	}

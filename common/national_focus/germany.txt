@@ -8045,7 +8045,7 @@ focus_tree = {
 						option = VBM_TRUE_NON_HIST__YES
 					}
 				}
-            has_country_flag = vbm_ger_true_non_hist_fas
+            	has_country_flag = vbm_ger_true_non_hist_fas
         	}
 		}
 
@@ -20989,12 +20989,7 @@ focus_tree = {
 
 		available = {
 			is_subject = no
-			has_government = fascism
-			OR = {
-			    has_country_flag = vbm_ger_true_non_hist_com
-				has_country_flag = vbm_ger_true_non_hist_non
-				has_country_flag = vbm_ger_true_non_hist_dem
-			}			
+			has_government = fascism		
 		}
 
 		allow_branch = {

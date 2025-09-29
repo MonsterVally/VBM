@@ -167,3 +167,63 @@ country_event = {
     }
 }
 
+# USA
+country_event = {
+    id = vbm_true_non_hist.6
+    title = vbm_true_non_hist.6.t
+    desc = vbm_true_non_hist.6.d
+    picture = GFX_report_event_generic_factory
+    
+    is_triggered_only = yes
+    
+    hidden = yes
+    
+    immediate = {
+        random_list = {
+            25 = {
+                set_country_flag = vbm_usa_true_non_hist_com
+            }
+            25 = {
+                set_country_flag = vbm_usa_true_non_hist_dem
+            }
+            25 = {
+                set_country_flag = vbm_usa_true_non_hist_fas
+            }
+        }
+    }
+    
+    option = {
+        name = vbm_true_non_hist.6.a
+    }
+}
+
+# PIZZA
+country_event = {
+    id = vbm_true_non_hist.7
+    title = vbm_true_non_hist.7.t
+    desc = vbm_true_non_hist.7.d
+    picture = GFX_report_event_generic_factory
+    
+    is_triggered_only = yes
+    
+    hidden = yes
+    
+    immediate = {
+        random_list = {
+            25 = {
+                set_country_flag = vbm_usa_true_non_hist_com
+            }
+            25 = {
+                set_country_flag = vbm_usa_true_non_hist_dem
+            }
+            25 = {
+                set_country_flag = vbm_usa_true_non_hist_fas
+            }
+        }
+    }
+    
+    option = {
+        name = vbm_true_non_hist.7.a
+    }
+}
+

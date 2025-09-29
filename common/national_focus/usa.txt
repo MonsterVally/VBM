@@ -113,6 +113,19 @@ focus_tree = {
 					has_completed_focus = USA_reestablish_the_gold_standard
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				OR = {
+					has_country_flag = vbm_usa_true_non_hist_dem
+					has_country_flag = vbm_usa_true_non_hist_com
+				}
+				
+        	}
 		}
 
 		available = {
@@ -168,6 +181,15 @@ focus_tree = {
 					has_completed_focus = USA_reestablish_the_gold_standard
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				has_country_flag = vbm_usa_true_non_hist_com
+        	}
 		}
 		available = {
 
@@ -1581,6 +1603,15 @@ focus_tree = {
 					has_completed_focus = USA_neutrality_act
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				has_country_flag = vbm_usa_true_non_hist_dem
+        	}
 		}
 
 		available = {
@@ -2098,6 +2129,15 @@ focus_tree = {
 					has_completed_focus = USA_limited_intervention
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				has_country_flag = vbm_usa_true_non_hist_dem
+        	}
 		}
 
 
@@ -3026,6 +3066,15 @@ focus_tree = {
 					has_completed_focus = USA_continue_the_new_deal
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				has_country_flag = vbm_usa_true_non_hist_fas
+        	}
 		}
 
 		available = {
@@ -3259,6 +3308,15 @@ focus_tree = {
 					has_completed_focus = USA_continue_the_new_deal
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				has_country_flag = vbm_usa_true_non_hist_fas
+        	}
 		}
 		available = {
 

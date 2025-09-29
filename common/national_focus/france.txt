@@ -4090,7 +4090,16 @@
 					has_completed_focus = FRA_utilize_the_leagues
 				}
 			}
-			has_country_flag = vbm_fra_true_non_hist_dem
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				has_country_flag = vbm_fra_true_non_hist_dem
+        	}
+			
 		}
 
 		prerequisite = {
