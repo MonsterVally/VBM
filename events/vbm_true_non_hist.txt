@@ -211,15 +211,25 @@ country_event = {
     immediate = {
         random_list = {
             25 = {
-                set_country_flag = vbm_usa_true_non_hist_com
+                set_country_flag = vbm_ita_true_non_hist_com
             }
             25 = {
-                set_country_flag = vbm_usa_true_non_hist_dem
+                set_country_flag = vbm_ita_true_non_hist_com_dem
             }
             25 = {
-                set_country_flag = vbm_usa_true_non_hist_fas
+                set_country_flag = vbm_ita_true_non_hist_fas
+            }
+            25 = {
+                set_country_flag = vbm_ita_true_non_hist_alt_fas
+            }
+            25 = {
+                set_country_flag = vbm_ita_true_non_hist_mon_dem
+            }
+            25 = {
+                set_country_flag = vbm_ita_true_non_hist_mon_non
             }
         }
+        
     }
     
     option = {
