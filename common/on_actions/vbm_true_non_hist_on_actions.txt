@@ -23,6 +23,11 @@ on_actions = {
 						id = vbm_true_non_hist.3
 					}
 				}
+				ENG = {
+					country_event = {
+						id = vbm_true_non_hist.4
+					}
+				}
 			}
 		}
 	}
