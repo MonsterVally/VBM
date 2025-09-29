@@ -1,0 +1,46 @@
+vbm_decisions = {
+	vbm_ita_fix_focus_debug = {
+		icon = decision_generic_nationalism
+		available = {
+			tag = ITA
+			ETH = {
+				exists = no
+			}
+		}
+		visible = {
+			tag = ITA
+		}
+		cost = 999
+		days_remove = 1
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_com
+						has_country_flag = vbm_ita_true_non_hist_com_dem
+					}
+				}
+				complete_national_focus = ITA_the_abyssinian_fiasco
+			}
+			else_if = {
+				limit = {
+					has_country_flag = vbm_ita_true_non_hist_fas
+				}
+				complete_national_focus = ITA_solid_progress
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_alt_fas
+						has_country_flag = vbm_ita_true_non_hist_mon_dem
+						has_country_flag = vbm_ita_true_non_hist_mon_non
+					}
+				}
+				complete_national_focus = ITA_struggle_in_ethiopia
+			}
+		}
+	}
+}

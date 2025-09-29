@@ -54,9 +54,7 @@ ITA_missiolini_progress_in_ethiopia_success_effect = {
 		}
 		else_if = {
 			limit = {
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_fas
-				}
+				has_country_flag = vbm_ita_true_non_hist_fas
 			}
 			complete_national_focus = ITA_solid_progress
 		}
@@ -70,8 +68,6 @@ ITA_missiolini_progress_in_ethiopia_success_effect = {
 			}
 			complete_national_focus = ITA_struggle_in_ethiopia
 		}
-		else = {
-			complete_national_focus = ITA_solid_progress
-		}
+
 	}
 }
