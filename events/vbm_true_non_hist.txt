@@ -134,3 +134,36 @@ country_event = {
     }
 }
 
+# FRANCE
+country_event = {
+    id = vbm_true_non_hist.5
+    title = vbm_true_non_hist.5.t
+    desc = vbm_true_non_hist.5.d
+    picture = GFX_report_event_generic_factory
+    
+    is_triggered_only = yes
+    
+    hidden = yes
+    
+    immediate = {
+        random_list = {
+            25 = {
+                set_country_flag = vbm_fra_true_non_hist_com
+            }
+            25 = {
+                set_country_flag = vbm_fra_true_non_hist_fas
+            }
+            25 = {
+                set_country_flag = vbm_fra_true_non_hist_non
+            }
+            25 = {
+                set_country_flag = vbm_fra_true_non_hist_dem
+            }
+        }
+    }
+    
+    option = {
+        name = vbm_true_non_hist.5.a
+    }
+}
+

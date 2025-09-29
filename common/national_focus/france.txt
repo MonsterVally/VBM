@@ -1613,6 +1613,18 @@
 					has_completed_focus = FRA_revive_the_national_bloc
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				OR = {
+					has_country_flag = vbm_fra_true_non_hist_dem
+					has_country_flag = vbm_fra_true_non_hist_com
+				}
+        	}
 		}
 
 		prerequisite = {}
@@ -1691,6 +1703,15 @@
 					has_completed_focus = FRA_review_foreign_policy
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				has_country_flag = vbm_fra_true_non_hist_com
+        	}
 		}
 
 		prerequisite = { focus = FRA_form_the_popular_front }
@@ -3613,6 +3634,16 @@
 					has_completed_focus = FRA_utilize_the_leagues
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				has_country_flag = vbm_fra_true_non_hist_dem
+
+        	}
 		}
 
 		prerequisite = {
@@ -4059,6 +4090,7 @@
 					has_completed_focus = FRA_utilize_the_leagues
 				}
 			}
+			has_country_flag = vbm_fra_true_non_hist_dem
 		}
 
 		prerequisite = {
@@ -4858,6 +4890,19 @@
 					has_completed_focus = FRA_form_the_popular_front
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				OR = {
+					has_country_flag = vbm_fra_true_non_hist_dem
+					has_country_flag = vbm_fra_true_non_hist_fas
+					has_country_flag = vbm_fra_true_non_hist_non
+				}
+			}
 		}
 
 		cost = 10
@@ -5261,6 +5306,18 @@
 					has_completed_focus = FRA_review_foreign_policy
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				OR = {
+					has_country_flag = vbm_fra_true_non_hist_non
+					has_country_flag = vbm_fra_true_non_hist_fas
+				}
+        	}
 		}
 
 		prerequisite = {
@@ -5335,6 +5392,15 @@
 				NOT = { has_completed_focus = FRA_review_foreign_policy }
 				NOT = {	has_completed_focus = FRA_the_council_of_rambouillet }
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				has_country_flag = vbm_fra_true_non_hist_fas
+        	}
 		}
 
 		prerequisite = {
@@ -7244,6 +7310,15 @@
 				NOT = { has_completed_focus = FRA_review_foreign_policy }
 				NOT = {	has_completed_focus = FRA_national_regeneration }
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				has_country_flag = vbm_fra_true_non_hist_non
+        	}
 		}
 
 		prerequisite = {
