@@ -1,0 +1,29 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_true_non_hist
+						option = VBM_TRUE_NON_HIST__YES
+					}
+				}
+				JAP = {
+					country_event = {
+						id = vbm_true_non_hist.1
+					}
+				}
+				GER = {
+					country_event = {
+						id = vbm_true_non_hist.2
+					}
+				}
+				SOV = {
+					country_event = {
+						id = vbm_true_non_hist.3
+					}
+				}
+			}
+		}
+	}
+}
