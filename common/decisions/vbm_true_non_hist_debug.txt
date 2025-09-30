@@ -8,7 +8,7 @@ vbm_decisions = {
 			tag = ITA
 		}
 		cost = 999
-		days_remove = 1
+		days_remove = 0
 		ai_will_do = {
 			factor = 0
 		}

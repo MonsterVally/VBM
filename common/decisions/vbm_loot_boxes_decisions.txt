@@ -1,0 +1,39 @@
+vbm_loot_boxes_decisions = {
+	vbm_loot_box_minors = {
+		icon = decision_generic_nationalism
+		available = {
+			is_ai = no
+		}
+		visible = {
+			is_major = no
+		}
+		cost = 100
+		days_remove = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = {
+				id = vbm_loot_boxes.1
+			}
+		}
+	}
+
+	vbm_loot_box_minors_odds = {
+		icon = decision_generic_nationalism
+		available = {
+			always = no
+		}
+		visible = {
+			is_major = no
+		}
+		days_remove = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			vbm_loot_box_minor_rewards_effect = yes
+		}
+	}
+
+}

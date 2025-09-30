@@ -16,7 +16,7 @@ vbm_decisions = {
 			}
 		}
 		cost = 25
-		days_remove = 1
+		days_remove = 0
 		ai_will_do = {
 			factor = 0
 		}
@@ -49,7 +49,7 @@ vbm_decisions = {
 			}
 		}
 		cost = 25
-		days_remove = 1
+		days_remove = 0
 		ai_will_do = {
 			factor = 0
 		}
@@ -82,7 +82,7 @@ vbm_decisions = {
 			}
 		}
 		cost = 100
-		days_remove = 1
+		days_remove = 0
 		ai_will_do = {
 			factor = 0
 		}
@@ -120,7 +120,7 @@ vbm_decisions = {
 			}
 		}
 		cost = 25
-		days_remove = 1
+		days_remove = 0
 		ai_will_do = {
 			factor = 0
 		}

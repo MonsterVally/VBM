@@ -1,0 +1,282 @@
+add_namespace = vbm_loot_boxes
+country_event = {
+	id = vbm_loot_boxes.1
+	title = vbm_loot_boxes.1.t
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		random_list = {
+			# +50 PP
+			30 = {
+				country_event = {
+					id = vbm_loot_boxes.100
+					days = 0
+				}
+			}
+			# +7.5% Stability
+			15 = {
+				country_event = {
+					id = vbm_loot_boxes.101
+					days = 0
+				}
+			}
+			# +7.5% War Support
+			15 = {
+				country_event = {
+					id = vbm_loot_boxes.102
+					days = 0
+				}
+			}
+			# +50 CP
+			10 = {
+				country_event = {
+					id = vbm_loot_boxes.103
+					days = 0
+				}
+			}
+			# Infantry Eq
+			10 = {
+				country_event = {
+					id = vbm_loot_boxes.104
+					days = 0
+				}
+			}
+			# +1 Manpower
+			10 = {
+				country_event = {
+					id = vbm_loot_boxes.105
+					days = 0
+				}
+			}
+			# Offsite Arms
+			10 = {
+				country_event = {
+					id = vbm_loot_boxes.106
+					days = 0
+				}
+			}
+			# Offsite Civ
+			10 = {
+				country_event = {
+					id = vbm_loot_boxes.107
+					days = 0
+				}
+			}
+			# +200 PP
+			10 = {
+				country_event = {
+					id = vbm_loot_boxes.108
+					days = 0
+				}
+			}
+			# AA Eq
+			8 = {
+				country_event = {
+					id = vbm_loot_boxes.109
+					days = 0
+				}
+			}
+			# AT Eq
+			8 = {
+				country_event = {
+					id = vbm_loot_boxes.110
+					days = 0
+				}
+			}
+			# +1 Slot
+			5 = {
+				country_event = {
+					id = vbm_loot_boxes.111
+					days = 0
+				}
+			}
+		}
+	}
+}
+
+# Reward events (visible)
+country_event = {
+	id = vbm_loot_boxes.100
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_pp50_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_political_power = 25
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}
+
+country_event = {
+	id = vbm_loot_boxes.101
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_stability_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_stability = 0.075
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}
+
+country_event = {
+	id = vbm_loot_boxes.102
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_warsupport_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_war_support = 0.075
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}
+
+country_event = {
+	id = vbm_loot_boxes.103
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_cp50_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_command_power = 50
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}
+
+country_event = {
+	id = vbm_loot_boxes.104
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_infeq_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_2
+			amount = 5000
+			producer = BHU
+		}
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}
+
+country_event = {
+	id = vbm_loot_boxes.105
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_manpower_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_manpower = 1
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}
+
+country_event = {
+	id = vbm_loot_boxes.106
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_arms_factory_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_offsite_building = {
+			type = arms_factory
+			level = 3
+		}
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}
+
+country_event = {
+	id = vbm_loot_boxes.107
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_civ_factory_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_offsite_building = {
+			type = industrial_complex
+			level = 3
+		}
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}
+
+country_event = {
+	id = vbm_loot_boxes.108
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_pp200_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_political_power = 200
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}
+
+country_event = {
+	id = vbm_loot_boxes.109
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_aa_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_2
+			amount = 500
+			producer = BHU
+		}
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}
+
+country_event = {
+	id = vbm_loot_boxes.110
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_at_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_equipment_to_stockpile = {
+			type = anti_tank_equipment_2
+			amount = 500
+			producer = BHU
+		}
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}
+
+country_event = {
+	id = vbm_loot_boxes.111
+	title = vbm_loot_box_reward_title
+	desc = vbm_loot_box_reward_slot_desc
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+	immediate = {
+		add_research_slot = 1
+	}
+	option = {
+		name = vbm_loot_box_reward_ok
+	}
+}

@@ -5,6 +5,10 @@ vbm_decisions = {
 			tag = JAP
 			CHI = {
 				exists = no
+				any_core_state = {
+					is_controlled_by = JAP
+					compliance < 20
+				}
 			}
 			613 = {
 				compliance > 80
@@ -14,7 +18,7 @@ vbm_decisions = {
 			tag = JAP
 		}
 		cost = 25
-		days_remove = 1
+		days_remove = 0
 		ai_will_do = {
 			factor = 0
 		}
@@ -24,7 +28,7 @@ vbm_decisions = {
 					limit = {
 						is_controlled_by = JAP
 					}
-					set_compliance = 100
+					set_compliance = 90
 				}
 			}
 		}
@@ -33,6 +37,9 @@ vbm_decisions = {
 		icon = decision_generic_nationalism
 		available = {
 			tag = CHI
+			CHI = {
+				has_idea = CHI_fuck_agency
+			}
 			OR = {
 				CHI = {
 					is_in_faction_with = JAP
@@ -47,12 +54,9 @@ vbm_decisions = {
 		}
 		visible = {
 			tag = CHI
-			CHI = {
-				has_idea = CHI_fuck_agency
-			}
 		}
 		cost = 25
-		days_remove = 1
+		days_remove = 0
 		ai_will_do = {
 			factor = 0
 		}
@@ -62,31 +66,5 @@ vbm_decisions = {
 			}
 		}
 	}
-	vbm_buff_minors = {
-		icon = decision_generic_nationalism
-		fire_only_once = yes
-		available = {
-			OR = {
-				CHI = {
-					is_in_faction_with = JAP
-				}
-				
-			}
-		}
-		visible = {
-			every_country = {
-				is_ai = no
-			}
-		}
-		cost = 25
-		days_remove = 1
-		ai_will_do = {
-			factor = 0
-		}
-		complete_effect = {
-			CHI = {
-				remove_ideas = CHI_fuck_agency
-			}
-		}
-	}
+
 }

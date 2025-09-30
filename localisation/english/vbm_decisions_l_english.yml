@@ -21,5 +21,12 @@
 
  vbm_remove_CHI_fuck_agency:0 "Remove Chinese Agency Debuff"
  vbm_remove_CHI_fuck_agency_desc:0 "Remove the spirit that prevents China from doing an Agency."
+
  vbm_ita_fix_focus_debug:0 "ASK HOST: Fix Italian Focus"
  vbm_ita_fix_focus_debug_desc:0 "ASK HOST: Fix the focus tree for Italy."
+
+ # LOOT BOXES
+ vbm_loot_box_minors:0 "Buy loot box"
+ vbm_loot_box_minors_desc:0 "Purchase a loot box containing random rewards for 100 Political Power."
+ vbm_loot_box_minors_odds:0 "Loot box odds"
+ vbm_loot_box_minors_odds_desc:0 "These are your loot box odds"
