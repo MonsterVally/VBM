@@ -1,7 +1,7 @@
 -- GAME PERFORMANCE SETTINGS
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 60           -- Game will automatically slow down after 720 days of lag
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 20           -- Game will automatically slow down after 20 days of lag
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 30                  -- Game will auto-pause after 30 days of severe lag
-NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12               -- Only keeps 14 months of combat logs (reduces save file size)
+NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6               -- Only keeps 6 months of combat logs (reduces save file size)
 NDefines.NGame.GAME_SPEED_SECONDS = { 1000, 0.2, 0.1, 0.07, 0.0 } -- VANILLA: { 2.0, 0.5, 0.2, 0.1, 0.0 }
 NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 10   -- Graphics optimization for map icons
 
@@ -46,3 +46,27 @@ NDefines.NProduction.CONVOY_MAX_NAV_FACTORIES_PER_LINE = 100
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.02		-- Max planes that can join a combat comparing to the total strength of the ships
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.1 -- max extra plane % that can join every day
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 10			-- Min cap for planes that can join naval combat
+
+-- LICENSE
+NDefines.NProduction.BASE_LICENSE_IC_COST = 1
+NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0
+NDefines.NProduction.LICENSE_EQUIPMENT_BASE_SPEED = 0
+NDefines.NProduction.LICENSE_EQUIPMENT_TECH_SPEED_PER_YEAR = 0
+NDefines.NProduction.LICENSE_EQUIPMENT_TECH_SPEED_MAX_YEARS = 0
+NDefines.NProduction.LICENSE_EQUIPMENT_SPEED_NOT_FACTION = 0	
+NDefines.NProduction.LICENSE_EQUIPMENT_UPGRADE_XP_FACTOR = 1.0
+NDefines.NProduction.LICENSE_EQUIPMENT_SPEED_NO_LICENSE = 0
+
+-- RESEARCH
+NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 30.0		-- Base amount of research points a country can save per slot.
+
+-- DIPLOMACY, ATTACHE, TRADE
+NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_BASE = 999			-- Base value of attache acceptance (help is welcome)
+NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_TRASHHOLD = -999 -- Value of opinion that will remove accepting penalty for receiveing the attache
+NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_PENALTY = 0 -- Value of acceptance penalty if the opinion too low
+NDefines.NTrade.RELATION_TRADE_FACTOR = 0          -- Opinion gives no bonus/penalty to resource trade
+NDefines.NTrade.BASE_TRADE_FACTOR = 250					-- This is the base trade factor
+NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = 0    -- Minimum party popularity to join factions
+NDefines.NDiplomacy.JOIN_FACTION_LIMIT_CHANGE_AT_WAR = 0  -- No limit change when at war
+NDefines.NDiplomacy.EMBARGO_THREAT_THRESHOLD = 0           -- No limit for embargo
+NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0                   -- always join wars

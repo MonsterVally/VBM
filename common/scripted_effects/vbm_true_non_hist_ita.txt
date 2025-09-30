@@ -1,0 +1,33 @@
+vbm_true_non_hist_ita_complete_focus = {
+	if = {
+		limit = {
+			NOT = {
+				has_completed_focus = ITA_the_abyssinian_fiasco
+			}
+			NOT = {
+				has_completed_focus = ITA_solid_progress
+			}
+			NOT = {
+				has_completed_focus = ITA_struggle_in_ethiopia
+			}
+		}
+		if = {
+			limit = {
+				vbm_ita_path_com_soc = yes
+			}
+			complete_national_focus = ITA_the_abyssinian_fiasco
+		}
+		else_if = {
+			limit = {
+				vbm_ita_path_fas = yes
+			}
+			complete_national_focus = ITA_solid_progress
+		}
+		else_if = {
+			limit = {
+				vbm_ita_path_alt_mon_dem = yes
+			}
+			complete_national_focus = ITA_struggle_in_ethiopia
+		}
+	}
+}

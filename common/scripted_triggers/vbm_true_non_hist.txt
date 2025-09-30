@@ -1,0 +1,25 @@
+vbm_true_non_hist_on = {
+    has_game_rule = {
+        rule = vbm_true_non_hist
+        option = VBM_TRUE_NON_HIST__YES
+    }
+}
+
+vbm_ita_path_com_soc = {
+    OR = {
+        has_country_flag = vbm_ita_true_non_hist_com
+        has_country_flag = vbm_ita_true_non_hist_com_dem
+    }
+}
+
+vbm_ita_path_fas = {
+    has_country_flag = vbm_ita_true_non_hist_fas
+}
+
+vbm_ita_path_alt_mon_dem = {
+    OR = {
+        has_country_flag = vbm_ita_true_non_hist_alt_fas
+        has_country_flag = vbm_ita_true_non_hist_mon_dem
+        has_country_flag = vbm_ita_true_non_hist_mon_non
+    }
+}

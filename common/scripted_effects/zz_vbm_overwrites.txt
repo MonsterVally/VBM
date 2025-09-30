@@ -36,38 +36,15 @@ ITA_missiolini_progress_in_ethiopia_success_effect = {
 		}
 		if = {
 			limit = {
-				has_game_rule = {
-					rule = vbm_true_non_hist
-					option = VBM_TRUE_NON_HIST__NO
-				}
+				vbm_true_non_hist_on = no
 			}
 			complete_national_focus = ITA_solid_progress
 		}
 		else_if = {
 			limit = {
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_com
-					has_country_flag = vbm_ita_true_non_hist_com_dem
-				}
+				vbm_true_non_hist_on = yes
 			}
-			complete_national_focus = ITA_the_abyssinian_fiasco
+			vbm_true_non_hist_ita_complete_focus = yes
 		}
-		else_if = {
-			limit = {
-				has_country_flag = vbm_ita_true_non_hist_fas
-			}
-			complete_national_focus = ITA_solid_progress
-		}
-		else_if = {
-			limit = {
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_alt_fas
-					has_country_flag = vbm_ita_true_non_hist_mon_dem
-					has_country_flag = vbm_ita_true_non_hist_mon_non
-				}
-			}
-			complete_national_focus = ITA_struggle_in_ethiopia
-		}
-
 	}
 }
