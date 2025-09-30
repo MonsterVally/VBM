@@ -1,239 +1,209 @@
 add_namespace = vbm_true_non_hist
-
-
 # JAPAN
 country_event = {
-    id = vbm_true_non_hist.1
-    title = vbm_true_non_hist.1.t
-    desc = vbm_true_non_hist.1.d
-    picture = GFX_report_event_generic_factory
-    
-    is_triggered_only = yes
-    
-    hidden = yes
-    
-    immediate = {
-        random_list = {
-            25 = {
-                set_country_flag = vbm_jap_true_non_hist_com
-            }
-            25 = {
-                set_country_flag = vbm_jap_true_non_hist_fas
-            }
-            25 = {
-                set_country_flag = vbm_jap_true_non_hist_non
-            }
-            25 = {
-                set_country_flag = vbm_jap_true_non_hist_dem
-            }
-        }
-    }
-    
-    option = {
-        name = vbm_true_non_hist.1.a
-    }
+	id = vbm_true_non_hist.1
+	title = vbm_true_non_hist.1.t
+	desc = vbm_true_non_hist.1.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		random_list = {
+			25 = {
+				set_country_flag = vbm_jap_true_non_hist_com
+			}
+			10 = {
+				set_country_flag = vbm_jap_true_non_hist_fas
+			}
+			25 = {
+				set_country_flag = vbm_jap_true_non_hist_non
+			}
+			25 = {
+				set_country_flag = vbm_jap_true_non_hist_dem
+			}
+		}
+	}
+	option = {
+		name = vbm_true_non_hist.1.a
+	}
 }
+
 # GERMANY
 country_event = {
-    id = vbm_true_non_hist.2
-    title = vbm_true_non_hist.2.t
-    desc = vbm_true_non_hist.2.d
-    picture = GFX_report_event_generic_factory
-    
-    is_triggered_only = yes
-    
-    hidden = yes
-    
-    immediate = {
-        random_list = {
-            25 = {
-                set_country_flag = vbm_ger_true_non_hist_com
-            }
-            10 = {
-                set_country_flag = vbm_ger_true_non_hist_fas
-            }
-            25 = {
-                set_country_flag = vbm_ger_true_non_hist_non
-            }
-            25 = {
-                set_country_flag = vbm_ger_true_non_hist_dem
-            }
-        }
-    }
-    
-    option = {
-        name = vbm_true_non_hist.2.a
-    }
+	id = vbm_true_non_hist.2
+	title = vbm_true_non_hist.2.t
+	desc = vbm_true_non_hist.2.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		random_list = {
+			25 = {
+				set_country_flag = vbm_ger_true_non_hist_com
+			}
+			10 = {
+				set_country_flag = vbm_ger_true_non_hist_fas
+			}
+			25 = {
+				set_country_flag = vbm_ger_true_non_hist_non
+			}
+			25 = {
+				set_country_flag = vbm_ger_true_non_hist_dem
+			}
+		}
+	}
+	option = {
+		name = vbm_true_non_hist.2.a
+	}
 }
 
 # SOVIET ONION
 country_event = {
-    id = vbm_true_non_hist.3
-    title = vbm_true_non_hist.3.t
-    desc = vbm_true_non_hist.3.d
-    picture = GFX_report_event_generic_factory
-    
-    is_triggered_only = yes
-    
-    hidden = yes
-    
-    immediate = {
-        random_list = {
-            11 = {
-                set_country_flag = vbm_sov_true_non_hist_com_cen
-            }
-            11 = {
-                set_country_flag = vbm_sov_true_non_hist_com_lef
-            }
-            11 = {
-                set_country_flag = vbm_sov_true_non_hist_com_rig
-            }
-            33 = {
-                set_country_flag = vbm_sov_true_non_hist_non
-            }
-            33 = {
-                set_country_flag = vbm_sov_true_non_hist_fas
-            }
-        }
-    }
-    
-    option = {
-        name = vbm_true_non_hist.3.a
-    }
+	id = vbm_true_non_hist.3
+	title = vbm_true_non_hist.3.t
+	desc = vbm_true_non_hist.3.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		random_list = {
+			11 = {
+				set_country_flag = vbm_sov_true_non_hist_com_cen
+			}
+			11 = {
+				set_country_flag = vbm_sov_true_non_hist_com_lef
+			}
+			11 = {
+				set_country_flag = vbm_sov_true_non_hist_com_rig
+			}
+			33 = {
+				set_country_flag = vbm_sov_true_non_hist_non
+			}
+			33 = {
+				set_country_flag = vbm_sov_true_non_hist_fas
+			}
+		}
+	}
+	option = {
+		name = vbm_true_non_hist.3.a
+	}
 }
+
 # ENGLAND
 country_event = {
-    id = vbm_true_non_hist.4
-    title = vbm_true_non_hist.4.t
-    desc = vbm_true_non_hist.4.d
-    picture = GFX_report_event_generic_factory
-    
-    is_triggered_only = yes
-    
-    hidden = yes
-    
-    immediate = {
-        random_list = {
-            25 = {
-                set_country_flag = vbm_eng_true_non_hist_com
-            }
-            25 = {
-                set_country_flag = vbm_eng_true_non_hist_fas
-            }
-            25 = {
-                set_country_flag = vbm_eng_true_non_hist_non
-            }
-            25 = {
-                set_country_flag = vbm_eng_true_non_hist_dem
-            }
-        }
-    }
-    
-    option = {
-        name = vbm_true_non_hist.4.a
-    }
+	id = vbm_true_non_hist.4
+	title = vbm_true_non_hist.4.t
+	desc = vbm_true_non_hist.4.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		random_list = {
+			25 = {
+				set_country_flag = vbm_eng_true_non_hist_com
+			}
+			25 = {
+				set_country_flag = vbm_eng_true_non_hist_fas
+			}
+			25 = {
+				set_country_flag = vbm_eng_true_non_hist_non
+			}
+			10 = {
+				set_country_flag = vbm_eng_true_non_hist_dem
+			}
+		}
+	}
+	option = {
+		name = vbm_true_non_hist.4.a
+	}
 }
 
 # FRANCE
 country_event = {
-    id = vbm_true_non_hist.5
-    title = vbm_true_non_hist.5.t
-    desc = vbm_true_non_hist.5.d
-    picture = GFX_report_event_generic_factory
-    
-    is_triggered_only = yes
-    
-    hidden = yes
-    
-    immediate = {
-        random_list = {
-            25 = {
-                set_country_flag = vbm_fra_true_non_hist_com
-            }
-            25 = {
-                set_country_flag = vbm_fra_true_non_hist_fas
-            }
-            25 = {
-                set_country_flag = vbm_fra_true_non_hist_non
-            }
-            25 = {
-                set_country_flag = vbm_fra_true_non_hist_dem
-            }
-        }
-    }
-    
-    option = {
-        name = vbm_true_non_hist.5.a
-    }
+	id = vbm_true_non_hist.5
+	title = vbm_true_non_hist.5.t
+	desc = vbm_true_non_hist.5.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		random_list = {
+			25 = {
+				set_country_flag = vbm_fra_true_non_hist_com
+			}
+			25 = {
+				set_country_flag = vbm_fra_true_non_hist_fas
+			}
+			25 = {
+				set_country_flag = vbm_fra_true_non_hist_non
+			}
+			10 = {
+				set_country_flag = vbm_fra_true_non_hist_dem
+			}
+		}
+	}
+	option = {
+		name = vbm_true_non_hist.5.a
+	}
 }
 
 # USA
 country_event = {
-    id = vbm_true_non_hist.6
-    title = vbm_true_non_hist.6.t
-    desc = vbm_true_non_hist.6.d
-    picture = GFX_report_event_generic_factory
-    
-    is_triggered_only = yes
-    
-    hidden = yes
-    
-    immediate = {
-        random_list = {
-            25 = {
-                set_country_flag = vbm_usa_true_non_hist_com
-            }
-            25 = {
-                set_country_flag = vbm_usa_true_non_hist_dem
-            }
-            25 = {
-                set_country_flag = vbm_usa_true_non_hist_fas
-            }
-        }
-    }
-    
-    option = {
-        name = vbm_true_non_hist.6.a
-    }
+	id = vbm_true_non_hist.6
+	title = vbm_true_non_hist.6.t
+	desc = vbm_true_non_hist.6.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		random_list = {
+			25 = {
+				set_country_flag = vbm_usa_true_non_hist_com
+			}
+			10 = {
+				set_country_flag = vbm_usa_true_non_hist_dem
+			}
+			25 = {
+				set_country_flag = vbm_usa_true_non_hist_fas
+			}
+		}
+	}
+	option = {
+		name = vbm_true_non_hist.6.a
+	}
 }
 
 # PIZZA
 country_event = {
-    id = vbm_true_non_hist.7
-    title = vbm_true_non_hist.7.t
-    desc = vbm_true_non_hist.7.d
-    picture = GFX_report_event_generic_factory
-    
-    is_triggered_only = yes
-    
-    hidden = yes
-    
-    immediate = {
-        random_list = {
-            25 = {
-                set_country_flag = vbm_ita_true_non_hist_com
-            }
-            25 = {
-                set_country_flag = vbm_ita_true_non_hist_com_dem
-            }
-            25 = {
-                set_country_flag = vbm_ita_true_non_hist_fas
-            }
-            25 = {
-                set_country_flag = vbm_ita_true_non_hist_alt_fas
-            }
-            25 = {
-                set_country_flag = vbm_ita_true_non_hist_mon_dem
-            }
-            25 = {
-                set_country_flag = vbm_ita_true_non_hist_mon_non
-            }
-        }
-        
-    }
-    
-    option = {
-        name = vbm_true_non_hist.7.a
-    }
+	id = vbm_true_non_hist.7
+	title = vbm_true_non_hist.7.t
+	desc = vbm_true_non_hist.7.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		random_list = {
+			25 = {
+				set_country_flag = vbm_ita_true_non_hist_com
+			}
+			25 = {
+				set_country_flag = vbm_ita_true_non_hist_com_dem
+			}
+			10 = {
+				set_country_flag = vbm_ita_true_non_hist_fas
+			}
+			25 = {
+				set_country_flag = vbm_ita_true_non_hist_alt_fas
+			}
+			25 = {
+				set_country_flag = vbm_ita_true_non_hist_mon_dem
+			}
+			25 = {
+				set_country_flag = vbm_ita_true_non_hist_mon_non
+			}
+		}
+	}
+	option = {
+		name = vbm_true_non_hist.7.a
+	}
 }
-

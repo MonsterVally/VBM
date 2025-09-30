@@ -50,3 +50,18 @@ vbm_true_non_hist = {
 		desc = "VBM_TRUE_NON_HIST__YES_DESC"
 	}
 }
+
+vbm_allow_loot_boxes = {
+	name = "VBM_ALLOW_LOOT_BOXES"
+	group = vbm_gamerules_group
+	default = {
+		name = "VBM_ALLOW_LOOT_BOXES__NO"
+		text = "VBM_ALLOW_LOOT_BOXES__NO_TEXT"
+		desc = "VBM_ALLOW_LOOT_BOXES__NO_DESC"
+	}
+	option = {
+		name = "VBM_ALLOW_LOOT_BOXES__YES"
+		text = "VBM_ALLOW_LOOT_BOXES__YES_TEXT"
+		desc = "VBM_ALLOW_LOOT_BOXES__YES_DESC"
+	}
+}

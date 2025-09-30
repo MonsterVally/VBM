@@ -26,6 +26,8 @@
  vbm_ita_fix_focus_debug_desc:0 "ASK HOST: Fix the focus tree for Italy."
 
  # LOOT BOXES
+ vbm_loot_boxes_decisions:0 "Loot Box Decisions"
+ vbm_loot_boxes_decisions_desc:0 "Gamble away your hard earned political power here!"
  vbm_loot_box_minors:0 "Buy loot box"
  vbm_loot_box_minors_desc:0 "Purchase a loot box containing random rewards for 100 Political Power."
  vbm_loot_box_minors_odds:0 "Loot box odds"

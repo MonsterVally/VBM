@@ -5,7 +5,12 @@ vbm_loot_boxes_decisions = {
 			is_ai = no
 		}
 		visible = {
-			is_major = no
+			NOT = {
+				has_game_rule = {
+					rule = vbm_allow_loot_boxes
+					option = VBM_ALLOW_LOOT_BOXES__NO
+				}
+			}
 		}
 		cost = 100
 		days_remove = 0
@@ -18,14 +23,18 @@ vbm_loot_boxes_decisions = {
 			}
 		}
 	}
-
 	vbm_loot_box_minors_odds = {
 		icon = decision_generic_nationalism
 		available = {
 			always = no
 		}
 		visible = {
-			is_major = no
+			NOT = {
+				has_game_rule = {
+					rule = vbm_allow_loot_boxes
+					option = VBM_ALLOW_LOOT_BOXES__NO
+				}
+			}
 		}
 		days_remove = 0
 		ai_will_do = {
@@ -35,5 +44,4 @@ vbm_loot_boxes_decisions = {
 			vbm_loot_box_minor_rewards_effect = yes
 		}
 	}
-
 }
