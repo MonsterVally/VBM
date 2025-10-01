@@ -279,6 +279,7 @@ country_event = {
 				NOT = {
 					has_completed_focus = ITA_solid_progress
 				}
+				ITA_
 				vbm_true_non_hist_on = no
 			}
 			complete_national_focus = ITA_struggle_in_ethiopia
@@ -330,7 +331,7 @@ country_event = {
 		ai_chance = {
 			base = 10
 		}
-		ITA_missiolini_progress_in_ethiopia_failure_effect = yes
+		vbm_ITA_missiolini_progress_in_ethiopia_success_effect = yes
 	}
 	# Oops (Complete The Abyssinian Fiasco)
 	option = {
@@ -353,7 +354,7 @@ country_event = {
 				}
 			}
 		}
-		ITA_missiolini_progress_in_ethiopia_failure_effect = yes
+		vbm_ITA_missiolini_progress_in_ethiopia_success_effect = yes
 		if = {
 			limit = {
 				NOT = {
@@ -393,7 +394,7 @@ country_event = {
 				}
 			}
 		}
-		ITA_missiolini_progress_in_ethiopia_failure_effect = yes
+		vbm_ITA_missiolini_progress_in_ethiopia_success_effect = yes
 		if = {
 			limit = {
 				NOT = {
@@ -446,7 +447,7 @@ country_event = {
 		ai_chance = {
 			base = 10
 		}
-		ITA_missiolini_progress_in_ethiopia_failure_effect = yes
+		vbm_ITA_missiolini_progress_in_ethiopia_success_effect = yes
 	}
 	# Oops (Complete The Abyssinian Fiasco)
 	option = {
@@ -469,7 +470,7 @@ country_event = {
 				}
 			}
 		}
-		ITA_missiolini_progress_in_ethiopia_failure_effect = yes
+		vbm_ITA_missiolini_progress_in_ethiopia_success_effect = yes
 		if = {
 			limit = {
 				NOT = {
@@ -509,7 +510,7 @@ country_event = {
 				}
 			}
 		}
-		ITA_missiolini_progress_in_ethiopia_failure_effect = yes
+		vbm_ITA_missiolini_progress_in_ethiopia_success_effect = yes
 		if = {
 			limit = {
 				NOT = {
@@ -554,7 +555,7 @@ country_event = {
 		ai_chance = {
 			base = 10
 		}
-		ITA_missiolini_progress_in_ethiopia_success_effect = yes
+		vbm_ITA_missiolini_progress_in_ethiopia_success_effect = yes
 	}
 }
 
@@ -581,6 +582,6 @@ country_event = {
 		ai_chance = {
 			base = 10
 		}
-		ITA_missiolini_progress_in_ethiopia_success_effect = yes
+		vbm_ITA_missiolini_progress_in_ethiopia_success_effect = yes
 	}
 }
