@@ -8040,10 +8040,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = vbm_true_non_hist
-						option = VBM_TRUE_NON_HIST__YES
-					}
+					vbm_true_non_hist_on = yes
 				}
             	has_country_flag = vbm_ger_true_non_hist_fas
         	}
@@ -8413,10 +8410,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = vbm_true_non_hist
-						option = VBM_TRUE_NON_HIST__YES
-					}
+					vbm_true_non_hist_on = yes
 				}
 				has_country_flag = vbm_ger_true_non_hist_fas
         	}
@@ -21007,10 +21001,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = vbm_true_non_hist
-						option = VBM_TRUE_NON_HIST__YES
-					}
+					vbm_true_non_hist_on = yes
 				}
 				OR = {
 					has_country_flag = vbm_ger_true_non_hist_dem
@@ -21353,10 +21344,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = vbm_true_non_hist
-						option = VBM_TRUE_NON_HIST__YES
-					}
+					vbm_true_non_hist_on = yes
 				}
 				has_country_flag = vbm_ger_true_non_hist_com
         	}
@@ -25143,10 +25131,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = vbm_true_non_hist
-						option = VBM_TRUE_NON_HIST__YES
-					}
+					vbm_true_non_hist_on = yes
 				}
 				OR = {
 					has_country_flag = vbm_ger_true_non_hist_dem
@@ -25237,10 +25222,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = vbm_true_non_hist
-						option = VBM_TRUE_NON_HIST__YES
-					}
+					vbm_true_non_hist_on = yes
 				}
 				has_country_flag = vbm_ger_true_non_hist_dem
         	}
@@ -25306,10 +25288,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = vbm_true_non_hist
-						option = VBM_TRUE_NON_HIST__YES
-					}
+					vbm_true_non_hist_on = yes
 				}
 				has_country_flag = vbm_ger_true_non_hist_dem
         	}
@@ -26213,10 +26192,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = vbm_true_non_hist
-						option = VBM_TRUE_NON_HIST__YES
-					}
+					vbm_true_non_hist_on = yes
 				}
 				has_country_flag = vbm_ger_true_non_hist_non
         	}

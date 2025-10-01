@@ -3,10 +3,7 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = vbm_true_non_hist
-						option = VBM_TRUE_NON_HIST__YES
-					}
+					vbm_true_non_hist_on = yes
 				}
 				JAP = {
 					country_event = {
