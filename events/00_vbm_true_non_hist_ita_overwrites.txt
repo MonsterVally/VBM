@@ -1,6 +1,5 @@
 add_namespace = BBA_italy_missiolinis
 add_namespace = BBA_italy_second_italo_ethiopian_war
-
 country_event = {
 	id = BBA_italy_second_italo_ethiopian_war.2
 	title = BBA_italy_second_italo_ethiopian_war.2.t
@@ -186,19 +185,15 @@ country_event = {
 				NOT = {
 					has_completed_focus = ITA_solid_progress
 				}
+				vbm_true_non_hist_on = no
 			}
-			if = {
-				limit = {
-					vbm_true_non_hist_on = no
-				}
-				complete_national_focus = ITA_the_abyssinian_fiasco
+			complete_national_focus = ITA_the_abyssinian_fiasco
+		}
+		else_if = {
+			limit = {
+				vbm_true_non_hist_on = yes
 			}
-			else_if = {
-				limit = {
-					vbm_true_non_hist_on = yes
-				}
-				vbm_true_non_hist_ita_complete_focus = yes
-			}
+			vbm_true_non_hist_ita_complete_focus = yes
 		}
 		ITA_manage_italian_defeat_in_ethiopia_effect = yes
 		hidden_effect = {
@@ -284,19 +279,15 @@ country_event = {
 				NOT = {
 					has_completed_focus = ITA_solid_progress
 				}
+				vbm_true_non_hist_on = no
 			}
-			if = {
-				limit = {
-					vbm_true_non_hist_on = no
-				}
-				complete_national_focus = ITA_struggle_in_ethiopia
+			complete_national_focus = ITA_struggle_in_ethiopia
+		}
+		else_if = {
+			limit = {
+				vbm_true_non_hist_on = yes
 			}
-			else_if = {
-				limit = {
-					vbm_true_non_hist_on = yes
-				}
-				vbm_true_non_hist_ita_complete_focus = yes
-			}
+			vbm_true_non_hist_ita_complete_focus = yes
 		}
 		ITA_manage_italian_defeat_in_ethiopia_effect = yes
 		hidden_effect = {
@@ -371,19 +362,15 @@ country_event = {
 				NOT = {
 					has_completed_focus = ITA_solid_progress
 				}
+				vbm_true_non_hist_on = no
 			}
-			if = {
-				limit = {
-					vbm_true_non_hist_on = no
-				}
-				complete_national_focus = ITA_the_abyssinian_fiasco
+			complete_national_focus = ITA_the_abyssinian_fiasco
+		}
+		else_if = {
+			limit = {
+				vbm_true_non_hist_on = yes
 			}
-			else_if = {
-				limit = {
-					vbm_true_non_hist_on = yes
-				}
-				vbm_true_non_hist_ita_complete_focus = yes
-			}
+			vbm_true_non_hist_ita_complete_focus = yes
 		}
 	}
 	# Oops (Complete Struggle in Ethiopia)
@@ -415,19 +402,15 @@ country_event = {
 				NOT = {
 					has_completed_focus = ITA_solid_progress
 				}
+				vbm_true_non_hist_on = no
 			}
-			if = {
-				limit = {
-					vbm_true_non_hist_on = no
-				}
-				complete_national_focus = ITA_struggle_in_ethiopia
+			complete_national_focus = ITA_struggle_in_ethiopia
+		}
+		else_if = {
+			limit = {
+				vbm_true_non_hist_on = yes
 			}
-			else_if = {
-				limit = {
-					vbm_true_non_hist_on = yes
-				}
-				vbm_true_non_hist_ita_complete_focus = yes
-			}
+			vbm_true_non_hist_ita_complete_focus = yes
 		}
 	}
 }
@@ -495,19 +478,15 @@ country_event = {
 				NOT = {
 					has_completed_focus = ITA_solid_progress
 				}
+				vbm_true_non_hist_on = no
 			}
-			if = {
-				limit = {
-					vbm_true_non_hist_on = no
-				}
-				complete_national_focus = ITA_the_abyssinian_fiasco
+			complete_national_focus = ITA_the_abyssinian_fiasco
+		}
+		else_if = {
+			limit = {
+				vbm_true_non_hist_on = yes
 			}
-			else_if = {
-				limit = {
-					vbm_true_non_hist_on = yes
-				}
-				vbm_true_non_hist_ita_complete_focus = yes
-			}
+			vbm_true_non_hist_ita_complete_focus = yes
 		}
 	}
 	# Oops (Complete Struggle in Ethiopia)
@@ -539,19 +518,69 @@ country_event = {
 				NOT = {
 					has_completed_focus = ITA_solid_progress
 				}
+				vbm_true_non_hist_on = no
 			}
-			if = {
-				limit = {
-					vbm_true_non_hist_on = no
-				}
-				complete_national_focus = ITA_struggle_in_ethiopia
-			}
-			else_if = {
-				limit = {
-					vbm_true_non_hist_on = yes
-				}
-				vbm_true_non_hist_ita_complete_focus = yes
-			}
+			complete_national_focus = ITA_struggle_in_ethiopia
 		}
+		else_if = {
+			limit = {
+				vbm_true_non_hist_on = yes
+			}
+			vbm_true_non_hist_ita_complete_focus = yes
+		}
+	}
+}
+
+# Progress in Ethiopia - SUCCESS (North)
+country_event = {
+	id = BBA_italy_missiolinis.03_north
+	title = BBA_italy_missiolinis.03_north.t
+	desc = BBA_italy_missiolinis.03_north.desc
+	picture = GFX_report_event_generic_military_parade
+	is_triggered_only = yes
+	trigger = {
+		ITA_missiolinis_system_available = yes
+	}
+	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			ITA_missiolinis_finalize_mission_effect = yes
+			ITA_missiolinis_add_to_successful_missions = yes
+		}
+	}
+	# Nice
+	option = {
+		name = BBA_italy_missiolinis.03_north.a
+		ai_chance = {
+			base = 10
+		}
+		ITA_missiolini_progress_in_ethiopia_success_effect = yes
+	}
+}
+
+# Progress in Ethiopia - SUCCESS (South)
+country_event = {
+	id = BBA_italy_missiolinis.05_south
+	title = BBA_italy_missiolinis.05_south.t
+	desc = BBA_italy_missiolinis.05_south.desc
+	picture = GFX_report_event_generic_military_parade
+	is_triggered_only = yes
+	trigger = {
+		ITA_missiolinis_system_available = yes
+	}
+	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			ITA_missiolinis_finalize_mission_effect = yes
+			ITA_missiolinis_add_to_successful_missions = yes
+		}
+	}
+	# Nice
+	option = {
+		name = BBA_italy_missiolinis.05_south.a
+		ai_chance = {
+			base = 10
+		}
+		ITA_missiolini_progress_in_ethiopia_success_effect = yes
 	}
 }

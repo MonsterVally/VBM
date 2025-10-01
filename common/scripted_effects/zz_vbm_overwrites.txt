@@ -26,17 +26,15 @@ ITA_missiolini_progress_in_ethiopia_success_effect = {
 	}
 	else_if = {
 		#Second mission to succeed
-		limit = {
-			NOT = {
-				has_completed_focus = ITA_the_abyssinian_fiasco
-			}
-			NOT = {
-				has_completed_focus = ITA_struggle_in_ethiopia
-			}
-		}
 		if = {
 			limit = {
 				vbm_true_non_hist_on = no
+				NOT = {
+					has_completed_focus = ITA_the_abyssinian_fiasco
+				}
+				NOT = {
+					has_completed_focus = ITA_struggle_in_ethiopia
+				}
 			}
 			complete_national_focus = ITA_solid_progress
 		}
