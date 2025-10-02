@@ -12,21 +12,33 @@ vbm_decisions = {
 		complete_effect = {
 			if = {
 				limit = {
-					vbm_ita_path_com_soc = yes
+					ITA = {
+						vbm_ita_path_com_soc = yes
+					}
 				}
-				complete_national_focus = ITA_the_abyssinian_fiasco
+				ITA = {
+					complete_national_focus = ITA_the_abyssinian_fiasco
+				}
 			}
 			else_if = {
 				limit = {
-					vbm_ita_path_fas = yes
+					ITA = {
+						vbm_ita_path_fas = yes
+					}
 				}
-				complete_national_focus = ITA_solid_progress
+				ITA = {
+					complete_national_focus = ITA_solid_progress
+				}
 			}
 			else_if = {
 				limit = {
-					vbm_ita_path_alt_mon_dem = yes
+					ITA = {
+						vbm_ita_path_alt_mon_dem = yes
+					}
 				}
-				complete_national_focus = ITA_struggle_in_ethiopia
+				ITA = {
+					complete_national_focus = ITA_struggle_in_ethiopia
+				}
 			}
 		}
 	}
