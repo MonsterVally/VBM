@@ -1,13 +1,10 @@
 vbm_decisions = {
 	vbm_ita_fix_focus_debug = {
 		icon = decision_generic_nationalism
-		available = {
-			tag = ITA
-		}
 		visible = {
-			tag = ITA
+			has_country_flag = ccshtool_enabled_cflag
 		}
-		cost = 999
+		cost = 100
 		days_remove = 0
 		ai_will_do = {
 			factor = 0
@@ -30,6 +27,40 @@ vbm_decisions = {
 					vbm_ita_path_alt_mon_dem = yes
 				}
 				complete_national_focus = ITA_struggle_in_ethiopia
+			}
+		}
+	}
+	vbm_eng_fix_abdication_debug = {
+		icon = decision_generic_nationalism
+		visible = {
+			has_country_flag = ccshtool_enabled_cflag
+		}
+		cost = 100
+		days_remove = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					ENG = {
+						vbm_eng_path_dem_fas_com = yes
+					}
+				}
+				ENG = {
+					clr_country_flag = ENG_abdication_crisis_changed_mind
+					clr_country_flag = edward_viii_refused_to_abdicate_flag
+				}
+			}
+			else_if = {
+				limit = {
+					ENG = {
+						vbm_eng_path_non = yes
+					}
+				}
+				ENG = {
+					set_country_flag = edward_viii_married_wallis_simpson
+				}
 			}
 		}
 	}

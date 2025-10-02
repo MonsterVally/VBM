@@ -24,6 +24,8 @@
 
  vbm_ita_fix_focus_debug:0 "ASK HOST: Fix Italian Focus"
  vbm_ita_fix_focus_debug_desc:0 "ASK HOST: Fix the focus tree for Italy."
+ vbm_eng_fix_abdication_debug:0 "ASK HOST: Fix British Abdication Crisis"
+ vbm_eng_fix_abdication_debug_desc:0 "ASK HOST: Fix the abdication crisis for Britain."
 
  # LOOT BOXES
  vbm_loot_boxes_decisions:0 "Loot Box Decisions"
