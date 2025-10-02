@@ -23,3 +23,15 @@ vbm_ita_path_alt_mon_dem = {
 		has_country_flag = vbm_ita_true_non_hist_mon_non
 	}
 }
+
+vbm_eng_path_non = {
+	has_country_flag = vbm_eng_true_non_hist_non
+}
+
+vbm_eng_path_dem_fas_com = {
+	OR = {
+		has_country_flag = vbm_eng_true_non_hist_dem
+		has_country_flag = vbm_eng_true_non_hist_fas
+		has_country_flag = vbm_eng_true_non_hist_com
+	}
+}
