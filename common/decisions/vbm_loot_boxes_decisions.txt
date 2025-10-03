@@ -4,7 +4,6 @@ vbm_loot_boxes_decisions = {
 		available = {
 			is_ai = no
 		}
-		fixed_random_seed = no
 		visible = {
 			NOT = {
 				has_game_rule = {
@@ -14,7 +13,7 @@ vbm_loot_boxes_decisions = {
 			}
 		}
 		cost = 100
-		days_remove = 0
+		days_remove = 5
 		ai_will_do = {
 			factor = 0
 		}

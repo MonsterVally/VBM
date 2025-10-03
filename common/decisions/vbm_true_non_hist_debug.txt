@@ -3,10 +3,7 @@ vbm_decisions = {
 		icon = decision_generic_nationalism
 		visible = {
 			vbm_host = yes
-		}
-		allowed = {
-			vbm_true_non_hist = yes
-		} 	
+			vbm_true_non_hist_on = yes
 		}
 		cost = 100
 		days_remove = 0
@@ -50,9 +47,7 @@ vbm_decisions = {
 		icon = decision_generic_nationalism
 		visible = {
 			vbm_host = yes
-		}
-		allowed = {
-			vbm_true_non_hist = yes
+			vbm_true_non_hist_on = yes
 		}
 		cost = 100
 		days_remove = 0
