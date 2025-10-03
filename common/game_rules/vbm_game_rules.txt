@@ -49,6 +49,11 @@ vbm_true_non_hist = {
 		text = "VBM_TRUE_NON_HIST__YES_TEXT"
 		desc = "VBM_TRUE_NON_HIST__YES_DESC"
 	}
+	option = {
+		name = "VBM_TRUE_NON_HIST__FORCED"
+		text = "VBM_TRUE_NON_HIST__FORCED_TEXT"
+		desc = "VBM_TRUE_NON_HIST__FORCED_DESC"
+	}
 }
 
 vbm_allow_loot_boxes = {

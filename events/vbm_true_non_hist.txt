@@ -8,18 +8,45 @@ country_event = {
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
-		random_list = {
-			25 = {
-				set_country_flag = vbm_jap_true_non_hist_com
+		if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__YES
+				}
 			}
-			10 = {
-				set_country_flag = vbm_jap_true_non_hist_fas
+			random_list = {
+				25 = {
+					set_country_flag = vbm_jap_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_jap_true_non_hist_fas
+				}
+				25 = {
+					set_country_flag = vbm_jap_true_non_hist_non
+				}
+				25 = {
+					set_country_flag = vbm_jap_true_non_hist_dem
+				}
 			}
-			25 = {
-				set_country_flag = vbm_jap_true_non_hist_non
+		}
+		else_if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__FORCED
+				}
 			}
-			25 = {
-				set_country_flag = vbm_jap_true_non_hist_dem
+			random_list = {
+				25 = {
+					set_country_flag = vbm_jap_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_jap_true_non_hist_non
+				}
+				25 = {
+					set_country_flag = vbm_jap_true_non_hist_dem
+				}
 			}
 		}
 	}
@@ -37,18 +64,45 @@ country_event = {
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
-		random_list = {
-			25 = {
-				set_country_flag = vbm_ger_true_non_hist_com
+		if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__YES
+				}
 			}
-			10 = {
-				set_country_flag = vbm_ger_true_non_hist_fas
+			random_list = {
+				25 = {
+					set_country_flag = vbm_ger_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_ger_true_non_hist_fas
+				}
+				25 = {
+					set_country_flag = vbm_ger_true_non_hist_non
+				}
+				25 = {
+					set_country_flag = vbm_ger_true_non_hist_dem
+				}
 			}
-			25 = {
-				set_country_flag = vbm_ger_true_non_hist_non
+		}
+		else_if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__FORCED
+				}
 			}
-			25 = {
-				set_country_flag = vbm_ger_true_non_hist_dem
+			random_list = {
+				25 = {
+					set_country_flag = vbm_ger_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_ger_true_non_hist_non
+				}
+				25 = {
+					set_country_flag = vbm_ger_true_non_hist_dem
+				}
 			}
 		}
 	}
@@ -66,21 +120,51 @@ country_event = {
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
-		random_list = {
-			11 = {
-				set_country_flag = vbm_sov_true_non_hist_com_cen
+		if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__YES
+				}
 			}
-			11 = {
-				set_country_flag = vbm_sov_true_non_hist_com_lef
+			random_list = {
+				11 = {
+					set_country_flag = vbm_sov_true_non_hist_com_cen
+				}
+				11 = {
+					set_country_flag = vbm_sov_true_non_hist_com_lef
+				}
+				11 = {
+					set_country_flag = vbm_sov_true_non_hist_com_rig
+				}
+				33 = {
+					set_country_flag = vbm_sov_true_non_hist_non
+				}
+				33 = {
+					set_country_flag = vbm_sov_true_non_hist_fas
+				}
 			}
-			11 = {
-				set_country_flag = vbm_sov_true_non_hist_com_rig
+		}
+		else_if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__FORCED
+				}
 			}
-			33 = {
-				set_country_flag = vbm_sov_true_non_hist_non
-			}
-			33 = {
-				set_country_flag = vbm_sov_true_non_hist_fas
+			random_list = {
+				10 = {
+					set_country_flag = vbm_sov_true_non_hist_com_lef
+				}
+				10 = {
+					set_country_flag = vbm_sov_true_non_hist_com_rig
+				}
+				20 = {
+					set_country_flag = vbm_sov_true_non_hist_non
+				}
+				20 = {
+					set_country_flag = vbm_sov_true_non_hist_fas
+				}
 			}
 		}
 	}
@@ -98,18 +182,45 @@ country_event = {
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
-		random_list = {
-			25 = {
-				set_country_flag = vbm_eng_true_non_hist_com
+		if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__YES
+				}
 			}
-			25 = {
-				set_country_flag = vbm_eng_true_non_hist_fas
+			random_list = {
+				25 = {
+					set_country_flag = vbm_eng_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_eng_true_non_hist_fas
+				}
+				25 = {
+					set_country_flag = vbm_eng_true_non_hist_non
+				}
+				25 = {
+					set_country_flag = vbm_eng_true_non_hist_dem
+				}
 			}
-			25 = {
-				set_country_flag = vbm_eng_true_non_hist_non
+		}
+		else_if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__FORCED
+				}
 			}
-			10 = {
-				set_country_flag = vbm_eng_true_non_hist_dem
+			random_list = {
+				25 = {
+					set_country_flag = vbm_eng_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_eng_true_non_hist_fas
+				}
+				25 = {
+					set_country_flag = vbm_eng_true_non_hist_non
+				}
 			}
 		}
 	}
@@ -127,18 +238,45 @@ country_event = {
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
-		random_list = {
-			25 = {
-				set_country_flag = vbm_fra_true_non_hist_com
+		if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__YES
+				}
 			}
-			25 = {
-				set_country_flag = vbm_fra_true_non_hist_fas
+			random_list = {
+				25 = {
+					set_country_flag = vbm_fra_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_fra_true_non_hist_fas
+				}
+				25 = {
+					set_country_flag = vbm_fra_true_non_hist_non
+				}
+				25 = {
+					set_country_flag = vbm_fra_true_non_hist_dem
+				}
 			}
-			25 = {
-				set_country_flag = vbm_fra_true_non_hist_non
+		}
+		else_if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__FORCED
+				}
 			}
-			10 = {
-				set_country_flag = vbm_fra_true_non_hist_dem
+			random_list = {
+				25 = {
+					set_country_flag = vbm_fra_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_fra_true_non_hist_fas
+				}
+				25 = {
+					set_country_flag = vbm_fra_true_non_hist_non
+				}
 			}
 		}
 	}
@@ -156,15 +294,39 @@ country_event = {
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
-		random_list = {
-			25 = {
-				set_country_flag = vbm_usa_true_non_hist_com
+		if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__YES
+				}
 			}
-			10 = {
-				set_country_flag = vbm_usa_true_non_hist_dem
+			random_list = {
+				25 = {
+					set_country_flag = vbm_usa_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_usa_true_non_hist_dem
+				}
+				25 = {
+					set_country_flag = vbm_usa_true_non_hist_fas
+				}
 			}
-			25 = {
-				set_country_flag = vbm_usa_true_non_hist_fas
+		}
+		else_if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__FORCED
+				}
+			}
+			random_list = {
+				25 = {
+					set_country_flag = vbm_usa_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_usa_true_non_hist_fas
+				}
 			}
 		}
 	}
@@ -182,24 +344,57 @@ country_event = {
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
-		random_list = {
-			25 = {
-				set_country_flag = vbm_ita_true_non_hist_com
+		if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__YES
+				}
 			}
-			25 = {
-				set_country_flag = vbm_ita_true_non_hist_com_dem
+			random_list = {
+				25 = {
+					set_country_flag = vbm_ita_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_ita_true_non_hist_com_dem
+				}
+				25 = {
+					set_country_flag = vbm_ita_true_non_hist_fas
+				}
+				25 = {
+					set_country_flag = vbm_ita_true_non_hist_alt_fas
+				}
+				25 = {
+					set_country_flag = vbm_ita_true_non_hist_mon_dem
+				}
+				25 = {
+					set_country_flag = vbm_ita_true_non_hist_mon_non
+				}
 			}
-			10 = {
-				set_country_flag = vbm_ita_true_non_hist_fas
+		}
+		else_if = {
+			limit = {
+				has_game_rule = {
+					rule = vbm_true_non_hist
+					option = VBM_TRUE_NON_HIST__FORCED
+				}
 			}
-			25 = {
-				set_country_flag = vbm_ita_true_non_hist_alt_fas
-			}
-			25 = {
-				set_country_flag = vbm_ita_true_non_hist_mon_dem
-			}
-			25 = {
-				set_country_flag = vbm_ita_true_non_hist_mon_non
+			random_list = {
+				25 = {
+					set_country_flag = vbm_ita_true_non_hist_com
+				}
+				25 = {
+					set_country_flag = vbm_ita_true_non_hist_com_dem
+				}
+				25 = {
+					set_country_flag = vbm_ita_true_non_hist_alt_fas
+				}
+				25 = {
+					set_country_flag = vbm_ita_true_non_hist_mon_dem
+				}
+				25 = {
+					set_country_flag = vbm_ita_true_non_hist_mon_non
+				}
 			}
 		}
 	}

@@ -1,7 +1,9 @@
 vbm_true_non_hist_on = {
-	has_game_rule = {
-		rule = vbm_true_non_hist
-		option = VBM_TRUE_NON_HIST__YES
+	NOT = {
+		has_game_rule = {
+			rule = vbm_true_non_hist
+			option = VBM_TRUE_NON_HIST__NO
+		}
 	}
 }
 
