@@ -4,6 +4,10 @@ vbm_decisions = {
 		visible = {
 			vbm_host = yes
 		}
+		allowed = {
+			vbm_true_non_hist = yes
+		} 	
+		}
 		cost = 100
 		days_remove = 0
 		ai_will_do = {
@@ -46,6 +50,9 @@ vbm_decisions = {
 		icon = decision_generic_nationalism
 		visible = {
 			vbm_host = yes
+		}
+		allowed = {
+			vbm_true_non_hist = yes
 		}
 		cost = 100
 		days_remove = 0
