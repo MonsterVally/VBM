@@ -10,10 +10,14 @@
  VBM_TRUE_NON_HIST:0 "True non-historical"
  VBM_TRUE_NON_HIST__NO:0 "Vanilla" 
  VBM_TRUE_NON_HIST__NO_TEXT:0 "No (Vanilla)"
- VBM_TRUE_NON_HIST__NO_DESC:0 "Nothing changes (vanilla)."
- VBM_TRUE_NON_HIST__YES:0 "Forced non-hist (majors)"
- VBM_TRUE_NON_HIST__YES_TEXT:0 "Yes"
- VBM_TRUE_NON_HIST__YES_DESC:0 "All majors will be forced to go non-historical"
+ VBM_TRUE_NON_HIST__NO_DESC:0 "Nothing changes (Vanilla)."
+ VBM_TRUE_NON_HIST__YES:0 "Random non-hist"
+ VBM_TRUE_NON_HIST__YES_TEXT:0 "Yes (Random)"
+ VBM_TRUE_NON_HIST__YES_DESC:0 "All majors will get a random focus path (can be historical)"
+ VBM_TRUE_NON_HIST__FORCED:0 "Forced non-hist"
+ VBM_TRUE_NON_HIST__FORCED_TEXT:0 "Yes (Forced)"
+ VBM_TRUE_NON_HIST__FORCED_DESC:0 "All majors will get a random focus path (can NOT be historical)."
+
  # LOOT BOXES
  VBM_ALLOW_LOOT_BOXES:0 "Allow Loot Boxes"
  VBM_ALLOW_LOOT_BOXES__NO_TEXT:0 "Disabled"
