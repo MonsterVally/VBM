@@ -1,0 +1,3 @@
+vbm_host = {
+	has_country_flag = ccshtool_enabled_cflag
+}

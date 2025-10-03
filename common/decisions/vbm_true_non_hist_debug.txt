@@ -2,7 +2,7 @@ vbm_decisions = {
 	vbm_ita_fix_focus_debug = {
 		icon = decision_generic_nationalism
 		visible = {
-			has_country_flag = ccshtool_enabled_cflag
+			vbm_host = yes
 		}
 		cost = 100
 		days_remove = 0
@@ -45,7 +45,7 @@ vbm_decisions = {
 	vbm_eng_fix_abdication_debug = {
 		icon = decision_generic_nationalism
 		visible = {
-			has_country_flag = ccshtool_enabled_cflag
+			vbm_host = yes
 		}
 		cost = 100
 		days_remove = 0

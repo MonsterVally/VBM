@@ -7,7 +7,7 @@ sp_naval_anechoic_tiles = {
 	}
 	allowed = {
 		has_dlc = "Gotterdammerung"
-		#REMOVE ANECHOTIC TILE
+		#VBM REMOVE ANECHOTIC TILE
 		always = no
 	}
 	available = {
@@ -125,7 +125,6 @@ sp_naval_anechoic_tiles = {
 		}
 	}
 }
-
 
 # Midget Submarine
 # VBM REMOVED MIDGET SUBMARINES
