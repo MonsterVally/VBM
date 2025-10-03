@@ -1,0 +1,177 @@
+add_namespace = wuw_GER_civil_war
+country_event = {
+	id = wuw_GER_civil_war.3
+	title = wuw_GER_civil_war.3.t
+	desc = wuw_GER_civil_war.3.desc
+	picture = GFX_report_event_GER_black_reichswehr_forces
+	is_triggered_only = yes
+	option = {
+		# A New Bismarckjugend should be top priority
+		name = wuw_GER_civil_war.3.a
+		ai_chance = {
+			base = 60
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = GER_AI_RANDOM_COMMUNIST_STALINIST
+					has_game_rule = {
+						rule = GER_ai_behavior
+						option = GER_COMMUNIST_STALINIST
+					}
+					has_country_flag = GER_AI_RANDOM_COMMUNIST_SPARTACUS
+					has_game_rule = {
+						rule = GER_ai_behavior
+						option = GER_COMMUNIST_SPARTACUS
+					}
+					has_country_flag = GER_AI_RANDOM_DEMOCRATIC
+					has_game_rule = {
+						rule = GER_ai_behavior
+						option = DEMOCRATIC
+					}
+				}
+			}
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}
+		trigger = {
+			if = {
+				limit = {
+					vbm_true_non_hist_on = yes
+				}
+				OR = {
+					has_country_flag = vbm_ger_true_non_hist_com
+					has_country_flag = vbm_ger_true_non_hist_non
+				}
+			}
+		}
+		custom_effect_tooltip = generic_skip_one_line_tt
+		add_ideas = GER_bismarckjugend_idea
+	}
+	option = {
+		# We should empower the Iron Front if anything
+		name = wuw_GER_civil_war.3.b
+		ai_chance = {
+			base = 40
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = GER_AI_RANDOM_KAISER
+					has_game_rule = {
+						rule = GER_ai_behavior
+						option = KAISER
+					}
+				}
+			}
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.05
+		}
+		trigger = {
+			if = {
+				limit = {
+					vbm_true_non_hist_on = yes
+				}
+				OR = {
+					has_country_flag = vbm_ger_true_non_hist_com
+					has_country_flag = vbm_ger_true_non_hist_dem
+				}
+			}
+		}
+		custom_effect_tooltip = generic_skip_one_line_tt
+		add_ideas = GER_eiserne_front_idea
+	}
+}
+country_event = {
+	id = wuw_GER_civil_war.8
+	title = wuw_GER_civil_war.8.t
+	desc = wuw_GER_civil_war.8.desc 
+	picture = GFX_report_event_soviet_purge_trial
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { # They will pay for their treachery!
+		name = wuw_GER_civil_war.8.a
+		ai_chance = {
+			base = 95
+		}
+		
+		navy_experience = -100
+		custom_effect_tooltip = generic_skip_one_line_tt
+		add_timed_idea = {
+			idea = GER_purges_in_the_kriegsmarine
+			days = 430
+		}	
+		custom_effect_tooltip = generic_skip_one_line_tt
+		GER_karl_donitz = {
+			remove_unit_leader_role = yes
+			remove_advisor_role = {
+				slot = navy_chief 
+			}	
+		}
+		GER_erich_raeder = {
+			remove_unit_leader_role = yes
+			remove_advisor_role = {
+				slot = navy_chief 
+			}	
+		}
+		GER_gunther_lutjens = {
+			remove_unit_leader_role = yes
+			remove_advisor_role = {
+				slot = high_command 
+			}	
+		}
+		
+	}
+	option = { # The state will regret breaking their promises!
+		name = wuw_GER_civil_war.8.b
+		ai_chance = {
+			base = 5
+		}
+		trigger = {
+			NOT = {
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+			if = {
+				limit = {
+					vbm_true_non_hist_on = yes
+				}
+				always = no
+			}
+		}
+		
+		army_experience = -50
+		add_political_power = -75
+		add_stability = -0.1
+		add_war_support = -0.05
+		custom_effect_tooltip = generic_skip_one_line_tt
+
+		IF = {
+			limit = {
+				NOT = {
+					has_government = neutrality
+				}
+			}
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}	
+		}
+		
+		GER_erich_raeder = {
+			add_country_leader_role = {
+				promote_leader = yes
+				country_leader = {
+					ideology = despotism
+					expire = "1965.1.1.1"
+					traits = { GER_high_admiral } 
+				}
+			}	
+		}
+		
+	}
+}
