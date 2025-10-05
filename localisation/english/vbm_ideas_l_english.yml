@@ -1,3 +1,9 @@
 ﻿l_english:
  CHI_fuck_agency: "No agency for Bing Chilling"
  CHI_fuck_agency_desc: "The brave Chinese People do not deserve an agency that spies on them."
+ # FACTIONS AND VOLUNTEERS
+ VBM_free_factions:0 "Diplomatic Anarchist"
+ VBM_free_factions_desc:0 "Our diplomats have discovered a revolutionary technique: ignoring international norms entirely. We can now create alliances with the diplomatic grace of a bull in a china shop, regardless of what the rest of the world thinks about it."
+ 
+ VBM_free_volunteers:0 "Vacation Package Deal"
+ VBM_free_volunteers_desc:0 "We've started advertising 'all-expenses-paid overseas adventures' in our recruitment offices. Turns out people are very eager to volunteer for foreign wars when you don't tell them it's a foreign war. World tension? That's just tourism anxiety."

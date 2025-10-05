@@ -66,5 +66,100 @@ vbm_decisions = {
 			}
 		}
 	}
-
+	vbm_remove_volunteers_idea = {
+		icon = decision_generic_nationalism
+		visible = {
+			is_ai = yes
+			has_idea = VBM_free_volunteers
+		}
+		cost = 0
+		days_remove = 0
+		ai_will_do = {
+			factor = 999999
+		}
+		complete_effect = {
+			remove_ideas = VBM_free_volunteers
+			set_rule = {
+				can_send_volunteers = no
+			}
+		}
+	}
+	vbm_remove_faction_idea = {
+		icon = decision_generic_nationalism
+		visible = {
+			is_ai = yes
+			has_idea = VBM_free_factions
+		}
+		cost = 0
+		days_remove = 0
+		ai_will_do = {
+			factor = 999999
+		}
+		complete_effect = {
+			remove_ideas = VBM_free_factions
+			set_rule = {
+				can_create_factions = no
+			}
+		}
+	}
+	vbm_get_volunteers_idea = {
+		icon = decision_generic_nationalism
+		visible = {
+			is_ai = no
+			NOT = {
+				has_idea = VBM_free_volunteers
+			}
+			has_game_rule = {
+				rule = allow_volunteers
+				option = ALWAYS_FREE
+			}
+		}
+		allowed = {
+			has_game_rule = {
+				rule = allow_volunteers
+				option = ALWAYS_FREE
+			}
+		}
+		cost = 0
+		days_remove = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_ideas = VBM_free_volunteers
+			set_rule = {
+				can_send_volunteers = yes
+			}
+		}
+	}
+	vbm_get_faction_idea = {
+		icon = decision_generic_nationalism
+		visible = {
+			is_ai = no
+			NOT = {
+				has_idea = VBM_free_factions
+			}
+			has_game_rule = {
+				rule = vbm_free_faction_creation
+				option = VBM_FREE_FACTION_CREATION__YES
+			}
+		}
+		allowed = {
+			has_game_rule = {
+				rule = vbm_free_faction_creation
+				option = VBM_FREE_FACTION_CREATION__YES
+			}
+		}
+		cost = 0
+		days_remove = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_ideas = VBM_free_factions
+			set_rule = {
+				can_create_factions = yes
+			}
+		}
+	}
 }

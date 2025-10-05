@@ -1,13 +1,13 @@
 nicw_allow_civil_war = {
 	name = "NICW_ALLOW_ITA_CIVIL_WAR"
 	group = vbm_gamerules_group
-	default = {
+	option = {
 		name = NICW_ALLOW_ITA_CIVIL_WAR__DENY
 		text = "NICW_ALLOW_ITA_CIVIL_WAR__DENY_TEXT"
 		desc = "NICW_ALLOW_ITA_CIVIL_WAR__DENY_DESC"
 		allow_achievements = yes
 	}
-	option = {
+	default = {
 		name = NICW_ALLOW_ITA_CIVIL_WAR__ALLOW
 		text = "NICW_ALLOW_ITA_CIVIL_WAR__ALLOW_TEXT"
 		desc = "NICW_ALLOW_ITA_CIVIL_WAR__ALLOW_DESC"

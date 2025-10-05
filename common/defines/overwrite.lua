@@ -58,7 +58,7 @@ NDefines.NProduction.LICENSE_EQUIPMENT_UPGRADE_XP_FACTOR = 1.0
 NDefines.NProduction.LICENSE_EQUIPMENT_SPEED_NO_LICENSE = 0
 
 -- RESEARCH
-NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 30.0		-- Base amount of research points a country can save per slot.
+NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 50.0		-- Base amount of research points a country can save per slot.
 
 -- DIPLOMACY, ATTACHE, TRADE
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_BASE = 999			-- Base value of attache acceptance (help is welcome)
@@ -66,7 +66,10 @@ NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_TRASHHOLD = -999 -- Value of opini
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_PENALTY = 0 -- Value of acceptance penalty if the opinion too low
 NDefines.NTrade.RELATION_TRADE_FACTOR = 0          -- Opinion gives no bonus/penalty to resource trade
 NDefines.NTrade.BASE_TRADE_FACTOR = 250					-- This is the base trade factor
-NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = 0    -- Minimum party popularity to join factions
+NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = -1    -- Minimum party popularity to join factions
 NDefines.NDiplomacy.JOIN_FACTION_LIMIT_CHANGE_AT_WAR = 0  -- No limit change when at war
 NDefines.NDiplomacy.EMBARGO_THREAT_THRESHOLD = 0           -- No limit for embargo
 NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0                   -- always join wars
+
+-- OPERATIONS
+NDefines.NOperatives.OPERATIVE_BASE_PROPAGANDA_POWER = 0 -- No more propaganda

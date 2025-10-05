@@ -1,34 +1,85 @@
 ﻿l_english:
+ # ITALIAN CIVIL WAR
+ NICW_ALLOW_ITA_CIVIL_WAR:0 "Allow Italian civil war"
+
+ NICW_ALLOW_ITA_CIVIL_WAR__DENY_TEXT:0 "No (Reccomended)"
+ NICW_ALLOW_ITA_CIVIL_WAR__DENY_DESC:0 "Denies the Italian civil war from happening"
+
+ NICW_ALLOW_ITA_CIVIL_WAR__ALLOW_TEXT:0 "Yes (Vanilla)"
+ NICW_ALLOW_ITA_CIVIL_WAR__ALLOW_DESC:0 "Allows that you are able to get fucked by the Italian civil war. Have fun"
+
+ # BRAZIL PEACEFUL UNIFICATION
  vbm_gamerules_group:0 "§LVally's Mod Rules§!"
+
  VBM_ALLOW_SOUTH_AMERICA_UNIFICATION:0 "Brazil South American unification?"
- VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__NO:0 "Deny South American unification"
- VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__NO_TEXT:0 "No"
+
+ VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__NO_TEXT:0 "No (Recommended for balance)"
  VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__NO_DESC:0 "Brazil will NOT be able to form South America through decisions."
- VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__YES:0 "Allow South American unification"
+
  VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__YES_TEXT:0 "Yes (Vanilla)"
  VBM_ALLOW_SOUTH_AMERICA_UNIFICATION__YES_DESC:0 "Brazil WILL be able to form South America through decisions."
+
+ # TRUE NON-HISTORICAL
  VBM_TRUE_NON_HIST:0 "True non-historical"
- VBM_TRUE_NON_HIST__NO:0 "Vanilla" 
  VBM_TRUE_NON_HIST__NO_TEXT:0 "No (Vanilla)"
  VBM_TRUE_NON_HIST__NO_DESC:0 "Nothing changes (Vanilla)."
- VBM_TRUE_NON_HIST__YES:0 "Random non-hist"
+
  VBM_TRUE_NON_HIST__YES_TEXT:0 "Yes (Random)"
  VBM_TRUE_NON_HIST__YES_DESC:0 "All majors will get a random focus path (can be historical)"
- VBM_TRUE_NON_HIST__FORCED:0 "Forced non-hist"
+
  VBM_TRUE_NON_HIST__FORCED_TEXT:0 "Yes (Forced)"
  VBM_TRUE_NON_HIST__FORCED_DESC:0 "All majors will get a random focus path (can NOT be historical)."
 
  # LOOT BOXES
- VBM_ALLOW_LOOT_BOXES:0 "Allow Loot Boxes"
- VBM_ALLOW_LOOT_BOXES__NO_TEXT:0 "Disabled"
+ VBM_ALLOW_LOOT_BOXES:0 "Enable Loot Boxes"
+
+ VBM_ALLOW_LOOT_BOXES__NO_TEXT:0 "No (Vanilla)"
  VBM_ALLOW_LOOT_BOXES__NO_DESC:0 "Loot box decisions are not available to players."
- VBM_ALLOW_LOOT_BOXES__YES_TEXT:0 "Enabled"
+
+ VBM_ALLOW_LOOT_BOXES__YES_TEXT:0 "Yes (Gambling)"
  VBM_ALLOW_LOOT_BOXES__YES_DESC:0 "Players can purchase loot boxes for random rewards."
+
  # FINLAND RULES
  VBM_ALLOW_WHITE_FINLAND:0 "Allow White Finland"
- VBM_ALLOW_WHITE_FINLAND__NO:0 "No"
- VBM_ALLOW_WHITE_FINLAND__NO_TEXT:0 "Disabled"
+
+ VBM_ALLOW_WHITE_FINLAND__NO_TEXT:0 "No (Recommended for balance)"
  VBM_ALLOW_WHITE_FINLAND__NO_DESC:0 "Fascist Finland focus tree disabled."
- VBM_ALLOW_WHITE_FINLAND__YES:0 "Yes"
- VBM_ALLOW_WHITE_FINLAND__YES_TEXT:0 "Enabled"
+
+ VBM_ALLOW_WHITE_FINLAND__YES_TEXT:0 "Yes (Vanilla)"
  VBM_ALLOW_WHITE_FINLAND__YES_DESC:0 "Fascist Finland focus tree enabled."
+
+ # FACTIONS
+ VBM_FREE_FACTION_CREATION:0 "Allow free faction creation (Players)"
+
+ VBM_FREE_FACTION_CREATION__NO_TEXT:0 "No (Vanilla)"
+ VBM_FREE_FACTION_CREATION__NO_DESC:0 "Players must meet normal world tension requirements to create factions."
+
+ VBM_FREE_FACTION_CREATION__YES_TEXT:0 "Yes"
+ VBM_FREE_FACTION_CREATION__YES_DESC:0 "Players can create factions freely."
+
+ # ROMANINA FOCUS REQUIREMENTS
+ VBM_ROM_ALLOW_ANY_PATH:0 "Romania - Allow Any Focus Path"
+
+ VBM_ROM_ALLOW_ANY_PATH__NO_TEXT:0 "No (Vanilla)"
+ VBM_ROM_ALLOW_ANY_PATH__NO_DESC:0 "Romania must follow normal focus tree restrictions for focus paths."
+
+ VBM_ROM_ALLOW_ANY_PATH__YES_TEXT:0 "Yes (Recommended for non-hist)"
+ VBM_ROM_ALLOW_ANY_PATH__YES_DESC:0 "Romania can take any focus regardless of German/British/Soviet ideology."
+
+ # STATE TRANSFER TOOL
+ RULE_ALLOW_SUBJECT_TRANSFERS:0 "Allow Subject Transfers"
+
+ RULE_ALLOW_SUBJECT_TRANSFERS_BLOCKED_TEXT:0 "Blocked"
+ RULE_ALLOW_SUBJECT_TRANSFERS_BLOCKED_DESC:0 "Players cannot transfer subjects between countries."
+
+ RULE_ALLOW_SUBJECT_TRANSFERS_FREE_TEXT:0 "Free"
+ RULE_ALLOW_SUBJECT_TRANSFERS_FREE_DESC:0 "Players can freely transfer any subjects between countries."
+
+ RULE_ALLOW_SUBJECT_TRANSFERS_LOW_AUTONOMY_ONLY_TEXT:0 "Low autonomy only"
+ RULE_ALLOW_SUBJECT_TRANSFERS_LOW_AUTONOMY_ONLY_DESC:0 "Players can only transfer subjects with low autonomy levels."
+
+ # STATE TRANSFER TOOL VERSION
+ RULE_USE_NEW_TOOL:0 "Use New State Transfer Tool"
+
+ RULE_USE_NEW_TOOL_NO_TEXT:0 "No (Normal version)"
+ RULE_USE_NEW_TOOL_YES_TEXT:0 "Yes (Trash version imo)"

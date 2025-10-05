@@ -364,72 +364,132 @@
 				}
 				532 = {
 					create_unit = {
-						division = "name = "1. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "1. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 					create_unit = {
-						division = "name = "2. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "2. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 					create_unit = {
-						division = "name = "3. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "3. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 					create_unit = {
-						division = "name = "4. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "4. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 					create_unit = {
-						division = "name = "5. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "5. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 				}
 				531 = {
 					create_unit = {
-						division = "name = "6. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "6. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 					create_unit = {
-						division = "name = "7. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "7. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 					create_unit = {
-						division = "name = "8. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "8. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 					create_unit = {
-						division = "name = "9. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "9. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 					create_unit = {
-						division = "name = "10. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "10. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 				}
 				534 = {
 					create_unit = {
-						division = "name = "11. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "11. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 					create_unit = {
-						division = "name = "12. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "12. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 				}
 				535 = {
 					create_unit = {
-						division = "name = "13. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "13. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 					create_unit = {
-						division = "name = "14. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "14. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 				}
 				537 = {
 					create_unit = {
-						division = "name = "15. Japanese People's Regiment" division_template = "Japanese People's Regiment" start_experience_factor = 0"
-						owner = ROOT
+						division = {
+							name = "15. Japanese People's Regiment"
+							division_template = "Japanese People's Regiment"
+							start_experience_factor = 0
+							owner = ROOT
+						}
 					}
 				}
 			}
@@ -461,44 +521,80 @@
 						}
 						529 = {
 							create_unit = {
-								division = "name = "1. Japanese Loyalist Regiment" division_template = "Japanese Loyalist Regiment" start_experience_factor = 0"
-								owner = PREV
+								division = {
+									name = "1. Japanese Loyalist Regiment"
+									division_template = "Japanese Loyalist Regiment"
+									start_experience_factor = 0
+									owner = PREV
+								}
 							}
 							create_unit = {
-								division = "name = "2. Japanese Loyalist Regiment" division_template = "Japanese Loyalist Regiment" start_experience_factor = 0"
-								owner = PREV
+								division = {
+									name = "2. Japanese Loyalist Regiment"
+									division_template = "Japanese Loyalist Regiment"
+									start_experience_factor = 0
+									owner = PREV
+								}
 							}
 							create_unit = {
-								division = "name = "3. Japanese Loyalist Regiment" division_template = "Japanese Loyalist Regiment" start_experience_factor = 0"
-								owner = PREV
+								division = {
+									name = "3. Japanese Loyalist Regiment"
+									division_template = "Japanese Loyalist Regiment"
+									start_experience_factor = 0
+									owner = PREV
+								}
 							}
 							create_unit = {
-								division = "name = "4. Japanese Loyalist Regiment" division_template = "Japanese Loyalist Regiment" start_experience_factor = 0"
-								owner = PREV
+								division = {
+									name = "4. Japanese Loyalist Regiment"
+									division_template = "Japanese Loyalist Regiment"
+									start_experience_factor = 0
+									owner = PREV
+								}
 							}
 							create_unit = {
-								division = "name = "5. Japanese Loyalist Regiment" division_template = "Japanese Loyalist Regiment" start_experience_factor = 0"
-								owner = PREV
+								division = {
+									name = "5. Japanese Loyalist Regiment"
+									division_template = "Japanese Loyalist Regiment"
+									start_experience_factor = 0
+									owner = PREV
+								}
 							}
 						}
 						530 = {
 							create_unit = {
-								division = "name = "6. Japanese Loyalist Regiment" division_template = "Japanese Loyalist Regiment" start_experience_factor = 0"
-								owner = PREV
+								division = {
+									name = "6. Japanese Loyalist Regiment"
+									division_template = "Japanese Loyalist Regiment"
+									start_experience_factor = 0
+									owner = PREV
+								}
 							}
 							create_unit = {
-								division = "name = "7. Japanese Loyalist Regiment" division_template = "Japanese Loyalist Regiment" start_experience_factor = 0"
-								owner = PREV
+								division = {
+									name = "7. Japanese Loyalist Regiment"
+									division_template = "Japanese Loyalist Regiment"
+									start_experience_factor = 0
+									owner = PREV
+								}
 							}
 						}
 						533 = {
 							create_unit = {
-								division = "name = "8. Japanese Loyalist Regiment" division_template = "Japanese Loyalist Regiment" start_experience_factor = 0"
-								owner = PREV
+								division = {
+									name = "8. Japanese Loyalist Regiment"
+									division_template = "Japanese Loyalist Regiment"
+									start_experience_factor = 0
+									owner = PREV
+								}
 							}
 							create_unit = {
-								division = "name = "9. Japanese Loyalist Regiment" division_template = "Japanese Loyalist Regiment" start_experience_factor = 0"
-								owner = PREV
+								division = {
+									name = "9. Japanese Loyalist Regiment"
+									division_template = "Japanese Loyalist Regiment"
+									start_experience_factor = 0
+									owner = PREV
+								}
 							}
 						}
 					}
@@ -3390,7 +3486,8 @@
 		completion_reward = {
 			CHI = {
 				country_event = wtt_japan.11
-			}			#TODO_WTT_CD make a proper is nationalist china trigger
+			}
+			#TODO_WTT_CD make a proper is nationalist china trigger
 			609 = {
 				if = {
 					limit = {
@@ -3506,7 +3603,8 @@
 				limit = {
 					has_country_leader = {
 						id = 700
-					}					#Hirohito
+					}
+					#Hirohito
 				}
 				remove_country_leader_trait = warrior_code
 			}

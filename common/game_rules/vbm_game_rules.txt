@@ -85,3 +85,33 @@ vbm_allow_white_finland = {
 		desc = "VBM_ALLOW_WHITE_FINLAND__YES_DESC"
 	}
 }
+
+vbm_free_faction_creation = {
+	name = "VBM_FREE_FACTION_CREATION"
+	group = vbm_gamerules_group
+	default = {
+		name = "VBM_FREE_FACTION_CREATION__NO"
+		text = "VBM_FREE_FACTION_CREATION__NO_TEXT"
+		desc = "VBM_FREE_FACTION_CREATION__NO_DESC"
+	}
+	option = {
+		name = "VBM_FREE_FACTION_CREATION__YES"
+		text = "VBM_FREE_FACTION_CREATION__YES_TEXT"
+		desc = "VBM_FREE_FACTION_CREATION__YES_DESC"
+	}
+}
+
+vbm_rom_allow_any_path = {
+	name = "VBM_ROM_ALLOW_ANY_PATH"
+	group = vbm_gamerules_group
+	default = {
+		name = "VBM_ROM_ALLOW_ANY_PATH__NO"
+		text = "VBM_ROM_ALLOW_ANY_PATH__NO_TEXT"
+		desc = "VBM_ROM_ALLOW_ANY_PATH__NO_DESC"
+	}
+	option = {
+		name = "VBM_ROM_ALLOW_ANY_PATH__YES"
+		text = "VBM_ROM_ALLOW_ANY_PATH__YES_TEXT"
+		desc = "VBM_ROM_ALLOW_ANY_PATH__YES_DESC"
+	}
+}

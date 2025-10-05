@@ -24,20 +24,19 @@ allow_subject_transfers = {
 	name = "RULE_ALLOW_SUBJECT_TRANSFERS"
 	group = vbm_gamerules_group
 	#icon = "GFX_release_nations"
-	default = {
+	option = {
 		name = "BLOCKED"
-		text = "Blocked"
+		text = "RULE_ALLOW_SUBJECT_TRANSFERS_BLOCKED_TEXT"
 		desc = "RULE_ALLOW_SUBJECT_TRANSFERS_BLOCKED_DESC"
 	}
 	option = {
 		name = "FREE"
-		text = "Free"
+		text = "RULE_ALLOW_SUBJECT_TRANSFERS_FREE_TEXT"
 		desc = "RULE_ALLOW_SUBJECT_TRANSFERS_FREE_DESC"
-		allow_achievements = no
 	}
-	option = {
+	default = {
 		name = "LOW_AUTONOMY_ONLY"
-		text = "Low autonomy only"
+		text = "RULE_ALLOW_SUBJECT_TRANSFERS_LOW_AUTONOMY_ONLY_TEXT"
 		desc = "RULE_ALLOW_SUBJECT_TRANSFERS_LOW_AUTONOMY_ONLY_DESC"
 	}
 }
@@ -48,11 +47,10 @@ use_new_tool = {
 	#icon = "GFX_release_nations"
 	default = {
 		name = "NO"
-		text = "No (Normal version)"
-		allow_achievements = no
+		text = "RULE_USE_NEW_TOOL_NO_TEXT"
 	}
 	option = {
 		name = "YES"
-		text = "Yes (Worse version imo)"
+		text = "RULE_USE_NEW_TOOL_YES_TEXT"
 	}
 }

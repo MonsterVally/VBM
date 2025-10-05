@@ -22,8 +22,10 @@
  vbm_remove_CHI_fuck_agency:0 "Remove Chinese Agency Debuff"
  vbm_remove_CHI_fuck_agency_desc:0 "Remove the spirit that prevents China from doing an Agency."
 
+ # TRUE NON HIST DEBUG HOST DECISIONS
  vbm_ita_fix_focus_debug:0 "ASK HOST: Fix Italian Focus"
  vbm_ita_fix_focus_debug_desc:0 "ASK HOST: Fix the focus tree for Italy."
+
  vbm_eng_fix_abdication_debug:0 "ASK HOST: Fix British Abdication Crisis"
  vbm_eng_fix_abdication_debug_desc:0 "ASK HOST: Fix the abdication crisis for Britain."
 
@@ -33,4 +35,16 @@
  vbm_loot_box_minors:0 "Buy loot box"
  vbm_loot_box_minors_desc:0 "Purchase a loot box containing random rewards for 100 Political Power."
  vbm_loot_box_minors_odds:0 "Loot box odds"
- vbm_loot_box_minors_odds_desc:0 "These are your loot box odds"
+ vbm_loot_box_minors_odds_desc:0 "These are your loot box odds" 
+ # FACTIONS AND VOLUNTEERS
+ vbm_remove_volunteers_idea:0 "Revoke Free Volunteers"
+ vbm_remove_volunteers_idea_desc:0 "Remove the ability to send volunteers without restrictions. This decision is automatically taken when a player leaves the game."
+ 
+ vbm_remove_faction_idea:0 "Revoke Free Faction Creation"
+ vbm_remove_faction_idea_desc:0 "Remove the ability to create factions without restrictions. This decision is automatically taken when a player leaves the game."
+ 
+ vbm_get_volunteers_idea:0 "Enable Free Volunteers"
+ vbm_get_volunteers_idea_desc:0 "Gain the ability to send volunteers without world tension restrictions."
+ 
+ vbm_get_faction_idea:0 "Enable Free Faction Creation"
+ vbm_get_faction_idea_desc:0 "Gain the ability to create factions without world tension restrictions."

@@ -7,11 +7,47 @@ on_actions = {
 		}
 		effect = {
 			BHU = {
-				if = {
-					set_technology = {
-						antitank2 = 1
-						antiair2 = 1
-						improved_infantry_weapons = 1
+				set_technology = {
+					antitank2 = 1
+					antiair2 = 1
+					improved_infantry_weapons = 1
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = allow_volunteers
+						option = ALWAYS_FREE
+					}
+				}
+				every_country = {
+					limit = {
+						is_ai = no
+					}
+					add_ideas = VBM_free_volunteers
+					set_rule = {
+						can_send_volunteers = yes
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_free_faction_creation
+						option = VBM_FREE_FACTION_CREATION__YES
+					}
+				}
+				every_country = {
+					limit = {
+						is_ai = no
+					}
+					add_ideas = VBM_free_factions
+					set_rule = {
+						can_create_factions = yes
 					}
 				}
 			}
