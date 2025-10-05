@@ -70,3 +70,18 @@ vbm_allow_loot_boxes = {
 		desc = "VBM_ALLOW_LOOT_BOXES__YES_DESC"
 	}
 }
+
+vbm_allow_white_finland = {
+	name = "VBM_ALLOW_WHITE_FINLAND"
+	group = vbm_gamerules_group
+	option = {
+		name = "VBM_ALLOW_WHITE_FINLAND__NO"
+		text = "VBM_ALLOW_WHITE_FINLAND__NO_TEXT"
+		desc = "VBM_ALLOW_WHITE_FINLAND__NO_DESC"
+	}
+	default = {
+		name = "VBM_ALLOW_WHITE_FINLAND__YES"
+		text = "VBM_ALLOW_WHITE_FINLAND__YES_TEXT"
+		desc = "VBM_ALLOW_WHITE_FINLAND__YES_DESC"
+	}
+}

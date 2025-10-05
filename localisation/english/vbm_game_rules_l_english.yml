@@ -24,3 +24,11 @@
  VBM_ALLOW_LOOT_BOXES__NO_DESC:0 "Loot box decisions are not available to players."
  VBM_ALLOW_LOOT_BOXES__YES_TEXT:0 "Enabled"
  VBM_ALLOW_LOOT_BOXES__YES_DESC:0 "Players can purchase loot boxes for random rewards."
+ # FINLAND RULES
+ VBM_ALLOW_WHITE_FINLAND:0 "Allow White Finland"
+ VBM_ALLOW_WHITE_FINLAND__NO:0 "No"
+ VBM_ALLOW_WHITE_FINLAND__NO_TEXT:0 "Disabled"
+ VBM_ALLOW_WHITE_FINLAND__NO_DESC:0 "Fascist Finland focus tree disabled."
+ VBM_ALLOW_WHITE_FINLAND__YES:0 "Yes"
+ VBM_ALLOW_WHITE_FINLAND__YES_TEXT:0 "Enabled"
+ VBM_ALLOW_WHITE_FINLAND__YES_DESC:0 "Fascist Finland focus tree enabled."
