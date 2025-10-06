@@ -6048,7 +6048,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = TUR_the_anglo_turkish_agreement
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			base = 10
 		}
