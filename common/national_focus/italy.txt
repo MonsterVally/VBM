@@ -3088,9 +3088,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_italian_highways_bba
 		}
-		mutually_exclusive = {
-			focus = ITA_power_plants_in_terni
-		}
+
 		x = -1
 		y = 1
 		relative_position_id = ITA_italian_highways_bba
@@ -3126,9 +3124,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_italian_highways_bba
 		}
-		mutually_exclusive = {
-			focus = ITA_steel_industry_in_terni
-		}
+
 		x = 1
 		y = 1
 		relative_position_id = ITA_italian_highways_bba

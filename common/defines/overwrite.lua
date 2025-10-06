@@ -73,3 +73,8 @@ NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0                   -- always join wars
 
 -- OPERATIONS
 NDefines.NOperatives.OPERATIVE_BASE_PROPAGANDA_POWER = 0 -- No more propaganda
+
+-- VOLUNTEERS
+NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 5	
+NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 0
+NDefines.NDiplomacy.DIPLOMACY_ACCEPT_VOLUNTEERS_BASE = 999
