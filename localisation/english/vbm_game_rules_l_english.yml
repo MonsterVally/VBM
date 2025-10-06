@@ -58,13 +58,13 @@
  VBM_FREE_FACTION_CREATION__YES_DESC:0 "Players can create factions freely."
 
  # ROMANINA FOCUS REQUIREMENTS
- VBM_ROM_ALLOW_ANY_PATH:0 "Romania - Allow Any Focus Path"
+ VBM_MINOR_ALLOW_ANY_PATH:0 "Allow minors to take any focus path"
 
- VBM_ROM_ALLOW_ANY_PATH__NO_TEXT:0 "No (Vanilla)"
- VBM_ROM_ALLOW_ANY_PATH__NO_DESC:0 "Romania must follow normal focus tree restrictions for focus paths."
+ VBM_MINOR_ALLOW_ANY_PATH__NO_TEXT:0 "No (Vanilla)"
+ VBM_MINOR_ALLOW_ANY_PATH__NO_DESC:0 "Minors must follow normal focus tree restrictions for focus paths."
 
- VBM_ROM_ALLOW_ANY_PATH__YES_TEXT:0 "Yes (Recommended for non-hist)"
- VBM_ROM_ALLOW_ANY_PATH__YES_DESC:0 "Romania can take any focus regardless of German/British/Soviet ideology."
+ VBM_MINOR_ALLOW_ANY_PATH__YES_TEXT:0 "Yes (Recommended for non-hist)"
+ VBM_MINOR_ALLOW_ANY_PATH__YES_DESC:0 "Minors can take any focus regardless of the ideology of Majors."
 
  # STATE TRANSFER TOOL
  RULE_ALLOW_SUBJECT_TRANSFERS:0 "Allow Subject Transfers"

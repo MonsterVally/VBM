@@ -2,9 +2,9 @@ vbm_host = {
 	has_country_flag = ccshtool_enabled_cflag
 }
 
-vbm_rom_allow_any_path_on = {
+vbm_minor_allow_any_path_on = {
 	has_game_rule = {
-		rule = vbm_rom_allow_any_path
-		option = VBM_ROM_ALLOW_ANY_PATH__YES
+		rule = vbm_minor_allow_any_path
+		option = VBM_MINOR_ALLOW_ANY_PATH__YES
 	}
 }

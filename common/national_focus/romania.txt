@@ -2230,7 +2230,7 @@ focus_tree = {
 			is_subject = no
 			if = {
 				limit = {
-					vbm_rom_allow_any_path_on = no
+					vbm_minor_allow_any_path_on = no
 				}
 				SOV = {
 					is_faction_leader = yes
@@ -2435,7 +2435,7 @@ focus_tree = {
 			is_subject = no
 			if = {
 				limit = {
-					vbm_rom_allow_any_path_on = no
+					vbm_minor_allow_any_path_on = no
 				}
 				GER = {
 					is_faction_leader = yes
@@ -2939,7 +2939,7 @@ focus_tree = {
 			is_subject = no
 			if = {
 				limit = {
-					vbm_rom_allow_any_path_on = no
+					vbm_minor_allow_any_path_on = no
 				}
 				ENG = {
 					is_faction_leader = yes

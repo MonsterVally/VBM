@@ -101,17 +101,17 @@ vbm_free_faction_creation = {
 	}
 }
 
-vbm_rom_allow_any_path = {
-	name = "VBM_ROM_ALLOW_ANY_PATH"
+vbm_minor_allow_any_path = {
+	name = "VBM_MINOR_ALLOW_ANY_PATH"
 	group = vbm_gamerules_group
 	default = {
-		name = "VBM_ROM_ALLOW_ANY_PATH__NO"
-		text = "VBM_ROM_ALLOW_ANY_PATH__NO_TEXT"
-		desc = "VBM_ROM_ALLOW_ANY_PATH__NO_DESC"
+		name = "VBM_MINOR_ALLOW_ANY_PATH__NO"
+		text = "VBM_MINOR_ALLOW_ANY_PATH__NO_TEXT"
+		desc = "VBM_MINOR_ALLOW_ANY_PATH__NO_DESC"
 	}
 	option = {
-		name = "VBM_ROM_ALLOW_ANY_PATH__YES"
-		text = "VBM_ROM_ALLOW_ANY_PATH__YES_TEXT"
-		desc = "VBM_ROM_ALLOW_ANY_PATH__YES_DESC"
+		name = "VBM_MINOR_ALLOW_ANY_PATH__YES"
+		text = "VBM_MINOR_ALLOW_ANY_PATH__YES_TEXT"
+		desc = "VBM_MINOR_ALLOW_ANY_PATH__YES_DESC"
 	}
 }
