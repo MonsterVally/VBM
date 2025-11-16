@@ -25225,12 +25225,13 @@ focus_tree = {
 		relative_position_id = GER_monarchist_sentiment
 		cost = 5
 		allow_branch = {
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ger_true_non_hist_dem
-        	}
+					OR = {has_country_flag = vbm_ger_true_non_hist_dem}				
+				}          
+			}
 			NOT = {has_completed_focus = GER_remilitarize_the_rhineland}
 			NOT = {has_completed_focus = GER_start_the_proletarian_revolution}
 		}
