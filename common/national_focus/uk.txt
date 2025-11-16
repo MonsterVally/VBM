@@ -9584,11 +9584,14 @@ focus_tree = {
 					has_completed_focus = ENG_a_change_in_course
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_eng_true_non_hist_dem
+					OR = {
+						has_country_flag = vbm_eng_true_non_hist_dem
+					}					
+				}           
 			}
 		}
 		x = 14
@@ -9720,11 +9723,14 @@ focus_tree = {
 					}
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_eng_true_non_hist_dem
+					OR = {
+						has_country_flag = vbm_eng_true_non_hist_dem
+					}					
+				}           
 			}
 		}
 		available = {
@@ -10516,11 +10522,14 @@ focus_tree = {
 					}
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_eng_true_non_hist_dem
+					OR = {
+						has_country_flag = vbm_eng_true_non_hist_dem
+					}					
+				}           
 			}
 		}
 		search_filters = {
@@ -10780,11 +10789,14 @@ focus_tree = {
 					has_completed_focus = ENG_a_change_in_course
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_eng_true_non_hist_dem
+					OR = {
+						has_country_flag = vbm_eng_true_non_hist_dem
+					}					
+				}           
 			}
 		}
 		offset = {
@@ -11415,15 +11427,16 @@ focus_tree = {
 					has_completed_focus = ENG_steady_as_she_goes
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_eng_true_non_hist_non
-					has_country_flag = vbm_eng_true_non_hist_fas
-					has_country_flag = vbm_eng_true_non_hist_com
-				}
+					OR = {
+						has_country_flag = vbm_eng_true_non_hist_non
+						has_country_flag = vbm_eng_true_non_hist_fas
+						has_country_flag = vbm_eng_true_non_hist_com
+					}					
+				}           
 			}
 		}
 		available = {
@@ -11677,11 +11690,14 @@ focus_tree = {
 					}
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_eng_true_non_hist_non
+					OR = {
+						has_country_flag = vbm_eng_true_non_hist_non
+					}					
+				}           
 			}
 		}
 		offset = {
@@ -12087,11 +12103,14 @@ focus_tree = {
 					}
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_eng_true_non_hist_fas
+					OR = {
+						has_country_flag = vbm_eng_true_non_hist_fas
+					}					
+				}           
 			}
 		}
 		offset = {
@@ -13618,11 +13637,14 @@ focus_tree = {
 					}
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_eng_true_non_hist_com
+					OR = {
+						has_country_flag = vbm_eng_true_non_hist_com
+					}					
+				}           
 			}
 		}
 		offset = {
