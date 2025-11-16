@@ -112,14 +112,15 @@ focus_tree = {
 					has_completed_focus = USA_reestablish_the_gold_standard
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_usa_true_non_hist_dem
-					has_country_flag = vbm_usa_true_non_hist_com
-				}
+					OR = {
+						has_country_flag = vbm_usa_true_non_hist_dem
+						has_country_flag = vbm_usa_true_non_hist_com
+					}					
+				}           
 			}
 		}
 		available = {
@@ -174,11 +175,14 @@ focus_tree = {
 					has_completed_focus = USA_reestablish_the_gold_standard
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_usa_true_non_hist_com
+					OR = {
+						has_country_flag = vbm_usa_true_non_hist_com
+					}					
+				}           
 			}
 		}
 		available = {
@@ -1710,11 +1714,14 @@ focus_tree = {
 					has_completed_focus = USA_neutrality_act
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_usa_true_non_hist_dem
+					OR = {
+						has_country_flag = vbm_usa_true_non_hist_dem
+					}					
+				}           
 			}
 		}
 		available = {
@@ -2234,11 +2241,14 @@ focus_tree = {
 					has_completed_focus = USA_limited_intervention
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_usa_true_non_hist_dem
+					OR = {
+						has_country_flag = vbm_usa_true_non_hist_dem
+					}					
+				}           
 			}
 		}
 		available = {
@@ -3189,11 +3199,14 @@ focus_tree = {
 					has_completed_focus = USA_continue_the_new_deal
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_usa_true_non_hist_fas
+					OR = {
+						has_country_flag = vbm_usa_true_non_hist_fas
+					}					
+				}           
 			}
 		}
 		available = {
@@ -3438,11 +3451,14 @@ focus_tree = {
 					has_completed_focus = USA_continue_the_new_deal
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_usa_true_non_hist_fas
+					OR = {
+						has_country_flag = vbm_usa_true_non_hist_fas
+					}					
+				}           
 			}
 		}
 		available = {
