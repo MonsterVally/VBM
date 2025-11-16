@@ -7599,14 +7599,15 @@ focus_tree = {
 					has_completed_focus = SOV_the_hands_do
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
 				OR = {
 					has_country_flag = vbm_sov_true_non_hist_com_cen
 					has_country_flag = vbm_sov_true_non_hist_com_lef
 					has_country_flag = vbm_sov_true_non_hist_com_rig
+					}					
 				}
 			}
 		}
@@ -7682,11 +7683,14 @@ focus_tree = {
 					}
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
+					OR = {
 				has_country_flag = vbm_sov_true_non_hist_com_cen
+					}					
+				}           
 			}
 		}
 		available = {
@@ -9194,11 +9198,14 @@ focus_tree = {
 					has_completed_focus = SOV_beaten_but_not_defeated
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
+					OR = {
 				has_country_flag = vbm_sov_true_non_hist_com_lef
+					}					
+				}           
 			}
 		}
 		search_filters = {
@@ -10674,11 +10681,14 @@ focus_tree = {
 					has_completed_focus = SOV_beaten_but_not_defeated
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
+					OR = {
 				has_country_flag = vbm_sov_true_non_hist_com_rig
+					}					
+				}           
 			}
 		}
 		mutually_exclusive = {
@@ -11002,11 +11012,14 @@ focus_tree = {
 					has_completed_focus = SOV_beaten_but_not_defeated
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
+					OR = {
 				has_country_flag = vbm_sov_true_non_hist_com_rig
+					}					
+				}           
 			}
 		}
 		bypass = {
@@ -12942,14 +12955,15 @@ focus_tree = {
 					has_completed_focus = SOV_beaten_but_not_defeated
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
 				OR = {
 					has_country_flag = vbm_sov_true_non_hist_com_cen
 					has_country_flag = vbm_sov_true_non_hist_com_lef
 					has_country_flag = vbm_sov_true_non_hist_com_rig
+					}					
 				}
 			}
 		}
@@ -13347,14 +13361,15 @@ focus_tree = {
 					has_completed_focus = SOV_beaten_but_not_defeated
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
 				OR = {
 					has_country_flag = vbm_sov_true_non_hist_com_cen
 					has_country_flag = vbm_sov_true_non_hist_com_lef
 					has_country_flag = vbm_sov_true_non_hist_com_rig
+					}					
 				}
 			}
 		}
@@ -17921,13 +17936,14 @@ focus_tree = {
 					has_completed_focus = SOV_the_path_of_marxism_leninism
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
 				OR = {
 					has_country_flag = vbm_sov_true_non_hist_fas
 					has_country_flag = vbm_sov_true_non_hist_non
+					}					
 				}
 			}
 		}
@@ -19150,6 +19166,7 @@ focus_tree = {
 				}
 				has_country_flag = vbm_sov_true_non_hist_fas
 			}
+			NOT = {has_completed_focus = SOV_the_path_of_marxism_leninism}
 		}
 		completion_reward = {
 			hidden_effect = {
@@ -19303,6 +19320,7 @@ focus_tree = {
 				}
 				has_country_flag = vbm_sov_true_non_hist_non
 			}
+			NOT = {has_completed_focus = SOV_the_path_of_marxism_leninism}
 		}
 	}
 	focus = {
