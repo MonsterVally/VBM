@@ -1640,14 +1640,15 @@
 					has_completed_focus = FRA_revive_the_national_bloc
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_fra_true_non_hist_dem
-					has_country_flag = vbm_fra_true_non_hist_com
-				}
+					OR = {
+						has_country_flag = vbm_fra_true_non_hist_dem
+						has_country_flag = vbm_fra_true_non_hist_com
+					}					
+				}           
 			}
 		}
 		prerequisite = {
@@ -1724,11 +1725,14 @@
 					has_completed_focus = FRA_review_foreign_policy
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_fra_true_non_hist_com
+					OR = {
+						has_country_flag = vbm_fra_true_non_hist_com
+					}					
+				}           
 			}
 		}
 		prerequisite = {
@@ -3571,11 +3575,14 @@
 					has_completed_focus = FRA_utilize_the_leagues
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_fra_true_non_hist_dem
+					OR = {
+						has_country_flag = vbm_fra_true_non_hist_dem
+					}					
+				}           
 			}
 		}
 		prerequisite = {
@@ -4008,11 +4015,15 @@
 					has_completed_focus = FRA_utilize_the_leagues
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_fra_true_non_hist_dem
+					OR = {
+						has_country_flag = vbm_fra_true_non_hist_dem
+
+					}					
+				}           
 			}
 		}
 		prerequisite = {
@@ -4821,15 +4832,16 @@
 					has_completed_focus = FRA_form_the_popular_front
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_fra_true_non_hist_dem
-					has_country_flag = vbm_fra_true_non_hist_fas
-					has_country_flag = vbm_fra_true_non_hist_non
-				}
+					OR = {
+						has_country_flag = vbm_fra_true_non_hist_dem
+						has_country_flag = vbm_fra_true_non_hist_fas
+						has_country_flag = vbm_fra_true_non_hist_non
+					}					
+				}           
 			}
 		}
 		cost = 10
@@ -5239,14 +5251,15 @@
 					has_completed_focus = FRA_review_foreign_policy
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_fra_true_non_hist_non
-					has_country_flag = vbm_fra_true_non_hist_fas
-				}
+					OR = {
+						has_country_flag = vbm_fra_true_non_hist_non
+						has_country_flag = vbm_fra_true_non_hist_fas
+					}					
+				}           
 			}
 		}
 		prerequisite = {
@@ -5325,11 +5338,14 @@
 					has_completed_focus = FRA_the_council_of_rambouillet
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_fra_true_non_hist_fas
+					OR = {
+						has_country_flag = vbm_fra_true_non_hist_fas
+					}					
+				}           
 			}
 		}
 		prerequisite = {
@@ -7271,11 +7287,14 @@
 					has_completed_focus = FRA_national_regeneration
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_fra_true_non_hist_non
+					OR = {
+						has_country_flag = vbm_fra_true_non_hist_non
+					}					
+				}           
 			}
 		}
 		prerequisite = {
