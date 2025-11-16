@@ -7609,6 +7609,15 @@ focus_tree = {
 					has_country_flag = vbm_sov_true_non_hist_com_rig
 					}					
 				}
+				AND = {
+					OR = {
+						has_country_flag = vbm_sov_true_non_hist_non
+						has_country_flag = vbm_sov_true_non_hist_fas
+					}
+					OR = {
+						has_completed_focus = SOV_beaten_but_not_defeated
+					}
+				}
 			}
 		}
 		available = {
@@ -7687,9 +7696,20 @@ focus_tree = {
 				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
 				AND = {
 					vbm_true_non_hist_on = yes
+					OR = {has_country_flag = vbm_sov_true_non_hist_com_cen}					
+				}
+				AND = {
 					OR = {
-				has_country_flag = vbm_sov_true_non_hist_com_cen
-					}					
+						has_country_flag = vbm_sov_true_non_hist_com_lef
+						has_country_flag = vbm_sov_true_non_hist_com_rig
+						has_country_flag = vbm_sov_true_non_hist_non
+						has_country_flag = vbm_sov_true_non_hist_fas
+					}
+					OR = {
+						has_completed_focus = SOV_the_left_opposition
+						has_completed_focus = SOV_the_right_opposition
+						has_completed_focus = SOV_beaten_but_not_defeated
+					}
 				}           
 			}
 		}
