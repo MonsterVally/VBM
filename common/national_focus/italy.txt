@@ -9027,14 +9027,15 @@ focus_tree = {
 					has_completed_focus = ITA_convene_the_grand_council
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_com
-					has_country_flag = vbm_ita_true_non_hist_com_dem
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_com_dem
+						has_country_flag = vbm_ita_true_non_hist_com
+					}					
+				}           
 			}
 		}
 		offset = {
@@ -9095,11 +9096,14 @@ focus_tree = {
 			}
 		}
 		allow_branch = {
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ita_true_non_hist_fas
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_fas
+					}					
+				}           
 			}
 		}
 		relative_position_id = ITA_the_abyssinian_fiasco
@@ -9146,15 +9150,16 @@ focus_tree = {
 			}
 		}
 		allow_branch = {
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_alt_fas
-					has_country_flag = vbm_ita_true_non_hist_mon_dem
-					has_country_flag = vbm_ita_true_non_hist_mon_non
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_alt_fas
+						has_country_flag = vbm_ita_true_non_hist_mon_dem
+						has_country_flag = vbm_ita_true_non_hist_mon_non
+					}					
+				}           
 			}
 		}
 		search_filters = {
@@ -9193,15 +9198,16 @@ focus_tree = {
 					has_completed_focus = ITA_defy_the_duce
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_alt_fas
-					has_country_flag = vbm_ita_true_non_hist_mon_dem
-					has_country_flag = vbm_ita_true_non_hist_mon_non
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_alt_fas
+						has_country_flag = vbm_ita_true_non_hist_mon_dem
+						has_country_flag = vbm_ita_true_non_hist_mon_non
+					}					
+				}           
 			}
 		}
 		search_filters = {
@@ -9283,11 +9289,14 @@ focus_tree = {
 			}
 		}
 		allow_branch = {
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ita_true_non_hist_fas
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_fas
+					}					
+				}           
 			}
 		}
 		relative_position_id = ITA_solid_progress
@@ -9461,16 +9470,19 @@ focus_tree = {
 					has_completed_focus = ITA_defy_the_duce
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_alt_fas
-					has_country_flag = vbm_ita_true_non_hist_mon_dem
-					has_country_flag = vbm_ita_true_non_hist_mon_non
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_alt_fas
+						has_country_flag = vbm_ita_true_non_hist_mon_dem
+						has_country_flag = vbm_ita_true_non_hist_mon_non
+					}					
+				}           
 			}
+			NOT = {has_completed_focus = ITA_culto_del_duce}
+ 
 		}
 		x = 20
 		y = 2
@@ -9874,11 +9886,15 @@ focus_tree = {
 					has_completed_focus = ITA_convene_the_grand_council
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ita_true_non_hist_fas
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_fas
+
+					}					
+				}           
 			}
 		}
 		x = 0
@@ -10377,16 +10393,17 @@ focus_tree = {
 					has_completed_focus = ITA_defy_the_duce
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_fas
-					has_country_flag = vbm_ita_true_non_hist_alt_fas
-					has_country_flag = vbm_ita_true_non_hist_mon_dem
-					has_country_flag = vbm_ita_true_non_hist_mon_non
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_fas
+						has_country_flag = vbm_ita_true_non_hist_alt_fas
+						has_country_flag = vbm_ita_true_non_hist_mon_dem
+						has_country_flag = vbm_ita_true_non_hist_mon_non
+					}					
+				}           
 			}
 		}
 		available = {
@@ -10446,16 +10463,17 @@ focus_tree = {
 					has_completed_focus = ITA_defy_the_duce
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_fas
-					has_country_flag = vbm_ita_true_non_hist_alt_fas
-					has_country_flag = vbm_ita_true_non_hist_mon_dem
-					has_country_flag = vbm_ita_true_non_hist_mon_non
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_fas
+						has_country_flag = vbm_ita_true_non_hist_alt_fas
+						has_country_flag = vbm_ita_true_non_hist_mon_dem
+						has_country_flag = vbm_ita_true_non_hist_mon_non
+					}					
+				}           
 			}
 		}
 		available = {
@@ -11926,15 +11944,16 @@ focus_tree = {
 					has_completed_focus = ITA_defy_the_duce
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_alt_fas
-					has_country_flag = vbm_ita_true_non_hist_mon_dem
-					has_country_flag = vbm_ita_true_non_hist_mon_non
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_alt_fas
+						has_country_flag = vbm_ita_true_non_hist_mon_dem
+						has_country_flag = vbm_ita_true_non_hist_mon_non
+					}					
+				}           
 			}
 		}
 		x = 0
@@ -11991,12 +12010,18 @@ focus_tree = {
 			}
 		}
 		allow_branch = {
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ita_true_non_hist_alt_fas
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_alt_fas
+					}					
+				}           
 			}
+			NOT = {has_completed_focus = ITA_defy_the_duce}
+			NOT = {has_completed_focus = ITA_culto_del_duce}
+
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -12066,12 +12091,18 @@ focus_tree = {
 			}
 		}
 		allow_branch = {
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ita_true_non_hist_alt_fas
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_alt_fas
+					}					
+				}           
 			}
+			NOT = {has_completed_focus = ITA_defy_the_duce}
+			NOT = {has_completed_focus = ITA_culto_del_duce}
+
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -13954,15 +13985,19 @@ focus_tree = {
 			FOCUS_FILTER_BALANCE_OF_POWER
 		}
 		allow_branch = {
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_mon_dem
-					has_country_flag = vbm_ita_true_non_hist_mon_non
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_mon_dem
+						has_country_flag = vbm_ita_true_non_hist_mon_non
+					}					
+				}           
 			}
+			NOT = {has_completed_focus = ITA_defy_the_duce}
+			NOT = {has_completed_focus = ITA_culto_del_duce}
+
 		}
 		completion_reward = {
 			every_owned_state = {
@@ -14224,14 +14259,15 @@ focus_tree = {
 					has_completed_focus = ITA_defy_the_duce
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_mon_dem
-					has_country_flag = vbm_ita_true_non_hist_mon_non
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_mon_dem
+						has_country_flag = vbm_ita_true_non_hist_mon_non
+					}					
+				}           
 			}
 		}
 		available = {
@@ -14569,12 +14605,18 @@ focus_tree = {
 			is_subject = no
 		}
 		allow_branch = {
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ita_true_non_hist_mon_dem
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_mon_dem
+					}					
+				}           
 			}
+			NOT = {has_completed_focus = ITA_defy_the_duce}
+			NOT = {has_completed_focus = ITA_culto_del_duce}
+
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -14884,12 +14926,18 @@ focus_tree = {
 			neutrality > 0.5
 		}
 		allow_branch = {
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ita_true_non_hist_mon_non
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_mon_non
+					}					
+				}           
 			}
+			NOT = {has_completed_focus = ITA_defy_the_duce}
+			NOT = {has_completed_focus = ITA_culto_del_duce}
+
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -16607,16 +16655,17 @@ focus_tree = {
 					has_completed_focus = ITA_defy_the_duce
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_fas
-					has_country_flag = vbm_ita_true_non_hist_alt_fas
-					has_country_flag = vbm_ita_true_non_hist_mon_dem
-					has_country_flag = vbm_ita_true_non_hist_mon_non
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_fas
+						has_country_flag = vbm_ita_true_non_hist_alt_fas
+						has_country_flag = vbm_ita_true_non_hist_mon_dem
+						has_country_flag = vbm_ita_true_non_hist_mon_non
+					}					
+				}           
 			}
 		}
 		x = 50
@@ -21104,14 +21153,15 @@ focus_tree = {
 					has_completed_focus = ITA_convene_the_grand_council
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_com
-					has_country_flag = vbm_ita_true_non_hist_com_dem
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_com
+						has_country_flag = vbm_ita_true_non_hist_com_dem
+					}					
+				}           
 			}
 		}
 		offset = {
@@ -21189,14 +21239,15 @@ focus_tree = {
 					has_completed_focus = ITA_convene_the_grand_council
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_com
-					has_country_flag = vbm_ita_true_non_hist_com_dem
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_com
+						has_country_flag = vbm_ita_true_non_hist_com_dem
+					}					
+				}           
 			}
 		}
 		available = {
@@ -21345,14 +21396,15 @@ focus_tree = {
 					has_completed_focus = ITA_convene_the_grand_council
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ita_true_non_hist_com
-					has_country_flag = vbm_ita_true_non_hist_com_dem
-				}
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_com
+						has_country_flag = vbm_ita_true_non_hist_com_dem
+					}					
+				}           
 			}
 		}
 		available = {
@@ -21588,12 +21640,17 @@ focus_tree = {
 			is_subject = no
 		}
 		allow_branch = {
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ita_true_non_hist_com
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_com
+					}					
+				}           
 			}
+			NOT = {has_completed_focus = ITA_culto_del_duce}
+			NOT = {has_completed_focus = ITA_convene_the_grand_council}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -23220,12 +23277,18 @@ focus_tree = {
 			is_subject = no
 		}
 		allow_branch = {
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ita_true_non_hist_com_dem
+					OR = {
+						has_country_flag = vbm_ita_true_non_hist_com_dem
+					}					
+				}           
 			}
+			NOT = {has_completed_focus = ITA_culto_del_duce}
+			NOT = {has_completed_focus = ITA_convene_the_grand_council}
+
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL

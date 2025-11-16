@@ -8038,12 +8038,13 @@ focus_tree = {
 					}
 				}
 			}
-			if = {
-				limit = {
-					vbm_true_non_hist_on = yes
-				}
-            	has_country_flag = vbm_ger_true_non_hist_fas
-        	}
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
+					vbm_true_non_hist_on = yes           
+					has_country_flag = vbm_ger_true_non_hist_fas
+				} 
+			}
 		}
 
 		x = 33
@@ -8408,12 +8409,13 @@ focus_tree = {
 					}
 				}
 			}
-			if = {
-				limit = {
-					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ger_true_non_hist_fas
-        	}
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
+					vbm_true_non_hist_on = yes           
+					has_country_flag = vbm_ger_true_non_hist_fas
+				} 
+			}
 		}
 
 		available = {
@@ -20999,16 +21001,17 @@ focus_tree = {
 					has_completed_focus = GER_remilitarize_the_rhineland
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ger_true_non_hist_dem
-					has_country_flag = vbm_ger_true_non_hist_com
-					has_country_flag = vbm_ger_true_non_hist_non
-				}
-        	}
+					OR = {
+						has_country_flag = vbm_ger_true_non_hist_dem
+						has_country_flag = vbm_ger_true_non_hist_com
+						has_country_flag = vbm_ger_true_non_hist_non
+					}           
+				} 
+			}
 		}
 
 		offset = {
@@ -21342,12 +21345,13 @@ focus_tree = {
 					has_completed_focus = GER_remilitarize_the_rhineland
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ger_true_non_hist_com
-        	}
+					has_country_flag = vbm_ger_true_non_hist_com
+				} 
+			}
 		}
 
 		offset = {
@@ -25129,15 +25133,16 @@ focus_tree = {
 					has_completed_focus = GER_remilitarize_the_rhineland
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				OR = {
-					has_country_flag = vbm_ger_true_non_hist_dem
-					has_country_flag = vbm_ger_true_non_hist_non
-				}
-        	}
+					OR = {
+						has_country_flag = vbm_ger_true_non_hist_dem
+						has_country_flag = vbm_ger_true_non_hist_non
+					}           
+				} 
+			}
 		}
 
 		offset = {
@@ -25226,6 +25231,8 @@ focus_tree = {
 				}
 				has_country_flag = vbm_ger_true_non_hist_dem
         	}
+			NOT = {has_completed_focus = GER_remilitarize_the_rhineland}
+			NOT = {has_completed_focus = GER_start_the_proletarian_revolution}
 		}
 		available = {
 			OR = {
@@ -25286,12 +25293,15 @@ focus_tree = {
 					}
 				}
 			}
-			if = {
-				limit = {
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
 					vbm_true_non_hist_on = yes
-				}
-				has_country_flag = vbm_ger_true_non_hist_dem
-        	}
+					OR = {
+						has_country_flag = vbm_ger_true_non_hist_dem
+					}           
+				} 
+			}
 		}
 
 		offset = {
@@ -26196,6 +26206,8 @@ focus_tree = {
 				}
 				has_country_flag = vbm_ger_true_non_hist_non
         	}
+			NOT = {has_completed_focus = GER_remilitarize_the_rhineland}
+			NOT = {has_completed_focus = GER_start_the_proletarian_revolution}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_POLITICAL_CHARACTER FOCUS_FILTER_STABILITY }
 
