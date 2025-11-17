@@ -4648,6 +4648,15 @@
 					has_completed_focus = FRA_revive_the_national_bloc
 				}
 			}
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
+					vbm_true_non_hist_on = yes
+					OR = {
+						has_country_flag = vbm_fra_true_non_hist_com
+					}					
+				} 
+			}
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -6762,6 +6771,15 @@
 				NOT = {
 					has_completed_focus = FRA_form_the_popular_front
 				}
+			}
+			OR = {
+				NOT = { vbm_true_non_hist_on = yes }   # rule off → idc
+				AND = {
+					vbm_true_non_hist_on = yes
+					OR = {
+						has_country_flag = vbm_fra_true_non_hist_fas
+					}					
+				} 
 			}
 		}
 		ai_will_do = {
