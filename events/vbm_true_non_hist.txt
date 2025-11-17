@@ -73,6 +73,12 @@ country_event = {
 			}
 			random_list = {
 				25 = {
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Gotterdammerung"
+						}
+					}
 					set_country_flag = vbm_ger_true_non_hist_com
 				}
 				25 = {
@@ -95,6 +101,12 @@ country_event = {
 			}
 			random_list = {
 				25 = {
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Gotterdammerung"
+						}
+					}
 					set_country_flag = vbm_ger_true_non_hist_com
 				}
 				25 = {
