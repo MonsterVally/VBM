@@ -3763,6 +3763,18 @@ focus_tree = {
 			NOT = {
 				has_dlc = "Graveyard of Empires"
 			}
+			has_dlc = "Man the Guns"
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = uk_empire_focus
+				}
+			}
 		}		#this focus is totally incompatible with GoE
 		completion_reward = {
 			RAJ = {

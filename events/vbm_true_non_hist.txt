@@ -17,6 +17,12 @@ country_event = {
 			}
 			random_list = {
 				25 = {
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Waking the Tiger"
+						}
+					}
 					set_country_flag = vbm_jap_true_non_hist_com
 				}
 				25 = {
@@ -26,6 +32,12 @@ country_event = {
 					set_country_flag = vbm_jap_true_non_hist_non
 				}
 				25 = {
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Waking the Tiger"
+						}
+					}
 					set_country_flag = vbm_jap_true_non_hist_dem
 				}
 			}
@@ -40,12 +52,24 @@ country_event = {
 			random_list = {
 				25 = {
 					set_country_flag = vbm_jap_true_non_hist_com
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Waking the Tiger"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_jap_true_non_hist_non
 				}
 				25 = {
 					set_country_flag = vbm_jap_true_non_hist_dem
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Waking the Tiger"
+						}
+					}
 				}
 			}
 		}
@@ -148,12 +172,30 @@ country_event = {
 				}
 				11 = {
 					set_country_flag = vbm_sov_true_non_hist_com_rig
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "No Step Back"
+						}
+					}
 				}
 				33 = {
 					set_country_flag = vbm_sov_true_non_hist_non
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "No Step Back"
+						}
+					}
 				}
 				33 = {
 					set_country_flag = vbm_sov_true_non_hist_fas
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "No Step Back"
+						}
+					}
 				}
 			}
 		}
@@ -170,12 +212,30 @@ country_event = {
 				}
 				10 = {
 					set_country_flag = vbm_sov_true_non_hist_com_rig
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "No Step Back"
+						}
+					}
 				}
 				20 = {
 					set_country_flag = vbm_sov_true_non_hist_non
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "No Step Back"
+						}
+					}
 				}
 				20 = {
 					set_country_flag = vbm_sov_true_non_hist_fas
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "No Step Back"
+						}
+					}
 				}
 			}
 		}
@@ -204,12 +264,30 @@ country_event = {
 			random_list = {
 				25 = {
 					set_country_flag = vbm_eng_true_non_hist_com
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_eng_true_non_hist_fas
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_eng_true_non_hist_non
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_eng_true_non_hist_dem
@@ -226,12 +304,39 @@ country_event = {
 			random_list = {
 				25 = {
 					set_country_flag = vbm_eng_true_non_hist_com
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_eng_true_non_hist_fas
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_eng_true_non_hist_non
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
+				}
+				0 = {
+					set_country_flag = vbm_eng_true_non_hist_dem
+					modifier = {
+						add = 25
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
 				}
 			}
 		}
@@ -266,6 +371,12 @@ country_event = {
 				}
 				25 = {
 					set_country_flag = vbm_fra_true_non_hist_non
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "La Resistance"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_fra_true_non_hist_dem
@@ -288,6 +399,12 @@ country_event = {
 				}
 				25 = {
 					set_country_flag = vbm_fra_true_non_hist_non
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "La Resistance"
+						}
+					}
 				}
 			}
 		}
@@ -316,12 +433,24 @@ country_event = {
 			random_list = {
 				25 = {
 					set_country_flag = vbm_usa_true_non_hist_com
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_usa_true_non_hist_dem
 				}
 				25 = {
 					set_country_flag = vbm_usa_true_non_hist_fas
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
 				}
 			}
 		}
@@ -335,9 +464,30 @@ country_event = {
 			random_list = {
 				25 = {
 					set_country_flag = vbm_usa_true_non_hist_com
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_usa_true_non_hist_fas
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
+				}
+				0 = {
+					set_country_flag = vbm_usa_true_non_hist_dem
+					modifier = {
+						add = 25
+						NOT = {
+							has_dlc = "Man the Guns"
+						}
+					}
 				}
 			}
 		}
@@ -366,21 +516,51 @@ country_event = {
 			random_list = {
 				25 = {
 					set_country_flag = vbm_ita_true_non_hist_com
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_ita_true_non_hist_com_dem
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_ita_true_non_hist_fas
 				}
 				25 = {
 					set_country_flag = vbm_ita_true_non_hist_alt_fas
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_ita_true_non_hist_mon_dem
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_ita_true_non_hist_mon_non
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
 				}
 			}
 		}
@@ -394,18 +574,56 @@ country_event = {
 			random_list = {
 				25 = {
 					set_country_flag = vbm_ita_true_non_hist_com
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_ita_true_non_hist_com_dem
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_ita_true_non_hist_alt_fas
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_ita_true_non_hist_mon_dem
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
 				}
 				25 = {
 					set_country_flag = vbm_ita_true_non_hist_mon_non
+					modifier = {
+						factor = 0
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
+				}
+				0 = {
+					modifier = {
+						add = 25
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
 				}
 			}
 		}
