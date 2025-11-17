@@ -19180,6 +19180,8 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		allow_branch = {
+			has_dlc = "No Step Back"
+
 			if = {
 				limit = {
 					vbm_true_non_hist_on = yes
@@ -19334,6 +19336,7 @@ focus_tree = {
 			}
 		}
 		allow_branch = {
+			has_dlc = "No Step Back"
 			if = {
 				limit = {
 					vbm_true_non_hist_on = yes
