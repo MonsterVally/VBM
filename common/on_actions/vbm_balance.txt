@@ -33,24 +33,24 @@ on_actions = {
 				}
 			}
 		}
-		effect = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = vbm_free_faction_creation
-						option = VBM_FREE_FACTION_CREATION__YES
-					}
-				}
-				every_country = {
-					limit = {
-						is_ai = no
-					}
-					add_ideas = VBM_free_factions
-					set_rule = {
-						can_create_factions = yes
-					}
-				}
-			}
-		}
+		# effect = {
+		# 	if = {
+		# 		limit = {
+		# 			has_game_rule = {
+		# 				rule = vbm_free_faction_creation
+		# 				option = VBM_FREE_FACTION_CREATION__YES
+		# 			}
+		# 		}
+		# 		every_country = {
+		# 			limit = {
+		# 				is_ai = no
+		# 			}
+		# 			add_ideas = VBM_free_factions
+		# 			set_rule = {
+		# 				can_create_factions = yes
+		# 			}
+		# 		}
+		# 	}
+		# }
 	}
 }
