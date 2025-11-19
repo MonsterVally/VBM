@@ -42,7 +42,9 @@ NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 450
 NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 15
 NDefines.NProduction.CONVOY_MAX_NAV_FACTORIES_PER_LINE = 100
 -- Naval Bombers rework
-
+-- Defines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.02		-- Max planes that can join a combat comparing to the total strength of the ships
+-- NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.1 -- max extra plane % that can join every day
+-- NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 10			-- Min cap for planes that can join naval combat
 
 -- LICENSE
 NDefines.NProduction.BASE_LICENSE_IC_COST  = 1
@@ -63,6 +65,8 @@ NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_TRASHHOLD = -999 -- Value of opini
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_PENALTY = 0 -- Value of acceptance penalty if the opinion too low
 NDefines.NTrade.RELATION_TRADE_FACTOR = 0          -- Opinion gives no bonus/penalty to resource trade
 NDefines.NTrade.BASE_TRADE_FACTOR = 250					-- This is the base trade factor
+-- NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = -1    -- Minimum party popularity to join factions
+-- NDefines.NDiplomacy.JOIN_FACTION_LIMIT_CHANGE_AT_WAR = 0  -- No limit change when at war
 NDefines.NDiplomacy.EMBARGO_THREAT_THRESHOLD = 0           -- No limit for embargo
 NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0                   -- always join wars
 
