@@ -15,6 +15,12 @@ country_event = {
 					option = VBM_TRUE_NON_HIST__YES
 				}
 			}
+			# TESTING
+			set_country_flag = vbm_jap_true_non_hist_com
+			set_country_flag = vbm_jap_true_non_hist_fas
+			set_country_flag = vbm_jap_true_non_hist_non
+			set_country_flag = vbm_jap_true_non_hist_dem
+
 			random_list = {
 				25 = {
 					set_country_flag = vbm_jap_true_non_hist_com
@@ -37,6 +43,11 @@ country_event = {
 					option = VBM_TRUE_NON_HIST__FORCED
 				}
 			}
+			set_country_flag = vbm_jap_true_non_hist_com
+			set_country_flag = vbm_jap_true_non_hist_fas
+			set_country_flag = vbm_jap_true_non_hist_non
+			set_country_flag = vbm_jap_true_non_hist_dem
+			
 			random_list = {
 				25 = {
 					set_country_flag = vbm_jap_true_non_hist_com
