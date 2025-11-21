@@ -1,0 +1,18 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			CHI = {
+				add_ideas = CHI_fuck_agency
+			}
+		}
+		effect = {
+			BHU = {
+				set_technology = {
+					antitank2 = 1
+					antiair2 = 1
+					improved_infantry_weapons = 1
+				}
+			}
+		}
+	}
+}

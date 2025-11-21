@@ -457,6 +457,28 @@ on_actions = {
 						}
 					}
 				}
+				# TANNU TUVA -> MONGOLIA
+				if = {
+					limit = {
+						TAN = {
+							is_ai = yes
+						}
+						MON = {
+							exists = yes
+						}
+					}
+					BHU = {
+						every_controlled_state = {
+							add_core_of = TIB
+						}
+					}
+					MON = {
+						annex_country = {
+							target = TAN
+							transfer_troops = yes
+						}
+					}
+				}
 			}
 		}
 	}
