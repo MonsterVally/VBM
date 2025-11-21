@@ -291,18 +291,19 @@ on_actions = {
 							exists = yes
 						}
 					}
-				}
-				RAJ = {
-					annex_country = {
-						target = BRM
-						transfer_troops = yes
+					RAJ = {
+						annex_country = {
+							target = BRM
+							transfer_troops = yes
+						}
+					}
+					BRM = {
+						every_core_state = {
+							set_compliance = 70
+						}
 					}
 				}
-				BRM = {
-					every_core_state = {
-						set_compliance = 70
-					}
-				}
+				
 				# Nepal -> Tibet
 				if = {
 					limit = {
@@ -467,9 +468,9 @@ on_actions = {
 							exists = yes
 						}
 					}
-					BHU = {
+					TAN = {
 						every_controlled_state = {
-							add_core_of = TIB
+							add_core_of = MON
 						}
 					}
 					MON = {
