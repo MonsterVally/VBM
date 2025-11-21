@@ -83,3 +83,9 @@
 
  RULE_USE_NEW_TOOL_NO_TEXT:0 "No (Normal version)"
  RULE_USE_NEW_TOOL_YES_TEXT:0 "Yes (Trash version imo)"
+
+ VBM_ANNEX_USELESS_COUNTRIES:0 "Annex Useless Countries"
+ VBM_ANNEX_USELESS_COUNTRIES__NO_TEXT:0 "Disabled (Vanilla)"
+ VBM_ANNEX_USELESS_COUNTRIES__NO_DESC:0 "No changes made."
+ VBM_ANNEX_USELESS_COUNTRIES__YES_TEXT:0 "Enabled (Recommended)"
+ VBM_ANNEX_USELESS_COUNTRIES__YES_DESC:0 "Useless countries will be annexed for better game speed."

@@ -1,0 +1,382 @@
+form_arabia_category = {
+	form_arabia = {
+		icon = generic_form_nation
+		on_map_mode = decision_view_only
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		visible = {
+			OR = {
+				# Iraq
+				original_tag = IRQ
+				# Saudi Arabia
+				original_tag = SAU
+				# Yemen
+				original_tag = YEM
+				# Oman
+				original_tag = OMA
+				# Egypt
+				original_tag = EGY
+				# Libya
+				original_tag = LBA
+				# Jordan
+				original_tag = JOR
+				# Palestine
+				original_tag = PAL
+				# Lebanon
+				original_tag = LEB
+				# Syria
+				original_tag = SYR
+				# Kuwait
+				original_tag = KUW
+				# United Arab Emirates
+				original_tag = UAE
+				# Qatar
+				original_tag = QAT
+				# Tunisia
+				original_tag = TUN
+				# Algeria
+				original_tag = ALG
+				# Morocco
+				original_tag = MOR
+				# Sahrawi Arab Republic
+				original_tag = WES
+				# Mauretania
+				original_tag = MRT
+				# Sudan
+				original_tag = SUD
+				# Bahrain
+				original_tag = BHR
+				# South Arabia
+				original_tag = FSA
+				# Imamate of Oman
+				original_tag = IMO
+			}
+			NOT = {
+				has_global_flag = form_arabia_flag
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 293
+				state = 992
+				state = 659
+				state = 906
+				state = 658
+				state = 765
+				state = 294
+				state = 1014
+				state = 1013
+				state = 1015
+				state = 1016
+				state = 292
+				state = 679
+				state = 678
+				state = 857
+				state = 858
+				state = 854
+				state = 855
+				state = 856
+				state = 859
+				state = 293
+			}
+		}
+		available = {
+			is_ai = no
+			# Saudi Arabia + Yemen
+			controls_state = 292
+			controls_state = 679
+			controls_state = 678
+			controls_state = 857
+			controls_state = 858
+			controls_state = 854
+			controls_state = 855
+			controls_state = 856
+			controls_state = 859
+			controls_state = 293
+			# Omani States
+			controls_state = 1013			# Musandam
+			controls_state = 1015			# Oman
+			controls_state = 1016			# Dhofar
+			controls_state = 294			# Muscat
+		}
+		complete_effect = {
+			set_cosmetic_tag = ARA_UNIFIED
+			# Saudi Arabia
+			custom_effect_tooltip = form_country_saudi_coring_states_tt
+			hidden_effect = {
+				292 = {
+					add_core_of = ROOT
+				}
+				679 = {
+					add_core_of = ROOT
+				}
+				678 = {
+					add_core_of = ROOT
+				}
+				857 = {
+					add_core_of = ROOT
+				}
+				858 = {
+					add_core_of = ROOT
+				}
+				854 = {
+					add_core_of = ROOT
+				}
+				855 = {
+					add_core_of = ROOT
+				}
+				856 = {
+					add_core_of = ROOT
+				}
+				859 = {
+					add_core_of = ROOT
+				}
+			}
+			293 = {
+				add_core_of = ROOT
+			}
+			# Yemen
+			992 = {
+				add_core_of = ROOT
+			}
+			# Aden Province
+			659 = {
+				add_core_of = ROOT
+			}
+			# South Yemen
+			906 = {
+				add_core_of = ROOT
+			}
+			# Socotra		
+			658 = {
+				add_core_of = ROOT
+			}
+			# Trucial States
+			765 = {
+				add_core_of = ROOT
+			}
+			# Qatar
+			294 = {
+				add_core_of = ROOT
+			}
+			# Muscat
+			1014 = {
+				add_core_of = ROOT
+			}
+			# Bahrain
+			1013 = {
+				add_core_of = ROOT
+			}
+			# Musandam
+			1015 = {
+				add_core_of = ROOT
+			}
+			# Oman
+			1016 = {
+				add_core_of = ROOT
+			}
+			# Dhofar
+			hidden_effect = {
+				news_event = {
+					id = wtt_news.67
+					hours = 6
+				}
+				set_global_flag = form_arabia_flag
+				set_country_flag = is_arabia_flag
+			}
+		}
+		ai_will_do = {
+			base = 200
+		}
+	}
+}
+
+antilles_category = {
+	unite_the_antilles = {
+		icon = generic_form_nation
+		allowed = {
+			OR = {
+				original_tag = HAI				# Haiti
+				original_tag = DOM				# Dominican Republic
+				original_tag = PUE				# Puerto Rico
+				original_tag = CUB				# Cuba
+				original_tag = JAM				# Jamaica
+				original_tag = BAH				# Bahamas
+				original_tag = GDL				# Guadeloupe 
+				original_tag = BAS				# British Antilles 
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = HAI				# Haiti
+				original_tag = DOM				# Dominican Republic
+				original_tag = PUE				# Puerto Rico
+				original_tag = CUB				# Cuba
+				original_tag = JAM				# Jamaica
+				original_tag = BAH				# Bahamas
+				original_tag = GDL				# Guadeloupe 
+				original_tag = BAS				# British Antilles 
+			}
+			NOT = {
+				has_global_flag = antilles_formed_flag
+			}
+		}
+		available = {
+			is_ai = no
+			319 = {
+				is_fully_controlled_by = ROOT
+			}
+			318 = {
+				is_fully_controlled_by = ROOT
+			}
+			315 = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+		complete_effect = {
+			set_cosmetic_tag = antilles
+			custom_effect_tooltip = generic_skip_one_line_tt
+			# Dominican Republic
+			IF = {
+				limit = {
+					NOT = {
+						319 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				319 = {
+					add_core_of = ROOT
+				}
+			}
+			# Haiti
+			IF = {
+				limit = {
+					NOT = {
+						318 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				318 = {
+					add_core_of = ROOT
+				}
+			}
+			# Cuba
+			IF = {
+				limit = {
+					NOT = {
+						315 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				315 = {
+					add_core_of = ROOT
+				}
+			}
+			# Jamaica
+			IF = {
+				limit = {
+					NOT = {
+						689 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				689 = {
+					add_core_of = ROOT
+				}
+			}
+			# Northern Bahamas
+			IF = {
+				limit = {
+					NOT = {
+						690 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				690 = {
+					add_core_of = ROOT
+				}
+			}
+			# Southern Bahamas
+			IF = {
+				limit = {
+					NOT = {
+						693 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				693 = {
+					add_core_of = ROOT
+				}
+			}
+			# Puerto Rico
+			IF = {
+				limit = {
+					NOT = {
+						686 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				686 = {
+					add_core_of = ROOT
+				}
+			}
+			# French Caribbean
+			IF = {
+				limit = {
+					NOT = {
+						694 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				694 = {
+					add_core_of = ROOT
+				}
+			}
+			# Leeward Islands
+			IF = {
+				limit = {
+					NOT = {
+						308 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				308 = {
+					add_core_of = ROOT
+				}
+			}
+			# Windward Islands
+			IF = {
+				limit = {
+					NOT = {
+						692 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				692 = {
+					add_core_of = ROOT
+				}
+			}
+			hidden_effect = {
+				set_global_flag = antilles_formed_flag
+				news_event = {
+					id = south_american_news.20
+					hours = 6
+				}
+			}
+		}
+		ai_will_do = {
+			base = 2000
+		}
+	}
+}

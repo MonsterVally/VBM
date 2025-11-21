@@ -115,3 +115,18 @@ vbm_minor_allow_any_path = {
 		desc = "VBM_MINOR_ALLOW_ANY_PATH__YES_DESC"
 	}
 }
+
+vbm_annex_useless_countries = {
+	name = "VBM_ANNEX_USELESS_COUNTRIES"
+	group = vbm_gamerules_group
+	default = {
+		name = "VBM_ANNEX_USELESS_COUNTRIES__NO"
+		text = "VBM_ANNEX_USELESS_COUNTRIES__NO_TEXT"
+		desc = "VBM_ANNEX_USELESS_COUNTRIES__NO_DESC"
+	}
+	option = {
+		name = "VBM_ANNEX_USELESS_COUNTRIES__YES"
+		text = "VBM_ANNEX_USELESS_COUNTRIES__YES_TEXT"
+		desc = "VBM_ANNEX_USELESS_COUNTRIES__YES_DESC"
+	}
+}
