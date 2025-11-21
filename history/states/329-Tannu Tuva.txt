@@ -5,12 +5,13 @@ state={
 	manpower = 85000
 	resources={
 		chromium=3 # was: 2
+		coal = 10
 	}
 	
 	state_category = rural
 
 	history={
-		owner = TAN
+		owner = MON
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
