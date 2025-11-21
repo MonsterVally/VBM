@@ -8,7 +8,6 @@ vbm_decisions = {
 				is_ai = yes
 				is_subject_of = USA
 			}
-			date > 1937.6.1
 		}
 		visible = {
 			tag = USA
@@ -61,6 +60,40 @@ vbm_decisions = {
 				transfer_troops = yes
 			}
 			MAN = {
+				every_core_state = {
+					set_compliance = 100
+				}
+			}
+		}
+	}
+	vbm_jap_annex_men = {
+		icon = decision_generic_nationalism
+		available = {
+			tag = JAP
+			MEN = {
+				exists = yes
+				is_ai = yes
+				is_subject_of = JAP
+			}
+			date > 1937.6.1
+		}
+		visible = {
+			tag = JAP
+			MEN = {
+				exists = yes
+			}
+		}
+		cost = 25
+		days_remove = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			annex_country = {
+				target = MEN
+				transfer_troops = yes
+			}
+			MEN = {
 				every_core_state = {
 					set_compliance = 100
 				}

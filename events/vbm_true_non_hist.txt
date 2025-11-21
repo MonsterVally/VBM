@@ -17,12 +17,6 @@ country_event = {
 			}
 			random_list = {
 				25 = {
-					modifier = {
-						factor = 0
-						NOT = {
-							has_dlc = "Waking the Tiger"
-						}
-					}
 					set_country_flag = vbm_jap_true_non_hist_com
 				}
 				25 = {
@@ -32,12 +26,6 @@ country_event = {
 					set_country_flag = vbm_jap_true_non_hist_non
 				}
 				25 = {
-					modifier = {
-						factor = 0
-						NOT = {
-							has_dlc = "Waking the Tiger"
-						}
-					}
 					set_country_flag = vbm_jap_true_non_hist_dem
 				}
 			}
@@ -52,24 +40,12 @@ country_event = {
 			random_list = {
 				25 = {
 					set_country_flag = vbm_jap_true_non_hist_com
-					modifier = {
-						factor = 0
-						NOT = {
-							has_dlc = "Waking the Tiger"
-						}
-					}
 				}
 				25 = {
 					set_country_flag = vbm_jap_true_non_hist_non
 				}
 				25 = {
 					set_country_flag = vbm_jap_true_non_hist_dem
-					modifier = {
-						factor = 0
-						NOT = {
-							has_dlc = "Waking the Tiger"
-						}
-					}
 				}
 			}
 		}

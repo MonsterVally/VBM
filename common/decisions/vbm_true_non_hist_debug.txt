@@ -78,4 +78,76 @@ vbm_decisions = {
 			}
 		}
 	}
+	vbm_jap_fix_country_leader_debug = {
+		icon = decision_generic_nationalism
+		visible = {
+			vbm_host = yes
+			vbm_true_non_hist_on = yes
+		}
+		cost = 100
+		days_remove = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					vbm_true_non_hist_on = yes
+					JAP = {
+						has_country_flag = vbm_jap_true_non_hist_com
+					}
+					JAP = {
+						NOT = {
+							has_country_leader = {
+								ruling_only = yes
+								character = JAP_abe_isoo
+							}
+						}
+					}
+				}
+				JAP = {
+					add_country_leader_role = {
+						character = JAP_abe_isoo
+						promote_leader = yes
+						country_leader = {
+							ideology = socialism
+							expire = "1989.1.1.1"
+							traits = {
+								JAP_socialist_politician
+							}
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					vbm_true_non_hist_on = yes
+					JAP = {
+						has_country_flag = vbm_jap_true_non_hist_dem
+					}
+					JAP = {
+						NOT = {
+							has_country_leader = {
+								ruling_only = yes
+								character = JAP_machida_chuuji
+							}
+						}
+					}
+				}
+				JAP = {
+					add_country_leader_role = {
+						character = JAP_machida_chuuji
+						promote_leader = yes
+						country_leader = {
+							ideology = liberalism
+							expire = "1989.1.1.1"
+							traits = {
+								HUN_popular_liberal
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

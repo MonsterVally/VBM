@@ -1,5 +1,5 @@
 -- GAME PERFORMANCE SETTINGS
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 20           -- Game will automatically slow down after 20 days of lag
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 25          -- Game will automatically slow down after 25 days of lag
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 30                  -- Game will auto-pause after 30 days of severe lag
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6               -- Only keeps 6 months of combat logs (reduces save file size)
 NDefines.NGame.GAME_SPEED_SECONDS = { 1000, 0.2, 0.1, 0.07, 0.0 } -- VANILLA: { 2.0, 0.5, 0.2, 0.1, 0.0 }
@@ -65,8 +65,8 @@ NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_TRASHHOLD = -999 -- Value of opini
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_PENALTY = 0 -- Value of acceptance penalty if the opinion too low
 NDefines.NTrade.RELATION_TRADE_FACTOR = 0          -- Opinion gives no bonus/penalty to resource trade
 NDefines.NTrade.BASE_TRADE_FACTOR = 250					-- This is the base trade factor
--- NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = -1    -- Minimum party popularity to join factions
--- NDefines.NDiplomacy.JOIN_FACTION_LIMIT_CHANGE_AT_WAR = 0  -- No limit change when at war
+NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = 0    -- Minimum party popularity to join factions
+NDefines.NDiplomacy.JOIN_FACTION_LIMIT_CHANGE_AT_WAR = 0  -- No limit change when at war
 NDefines.NDiplomacy.EMBARGO_THREAT_THRESHOLD = 0           -- No limit for embargo
 NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0                   -- always join wars
 

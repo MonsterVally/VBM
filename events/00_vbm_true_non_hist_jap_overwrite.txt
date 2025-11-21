@@ -1,5 +1,5 @@
 add_namespace = SEA_japan_popup_events
-add_namepsace = SEA_japan
+add_namespace = SEA_japan
 
 country_event = {
 	id = SEA_japan.1

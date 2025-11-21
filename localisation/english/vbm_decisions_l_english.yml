@@ -10,6 +10,9 @@
  vbm_jap_annex_man:0 "Annex Manchukuo"
  vbm_jap_annex_man_desc:0 "Annexes Manchukuo with 100% compliance."
 
+ vbm_jap_annex_men:0 "Annex Mengukuo"
+ vbm_jap_annex_men_desc:0 "Annexes Mengukuo with 100% compliance."
+
  vbm_jap_annex_sia:0 "Annex Siam"
  vbm_jap_annex_sia_desc:0 "Annexes Siam with 75% compliance."
 
@@ -28,6 +31,9 @@
 
  vbm_eng_fix_abdication_debug:0 "ASK HOST: Fix British Abdication Crisis"
  vbm_eng_fix_abdication_debug_desc:0 "ASK HOST: Fix the abdication crisis for Britain."
+
+ vbm_jap_fix_country_leader_debug:0 "ASK HOST: Fix Japanese Country Leader"
+ vbm_jap_fix_country_leader_debug_desc:0 "ASK HOST: Fix the country leader for Japan."
 
  # LOOT BOXES
  vbm_loot_boxes_decisions:0 "Loot Box Decisions"
