@@ -4,7 +4,7 @@ state={
 	name="STATE_330"
 	resources={
 		steel=20
-		chromium=30
+		chromium=10
 		tungsten= 10
 	}
 
@@ -32,6 +32,6 @@ state={
 	}
 	manpower=435550
 	buildings_max_level_factor=1.000
-	state_category=metropolis #Hell yea
+	state_category=large_town #Hell yea
 	local_supplies=0.000
 }

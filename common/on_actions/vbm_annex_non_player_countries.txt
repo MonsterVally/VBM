@@ -1,0 +1,463 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = vbm_annex_useless_countries
+						option = VBM_ANNEX_USELESS_COUNTRIES__YES
+					}
+				}
+				# ECUADOR -> PERU
+				if = {
+					limit = {
+						ECU = {
+							is_ai = yes
+						}
+						PRU = {
+							exists = yes
+						}
+					}
+					ECU = {
+						every_controlled_state = {
+							add_core_of = PRU
+						}
+					}
+					PRU = {
+						annex_country = {
+							target = ECU
+							transfer_troops = yes
+						}
+					}
+				}
+				# Guatemala -> El Salvador
+				if = {
+					limit = {
+						GUA = {
+							is_ai = yes
+						}
+						ELS = {
+							exists = yes
+						}
+					}
+					GUA = {
+						every_controlled_state = {
+							add_core_of = ELS
+						}
+					}
+					ELS = {
+						annex_country = {
+							target = GUA
+							transfer_troops = yes
+						}
+					}
+				}
+				# Honduras -> El Salvador
+				if = {
+					limit = {
+						HON = {
+							is_ai = yes
+						}
+						ELS = {
+							exists = yes
+						}
+					}
+					HON = {
+						every_controlled_state = {
+							add_core_of = ELS
+						}
+					}
+					ELS = {
+						annex_country = {
+							target = HON
+							transfer_troops = yes
+						}
+					}
+				}
+				# Panama -> Nicaragua
+				if = {
+					limit = {
+						PAN = {
+							is_ai = yes
+						}
+						NIC = {
+							exists = yes
+						}
+					}
+					PAN = {
+						every_controlled_state = {
+							add_core_of = NIC
+						}
+					}
+					NIC = {
+						annex_country = {
+							target = PAN
+							transfer_troops = yes
+						}
+					}
+				}
+				# Costa Rica -> Nicaragua
+				if = {
+					limit = {
+						COS = {
+							is_ai = yes
+						}
+						NIC = {
+							exists = yes
+						}
+					}
+					COS = {
+						every_controlled_state = {
+							add_core_of = NIC
+						}
+					}
+					NIC = {
+						annex_country = {
+							target = COS
+							transfer_troops = yes
+						}
+					}
+				}
+				# Haiti -> Cuba
+				if = {
+					limit = {
+						HAI = {
+							is_ai = yes
+						}
+						CUB = {
+							exists = yes
+						}
+					}
+					HAI = {
+						every_controlled_state = {
+							add_core_of = CUB
+						}
+					}
+					CUB = {
+						annex_country = {
+							target = HAI
+							transfer_troops = yes
+						}
+					}
+				}
+				# Dominica -> Cuba
+				if = {
+					limit = {
+						DOM = {
+							is_ai = yes
+						}
+						CUB = {
+							exists = yes
+						}
+					}
+					DOM = {
+						every_controlled_state = {
+							add_core_of = CUB
+						}
+					}
+					CUB = {
+						annex_country = {
+							target = DOM
+							transfer_troops = yes
+						}
+					}
+				}
+				# ISLANDS INTO CUBA IF PLAYER
+				if = {
+					limit = {
+						CUB = {
+							is_ai = no
+						}
+						CUB = {
+							exists = yes
+						}
+					}
+					CUB = {
+						# JAMAICA
+						transfer_state = 689
+						add_state_core = 689
+						# NORTHERN BAHAMAS
+						transfer_state = 690
+						add_state_core = 690
+						# SOUTHERN BAHAMAS
+						transfer_state = 693
+						add_state_core = 693
+						# LEWARD ISLANDS
+						transfer_state = 308
+						add_state_core = 308
+						# FRENCH CARIBBEAN
+						transfer_state = 694
+						add_state_core = 694
+						# WINDWARD ISLANDS
+						transfer_state = 692
+						add_state_core = 692
+					}
+				}
+				# Yemen -> Saudi Arabia
+				if = {
+					limit = {
+						YEM = {
+							is_ai = yes
+						}
+						SAU = {
+							exists = yes
+						}
+					}
+					YEM = {
+						every_controlled_state = {
+							add_core_of = SAU
+						}
+					}
+					SAU = {
+						annex_country = {
+							target = YEM
+							transfer_troops = yes
+						}
+					}
+				}
+				# Oman -> Saudi Arabia
+				if = {
+					limit = {
+						OMA = {
+							is_ai = yes
+						}
+						SAU = {
+							exists = yes
+						}
+					}
+					OMA = {
+						every_controlled_state = {
+							add_core_of = SAU
+						}
+					}
+					SAU = {
+						annex_country = {
+							target = OMA
+							transfer_troops = yes
+						}
+					}
+				}
+				# # KOHAMA -> Sinkiang
+				# if = {
+				# 	limit = {
+				# 		KHM = {
+				# 			is_ai = yes
+				# 		}
+				# 		SIK = {
+				# 			exists = yes
+				# 		}
+				# 	}
+				# 	KHM = {
+				# 		every_controlled_state = {
+				# 			add_core_of = SIK
+				# 		}
+				# 	}
+				# 	SIK = {
+				# 		annex_country = {
+				# 			target = KHM
+				# 			transfer_troops = yes
+				# 		}
+				# 	}
+				# }
+				# Liberia -> UK
+				if = {
+					limit = {
+						LIB = {
+							is_ai = yes
+						}
+						ENG = {
+							exists = yes
+						}
+					}
+					ENG = {
+						annex_country = {
+							target = LIB
+							transfer_troops = yes
+						}
+					}
+					LIB = {
+						every_core_state = {
+							set_compliance = 70
+						}
+					}
+				}
+				# Burma -> RAJ
+				if = {
+					limit = {
+						BRM = {
+							is_ai = yes
+						}
+						RAJ = {
+							exists = yes
+						}
+					}
+				}
+				RAJ = {
+					annex_country = {
+						target = BRM
+						transfer_troops = yes
+					}
+				}
+				BRM = {
+					every_core_state = {
+						set_compliance = 70
+					}
+				}
+				# Nepal -> Tibet
+				if = {
+					limit = {
+						NEP = {
+							is_ai = yes
+						}
+						TIB = {
+							exists = yes
+						}
+					}
+					NEP = {
+						every_controlled_state = {
+							add_core_of = TIB
+						}
+					}
+					TIB = {
+						annex_country = {
+							target = NEP
+							transfer_troops = yes
+						}
+					}
+				}
+				# Bhutan -> Tibet
+				if = {
+					limit = {
+						BHU = {
+							is_ai = yes
+						}
+						TIB = {
+							exists = yes
+						}
+					}
+					BHU = {
+						every_controlled_state = {
+							add_core_of = TIB
+						}
+					}
+					TIB = {
+						annex_country = {
+							target = BHU
+							transfer_troops = yes
+						}
+					}
+				}
+				# Palestine -> UK
+				if = {
+					limit = {
+						PAL = {
+							is_ai = yes
+						}
+						ENG = {
+							exists = yes
+						}
+					}
+					ENG = {
+						annex_country = {
+							target = PAL
+							transfer_troops = yes
+						}
+					}
+					PAL = {
+						every_core_state = {
+							set_compliance = 70
+						}
+					}
+				}
+				# Jordan -> UK
+				if = {
+					limit = {
+						JOR = {
+							is_ai = yes
+						}
+						ENG = {
+							exists = yes
+						}
+					}
+					ENG = {
+						annex_country = {
+							target = JOR
+							transfer_troops = yes
+						}
+					}
+					JOR = {
+						every_core_state = {
+							set_compliance = 70
+						}
+					}
+				}
+				# Kuwait -> UK
+				if = {
+					limit = {
+						KUW = {
+							is_ai = yes
+						}
+						ENG = {
+							exists = yes
+						}
+					}
+					ENG = {
+						annex_country = {
+							target = KUW
+							transfer_troops = yes
+						}
+					}
+					KUW = {
+						every_core_state = {
+							set_compliance = 70
+						}
+					}
+				}
+				# Syria -> France
+				if = {
+					limit = {
+						SYR = {
+							is_ai = yes
+						}
+						FRA = {
+							exists = yes
+						}
+					}
+					FRA = {
+						annex_country = {
+							target = SYR
+							transfer_troops = yes
+						}
+					}
+					SYR = {
+						every_core_state = {
+							set_compliance = 70
+						}
+					}
+				}
+				# Lebanon -> France
+				if = {
+					limit = {
+						LEB = {
+							is_ai = yes
+						}
+						FRA = {
+							exists = yes
+						}
+					}
+					FRA = {
+						annex_country = {
+							target = LEB
+							transfer_troops = yes
+						}
+					}
+					LEB = {
+						every_core_state = {
+							set_compliance = 70
+						}
+					}
+				}
+			}
+		}
+	}
+}
